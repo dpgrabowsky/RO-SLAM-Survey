@@ -21,8 +21,40 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
-\bibitem{Blanco2008}
-J.-L. Blanco, J.-A. Fern{\'{a}}ndez-Madrigal, and J.~Gonz{\'{a}}lez,
-  ``{Efficient Probabilistic Range-Only SLAM},'' pp. 22--26, 2008.
+\bibitem{Thrun2002}
+\BIBentryALTinterwordspacing
+S.~Thrun, ``{Probabilistic robotics},'' \emph{Communications of the ACM},
+  vol.~45, no.~3, 2002. [Online]. Available:
+  \url{http://portal.acm.org/citation.cfm?doid=504729.504754}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Ribeiro2004}
+\BIBentryALTinterwordspacing
+M.~I. Ribeiro, ``{Kalman and Extended Kalman Filters : Concept , Derivation and
+  Properties},'' \emph{Institute for Systems and Robotics Lisboa Portugal}, no.
+  February, p.~42, 2004. [Online]. Available:
+  \url{http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.2.5088{\&}rep=rep1{\&}type=pdf}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Haykin2001}
+S.~Haykin, \emph{{Kalman Filters}}, 2001, vol.~5.
+
+\bibitem{Fabresse2014}
+F.~R. Fabresse, F.~Caballero, I.~Maza, and A.~Ollero, ``{Robust range-only SLAM
+  for aerial vehicles},'' \emph{2014 International Conference on Unmanned
+  Aircraft Systems, ICUAS 2014 - Conference Proceedings}, pp. 750--755, 2014.
+
+\bibitem{Fabresse2016}
+------, ``{Robust Range-Only SLAM for Unmanned Aerial Systems},'' \emph{Journal
+  of Intelligent and Robotic Systems: Theory and Applications}, vol.~84, no.
+  1-4, pp. 297--310, 2016.
+
+\bibitem{Vallicrosa2015}
+\BIBentryALTinterwordspacing
+G.~Vallicrosa, P.~Ridao, and D.~Ribas, ``{AUV single beacon range-only SLAM
+  with a SOG filter},'' \emph{IFAC-PapersOnLine}, vol.~28, no.~2, pp. 26--31,
+  2015. [Online]. Available:
+  \url{http://dx.doi.org/10.1016/j.ifacol.2015.06.005}
+\BIBentrySTDinterwordspacing
 
 \end{thebibliography}
