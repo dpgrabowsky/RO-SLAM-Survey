@@ -70,6 +70,15 @@ G.~Vallicrosa, P.~Ridao, and D.~Ribas, ``{AUV single beacon range-only SLAM
   \url{http://dx.doi.org/10.1016/j.ifacol.2015.06.005}
 \BIBentrySTDinterwordspacing
 
+\bibitem{Patwari2005}
+\BIBentryALTinterwordspacing
+N.~Patwari, J.~Ash, S.~Kyperountas, A.~Hero, R.~Moses, and N.~Correal,
+  ``{Locating the nodes: cooperative localization in wireless sensor
+  networks},'' \emph{IEEE Signal Processing Magazine}, vol.~22, no.~4, pp.
+  54--69, 2005. [Online]. Available:
+  \url{http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=1458287}
+\BIBentrySTDinterwordspacing
+
 \bibitem{Djugash2006}
 \BIBentryALTinterwordspacing
 J.~A. Djugash, S.~Singh, G.~Kantor, W.~Zhang, and J.~Djugash, ``{Range-Only
@@ -82,5 +91,30 @@ J.~A. Djugash, S.~Singh, G.~Kantor, W.~Zhang, and J.~Djugash, ``{Range-Only
 A.~Torres-Gonz{\'{a}}lez, J.~R. {Mart{\'{i}}nez-De Dios}, and A.~Ollero,
   ``{Exploiting multi-hop inter-beacon measurements in ro-slam},''
   \emph{Studies in Computational Intelligence}, vol. 604, pp. 101--119, 2015.
+
+\bibitem{Caballero2010}
+F.~Caballero, L.~Merino, and A.~Ollero, ``{A general Gaussian-mixture approach
+  for range-only mapping using multiple hypotheses},'' \emph{Proceedings - IEEE
+  International Conference on Robotics and Automation}, pp. 4404--4409, 2010.
+
+\bibitem{Ahmad2011a}
+A.~Ahmad, S.~Huang, J.~J. Wang, and G.~Dissanayake, ``{A new state vector for
+  range-only SLAM},'' \emph{Proceedings of the 2011 Chinese Control and
+  Decision Conference, CCDC 2011}, pp. 3404--3409, 2011.
+
+\bibitem{Djugash2008}
+J.~Djugash and S.~Singh, ``{A robust method of localization and mapping using
+  only range},'' \emph{Proceedings of International Symposium on Experimental
+  Robotics}, pp. 341--351, 2008.
+
+\bibitem{Dellaert2006}
+F.~Dellaert and M.~Kaess, ``{Square root SAM: Simultaneous localization and
+  mapping via square root information smoothing},'' in \emph{International
+  Journal of Robotics Research}, vol.~25, no.~12, 2006, pp. 1181--1203.
+
+\bibitem{Herranz2014}
+F.~Herranz, A.~Llamazares, E.~Molinos, and M.~Ocana, ``{A comparison of SLAM
+  algorithms with range only sensors},'' \emph{Proceedings - IEEE International
+  Conference on Robotics and Automation}, pp. 4606--4611, 2014.
 
 \end{thebibliography}

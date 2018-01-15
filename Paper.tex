@@ -31,9 +31,9 @@
 \subsection{EKF}
 %breif description (1-2 paragraphs)
 %paragraphs 
-The Extended Kalman Filter (EKF) is one of the most popular and widespread methods used to solve the SLAM problem. It is used to overcome the assumption of linear state transitions and measurements, which are rarely seen in practical environments. \cite{Thrun2002}. The derivation of the EKF is very well documented, as such, detailed explanations can be viewed from a variety of sources such as: \cite{Thrun2002} \cite{Ribeiro2004} \cite{Haykin2001}. When used to solve SLAM the map applied to the EKF is a feature based map, meaning it is composed of observable features (landmarks) which can be distinguished between during re-observation.\cite{Thrun2002} This distinction becomes important when examining range only SLAM (RO-SLAM) where only the range to a landmark, or the range between landmarks, is known. This restriction means that landmarks need to be manufactured, such as those discussed in section II, and physically placed in an environment.
+The Extended Kalman Filter (EKF) is one of the most popular and widespread methods used to solve the SLAM problem. It is used to overcome the assumption of linear state transitions and measurements, which are rarely seen in practical environments \cite{Thrun2002}. The derivation of the EKF is very well documented, as such, detailed explanations can be viewed from a variety of sources such as: \cite{Thrun2002} \cite{Ribeiro2004} \cite{Haykin2001}. When used to solve SLAM the map applied to the EKF is a feature based map, meaning it is composed of observable features (landmarks) which can be distinguished between during re-observation.\cite{Thrun2002} This distinction becomes important when examining range only SLAM (RO-SLAM) where only the range to a landmark, or the range between landmarks, is known. This restriction means that landmarks need to be manufactured, such as those discussed in section II, and physically placed in an environment. Landmark initilization is a critical element in many algorithms that make use of the EKF. If the initialization is inaccurate then the convergence to a correct estimation becomes more difficult. 
 
-A system for robust range only localiztion was prosed by Olson \cite{Olson2006}. The system utilized an Autonomous Underwater Vehicle (AUV) and beacons without carefully surveyed locations. A method for outliers rejection was accomplished via spectral graph partitioning. A voting scheme was implemented similar to a Hugh transform to get approximate beacon locations \cite{Hough1959}. The approximate location was then incorporated into an EKF. The methodology was simulated using a dataset from the GOAT'02 experiment. %get a citaion for goat.
+A system for robust range only localization was prosed by Olson \cite{Olson2006}. The system utilized an Autonomous Underwater Vehicle (AUV) and beacons without carefully surveyed locations. A method for outliers rejection was accomplished via spectral graph partitioning. A voting scheme was implemented similar to a Hugh transform to get approximate beacon locations \cite{Hough1959}. The approximate location was then incorporated into an EKF. The methodology was simulated using a dataset from the GOAT'02 experiment and can be seen in the report. %get a citaion for goat.
 
 
 Multipathing and noise presents major obstacle to any radio frequency based RO-SLAM solutions. Research and experimentation has been conducted to determine how these effects can be mitigated without the use of specialized equipment. Fabreese presents a pre-filtering algorithm to be applied to range measurment before being used in the EKF in order to reduce these effects \cite{Fabresse2014}. The author also validates and expands upon this method through indoor and outdoor experimentation with an Unmanned Aircraft System (UAS). \cite{Fabresse2016}. 
@@ -43,23 +43,28 @@ Multipathing and noise presents major obstacle to any radio frequency based RO-S
 %2. 2014 introduces prefiltering to measurments for previous 
 %3. 2014a integrates visual landmakrs as well
 %4  2015 decentralized multiple arieal vehicles
-%5  2016 specifically unmaned ariel, experimental validation of 2013,2014.
+%5  2016 specifically unmaned ariel, more details on 2013,2014 and experimental validation of 2013,2014.
 
 
-Vallicrosa presents a solution utilizing a Sum of Gaussian (SOG) filter for a single range only beacon. The filter made use the EKF by representing each Gaussian in the SOG as a complete EKF \cite{Vallicrosa2015}. Results are given from a simulated environment.
+Vallicrosa presents a solution utilizing a Sum of Gaussian (SOG) filter for a single range only beacon. The filter made use of the EKF by representing each Gaussian in the SOG as a complete EKF \cite{Vallicrosa2015}. Results are given from a simulated environment.
 
 
-Several techniques have also been implemented that involve cooperative sensors. The sensors in these cases are able to determine the range between themselves and other sensors and or the robot.
+Several techniques have also been implemented that involve cooperative sensors. The sensors in these cases are able to determine the range between themselves and other sensors and or the robot. \cite{Patwari2005}
 %ADD MORE HERE
-In scenarios where the location of the landmarks is unknown and each landmark can not communicate with all other landmarks, Djugash presents a solution. He proposes that a moving beacon be used to add edges to the network \cite{Djugash2006}. In addition, no external position sensing were required on the part of the moving beacon, but the option for it to be incorporated is open. 
+In scenarios where the location of the landmarks is unknown and each landmark can not communicate with all other landmarks, Djugash presents a solution. He proposes that a moving beacon be used to add edges to the network \cite{Djugash2006}. In addition, no external position sensing were required on the part of the moving beacon, but the option for it to be incorporated was available. 
 
 Torres-Gonzalez explains that methods utilizing inter beacon measurment should incorporate measurements with a configurable number of hops between beacons. This allows for the robot to gather range data from beyond the extent of the robots sensors \cite{Torres-Gonzalez2015}. Based on testing with an EKF, his results showed that the more hops that were added the greater the performance of the system. 
 
 
-One of the complications with RO-SLAM involves the issue of determining the location of landmarks when their initial placement is unknown, the EKF is especially sensitive to poorly initialized landmarks. 
+
+One of the complications with RO-SLAM involves the issue of determining the location of landmarks when their initial placement is unknown, the EKF is sensitive to poorly initialized landmarks as they are used as the basis for the convergence of an accurate estimate. Caballero presents a solution for this complication. \cite{Caballero2010}. A Gaussian Mixture Model is integrated into the EKF to create a multiple hypothesis filter.  This multiple hypothesis approach is used to solve the RO-SLAM problem and its use allows for the un-delayed initialization of landmarks. Ahmad proposes to reduce the computational burden of methods such as the one mentioned before by introducing a novel state vector that eliminates the need for multiple hypothesis landmark representation. The paper proposes that under different circumstances the landmark could be represented using different parameters  \cite{Ahmad2011a}. Four circumstances are presented in the paper and the method is tested in simulation using both the EKF and a least squares optimization approach. 
 
 
+Djugash proposes an extension to EKF called relative-over parametrized (ROP) EKF. This extension uses specific parameterization to  better represent the range only data utilized in RO-SLAM. \cite{Djugash2008}. ROP EKF operates in polar coordinates as opposed to the Cartesian space that typical EKF operates. The method provided improved results over EKF when sparse range measurment of data association errors were present. Herranz presents a comparison of the ROP-EKF method presented by Djugash \cite{Djugash2008},to a smoothing and mapping method presented by Dellaert \cite{Dellaert2006}. Experimentation conducted by Herranz on and indoor and outdoor environment show an improvement in the results of the SAM method over ROP-EKF. \cite{Herranz2014}
 
+The first, known as ROP-EKF [8], is
+an extension of the standard EKF to formulate the SLAM
+problem in polar coordinates.
 
 
 \subsection{Graph SLAM}
