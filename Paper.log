@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.3)  15 JAN 2018 00:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.3)  15 JAN 2018 01:10
 entering extended mode
 **./Paper.tex
 (Paper.tex
@@ -129,18 +129,21 @@ LaTeX Font Info:    ... okay on input line 4.
 
 -- Lines per column: 56 (exact).
 (Paper.bbl
-Underfull \hbox (badness 1436) in paragraph at lines 26--30
-\OT1/ptm/m/it/8 ACM\OT1/ptm/m/n/8 , vol. 45, no. 3, 2002. [On-line]. Avail-able
-:
- []
-
-
-Overfull \hbox (41.43745pt too wide) in paragraph at lines 33--38
+Overfull \hbox (45.43745pt too wide) in paragraph at lines 33--38
 \OT1/ptm/m/n/8 http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.2.5088&
 rep=rep1&type=pdf 
  []
 
-)
+
+Overfull \hbox (144.44357pt too wide) in paragraph at lines 49--54
+\OT1/ptm/m/n/8 http://scholar.google.com/scholar?hl=en&btnG=Search&q=intitle:Ma
+chine+analysis+of+bubble+chamber+pictures#0 
+ []
+
+[1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+
+])
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -152,26 +155,25 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
-
+[2
 
 ] (Paper.aux) ) 
 Here is how much of TeX's memory you used:
- 1057 strings out of 493323
- 19313 string characters out of 3139034
- 79230 words of memory out of 3000000
- 4665 multiletter control sequences out of 15000+200000
+ 1063 strings out of 493323
+ 19386 string characters out of 3139034
+ 81230 words of memory out of 3000000
+ 4671 multiletter control sequences out of 15000+200000
  34143 words of font info for 63 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 26i,7n,19p,981b,230s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 26i,7n,19p,983b,230s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Pro
 gram Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
 /urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8
 a.pfb>
-Output written on Paper.pdf (1 page, 58939 bytes).
+Output written on Paper.pdf (2 pages, 62766 bytes).
 PDF statistics:
- 23 PDF objects out of 1000 (max. 8388607)
+ 26 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
