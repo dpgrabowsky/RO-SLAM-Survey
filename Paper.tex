@@ -1,6 +1,6 @@
 \documentclass[conference]{IEEEtran}
 \usepackage{graphicx}
-%\graphicspath{Figures}
+\graphicspath{{Figures/}}
 
 \begin{document}
 	\title{I am a title (RO SLAM Methods/Implementation Survey) }
@@ -66,7 +66,16 @@ One of the complications with RO-SLAM involves the issue of determining the loca
 %fix the name
 also puts forward a method that utilizes a Gaussian mixtures for beacon initialization in EKF, but in this method only two hypotheses and a Cartesian plane are used \cite{Geneve2015}.  Ahmad proposes to reduce the computational burden of methods such as the one proposed by Caballero \cite{Caballero2010} by introducing a novel state vector that eliminates the need for multiple hypothesis landmark representation. The paper proposes that under different circumstances the landmark could be represented using different parameters  \cite{Ahmad2011a}. Four circumstances are presented in the paper and the method is tested in simulation using both the EKF and a least squares optimization approach. The results showed that when the circumstances can be clearly distinguished between an increase in performance is seen.
 
-Djugash proposes an extension to EKF called relative-over parametrized (ROP) EKF. This extension uses specific parameterization to  better represent the range only data utilized in RO-SLAM. \cite{Djugash2008}. ROP EKF operates in polar coordinates as opposed to the Cartesian space that typical EKF operates. The method provided improved results over EKF when sparse range measurement of data association errors were present. Herranz presents a comparison of the ROP-EKF method presented by Djugash \cite{Djugash2008},to a smoothing and mapping method presented by Dellaert \cite{Dellaert2006}. Experimentation conducted by Herranz on and indoor and outdoor environment show an improvement in the results of the SAM method over ROP EKF. \cite{Herranz2014}
+Djugash proposes an extension to EKF called relative-over parametrized (ROP) EKF. This extension uses specific parameterization to  better represent the range only data utilized in RO-SLAM. \cite{Djugash2008}. ROP EKF operates in polar coordinates as opposed to the Cartesian space that typical EKF operates.
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=90mm]{ROP_djugash.png}
+	\caption{True and approximated distributions with one range observation (Top Row) and two observations from different locations (Bottom Row). True distributions in	Cartesian coordinates (Left Column), true and Gaussian approximated distributions in polar coordinates (Middle Column), and projection of the Gaussian approximated. \cite{Djugash2008}} %THIS WAS LITTERALY COPYIED AND PASTED AND NEEDS TO BE CHANGED AT SOME POINTS
+	\label{ROP_djugash}
+\end{figure}
+
+
+The method provided improved results over EKF when sparse range measurement of data association errors were present. Herranz presents a comparison of the ROP-EKF method presented by Djugash \cite{Djugash2008},to a smoothing and mapping method presented by Dellaert \cite{Dellaert2006}. Experimentation conducted by Herranz on and indoor and outdoor environment show an improvement in the results of the SAM method over ROP EKF. \cite{Herranz2014}
 
 A method proposed by \cite{Dios2015} is geared towards improving map building speed and accuracy for UAS dealing with the 3D RO-SLAM problem. The 3D RO-SLAM problem refers to the added complexity that devices such as submersibles \cite{Newman} and aerial vehicles experience when having to operate in an environment where three dimensions must be considered as opposed to the planar environment many robots are assumed to operate in. The method utilizes inter-beacon measurements and a novel mode selection which is used to select a measurement gathering method based on current conditions \cite{Dios2015}.
 %this one might need some more work
