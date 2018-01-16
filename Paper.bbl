@@ -97,6 +97,11 @@ F.~Caballero, L.~Merino, and A.~Ollero, ``{A general Gaussian-mixture approach
   for range-only mapping using multiple hypotheses},'' \emph{Proceedings - IEEE
   International Conference on Robotics and Automation}, pp. 4404--4409, 2010.
 
+\bibitem{Geneve2015}
+L.~Geneve, O.~Kermorgant, and E.~Laroche, ``{A composite beacon initialization
+  for EKF range-only SLAM},'' \emph{IEEE International Conference on
+  Intelligent Robots and Systems}, vol. 2015-Decem, pp. 1342--1348, 2015.
+
 \bibitem{Ahmad2011a}
 A.~Ahmad, S.~Huang, J.~J. Wang, and G.~Dissanayake, ``{A new state vector for
   range-only SLAM},'' \emph{Proceedings of the 2011 Chinese Control and
@@ -116,5 +121,20 @@ F.~Dellaert and M.~Kaess, ``{Square root SAM: Simultaneous localization and
 F.~Herranz, A.~Llamazares, E.~Molinos, and M.~Ocana, ``{A comparison of SLAM
   algorithms with range only sensors},'' \emph{Proceedings - IEEE International
   Conference on Robotics and Automation}, pp. 4606--4611, 2014.
+
+\bibitem{Dios2015}
+J.~R. M.-d. Dios and A.~Ollero, ``{Accurate fast – mapping Range – Only
+  SLAM for UAS applications},'' 2015.
+
+\bibitem{Newman}
+P.~Newman and J.~Leonard, ``{Pure range-only sub-sea SLAM},'' in \emph{2003
+  IEEE International Conference on Robotics and Automation (Cat.
+  No.03CH37422)}.
+
+\bibitem{Fabresse2013}
+F.~R. Fabresse, F.~Caballero, I.~Maza, and A.~Ollero, ``{Undelayed 3D RO-SLAM
+  based on Gaussian-mixture and reduced spherical parametrization},''
+  \emph{IEEE International Conference on Intelligent Robots and Systems}, pp.
+  1555--1561, 2013.
 
 \end{thebibliography}
