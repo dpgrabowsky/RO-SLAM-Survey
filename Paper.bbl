@@ -137,4 +137,13 @@ F.~R. Fabresse, F.~Caballero, I.~Maza, and A.~Ollero, ``{Undelayed 3D RO-SLAM
   \emph{IEEE International Conference on Intelligent Robots and Systems}, pp.
   1555--1561, 2013.
 
+\bibitem{Fabresse2015}
+\BIBentryALTinterwordspacing
+F.~Fabresse, F.~Caballero, and A.~Ollero, ``{Decentralized simultaneous
+  localization and mapping for multiple aerial vehicles using range-only
+  sensors},'' \emph{2015 IEEE International Conference on Robotics and
+  Automation (ICRA)}, pp. 6408--6414, 2015. [Online]. Available:
+  \url{http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=7140099}
+\BIBentrySTDinterwordspacing
+
 \end{thebibliography}

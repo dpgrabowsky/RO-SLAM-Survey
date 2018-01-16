@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.4)  16 JAN 2018 13:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.4)  16 JAN 2018 13:50
 entering extended mode
 **./Paper.tex
 (Paper.tex
@@ -220,21 +220,20 @@ G,.JBIG2,.JB2,.eps]
 File: coop_loc_comp_patwari.png Graphic file (type png)
 
 <use coop_loc_comp_patwari.png>
-Package pdftex.def Info: coop_loc_comp_patwari.png used on input line 57.
+Package pdftex.def Info: coop_loc_comp_patwari.png used on input line 55.
 (pdftex.def)             Requested size: 256.0748pt x 131.01427pt.
 
-Overfull \hbox (4.0748pt too wide) in paragraph at lines 57--58
+Overfull \hbox (4.0748pt too wide) in paragraph at lines 55--56
  [][] 
  []
 
 [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
- <./coop_loc_comp_patwari.png>]
+ <./coop_loc_comp_patwari.png>] (Paper.bbl
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Warning: Citation `Fabresse' on page 2 undefined on input line 82.
 
-(Paper.bbl
 Overfull \hbox (45.43745pt too wide) in paragraph at lines 33--38
 \OT1/ptm/m/n/8 http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.2.5088&
 rep=rep1&type=pdf 
@@ -258,6 +257,12 @@ Missing character: There is no “ in font ptmr7t!
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
+[2]
+Overfull \hbox (1.86987pt too wide) in paragraph at lines 142--148
+\OT1/ptm/m/n/8 http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=71
+40099 
+ []
+
 )
 
 ** Conference Paper **
@@ -270,25 +275,25 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[2] (Paper.aux)
+[3
 
-LaTeX Warning: There were undefined references.
-
- ) 
+] (Paper.aux) ) 
 Here is how much of TeX's memory you used:
- 2338 strings out of 493323
- 38252 string characters out of 3139066
- 109451 words of memory out of 3000000
+ 2337 strings out of 493323
+ 38250 string characters out of 3139066
+ 109455 words of memory out of 3000000
  5880 multiletter control sequences out of 15000+200000
- 35250 words of font info for 64 fonts, out of 3000000 for 9000
+ 34143 words of font info for 63 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,7n,25p,1190b,228s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
-KTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/ut
-mr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Paper.pdf (2 pages, 123478 bytes).
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
+/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8
+a.pfb>
+Output written on Paper.pdf (3 pages, 124258 bytes).
 PDF statistics:
- 29 PDF objects out of 1000 (max. 8388607)
+ 32 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
+
