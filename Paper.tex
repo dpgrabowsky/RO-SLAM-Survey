@@ -94,8 +94,21 @@ Kehagias explores how interpolation can be used to generate range data that is e
 
 \subsection{Graph SLAM}
 \subsection{Particle}
+Particles filters are made ue up various monte carlo algorithms that are used to estimate states in partially observable Markov chains(see[9]). In the initial application of particle filters in the field of robotics was in localization where it was used to estimate a robots pose from sensor data. It is considered better and more robost to conventional estimtion methods because it was able to solve the global localization[2] and the kidnapped robot problem[14].It has also been at the corre higher dimentional problems  
+%Description
+Initially robot assumes global uncertainity through a set of particles that are distributed all over the map. Hence both the robot and the landmarks are uncertain.As the robot moves around and measures sensor data it resamples the particle set weighted according to the probability of the particle being the right one. There are several resampling methods depending on computational complexities. After some iterations only the particles which have a high degree of probability  reamain and eventually converge to the state of the robot and the landmarks
+Assuming at time t=0;we have N particles equally space in the enviornment that are drawn based on a uniform distribution p($x_o$).
+Once the robot starts moving it collects measurements and at time t$>$0 we sample a new particle set $x^[i]_t$ for each partile in (x^[i])_(t-1)
+
 \subsection{Graph}
 \subsection{Fast SLAM}
+%Brief introduction
+
+
+
+%advantages
+%Disadvantages
+  
 
 \section{Conclusion}
 
