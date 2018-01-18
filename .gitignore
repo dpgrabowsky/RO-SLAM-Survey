@@ -1,3 +1,9 @@
 
 *.pdf
 *.log
+Paper.aux
+Paper.log
+*.aux
+*.log
+*.pdf
+*.gz
