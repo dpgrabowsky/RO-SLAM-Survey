@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.3)  18 JAN 2018 19:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.3)  18 JAN 2018 22:04
 entering extended mode
 **./Paper.tex
 (Paper.tex
@@ -148,18 +148,18 @@ Package: placeins 2005/04/18  v 2.2
 ) (Paper.aux)
 \openout1 = `Paper.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
 
 -- Lines per column: 56 (exact).
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
@@ -219,54 +219,53 @@ Package grfext Info: Graphics extension search list:
 (grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
-)
-<coop_loc_comp_patwari.png, id=1, 485.56406pt x 248.42813pt>
+) [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+
+]
+<coop_loc_comp_patwari.png, id=9, 485.56406pt x 248.42813pt>
 File: coop_loc_comp_patwari.png Graphic file (type png)
 
 <use coop_loc_comp_patwari.png>
-Package pdftex.def Info: coop_loc_comp_patwari.png used on input line 56.
+Package pdftex.def Info: coop_loc_comp_patwari.png used on input line 116.
 (pdftex.def)             Requested size: 256.0748pt x 131.01427pt.
 
-Overfull \hbox (4.0748pt too wide) in paragraph at lines 56--57
+Overfull \hbox (4.0748pt too wide) in paragraph at lines 116--117
  [][] 
  []
 
-[1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
-
-
- <./coop_loc_comp_patwari.png>] <Figures/ROP_djugash.png, id=12, 417.81094pt x 
-269.50688pt>
+<Figures/ROP_djugash.png, id=11, 417.81094pt x 269.50688pt>
 File: Figures/ROP_djugash.png Graphic file (type png)
 
 <use Figures/ROP_djugash.png>
-Package pdftex.def Info: Figures/ROP_djugash.png used on input line 78.
+Package pdftex.def Info: Figures/ROP_djugash.png used on input line 160.
 (pdftex.def)             Requested size: 256.0748pt x 165.1885pt.
 
-Overfull \hbox (4.0748pt too wide) in paragraph at lines 78--79
+Overfull \hbox (4.0748pt too wide) in paragraph at lines 160--161
  [][] 
  []
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[2 <./Figures/ROP_djugash.png>]
+[2 <./coop_loc_comp_patwari.png> <./Figures/ROP_djugash.png>]
 <Figures/Particle_filter_method.JPG, id=17, 785.93625pt x 191.9672pt>
 File: Figures/Particle_filter_method.JPG Graphic file (type jpg)
 
 <use Figures/Particle_filter_method.JPG>
 Package pdftex.def Info: Figures/Particle_filter_method.JPG used on input line 
-102.
+200.
 (pdftex.def)             Requested size: 256.07384pt x 113.81326pt.
 
-Overfull \hbox (4.07384pt too wide) in paragraph at lines 102--103
+Overfull \hbox (4.07384pt too wide) in paragraph at lines 200--201
  [][] 
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 106.
+(Font)              <7> on input line 204.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 106.
+(Font)              <5> on input line 204.
 (Paper.bbl
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3 <./Figures/Particle_filter_method.JPG>]
 Overfull \hbox (45.43745pt too wide) in paragraph at lines 33--38
 \OT1/ptm/m/n/8 http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.2.5088&
 rep=rep1&type=pdf 
@@ -290,7 +289,6 @@ Overfull \hbox (1.86987pt too wide) in paragraph at lines 82--88
 58287 
  []
 
-[3 <./Figures/Particle_filter_method.JPG>]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
@@ -298,7 +296,7 @@ Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
 
-Overfull \hbox (1.86987pt too wide) in paragraph at lines 153--159
+Overfull \hbox (1.86987pt too wide) in paragraph at lines 149--155
 \OT1/ptm/m/n/8 http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=71
 40099 
  []
@@ -315,28 +313,26 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[4
-
-] (Paper.aux) ) 
+[4] (Paper.aux) ) 
 Here is how much of TeX's memory you used:
  2371 strings out of 493323
  38973 string characters out of 3139034
- 108564 words of memory out of 3000000
+ 111564 words of memory out of 3000000
  5906 multiletter control sequences out of 15000+200000
  34143 words of font info for 63 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,7n,25p,1728b,228s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Pro
-gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Fil
-es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pf
-b><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/urw/times/utmri8a.pfb>
-Output written on Paper.pdf (4 pages, 293550 bytes).
+ 39i,7n,25p,1729b,228s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/urw/times/utmri8a.pfb>
+Output written on Paper.pdf (4 pages, 293126 bytes).
 PDF statistics:
  62 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
