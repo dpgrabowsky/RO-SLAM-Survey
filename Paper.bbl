@@ -114,15 +114,15 @@ A.~Ahmad, S.~Huang, J.~J. Wang, and G.~Dissanayake, ``{A new state vector for
   range-only SLAM},'' \emph{Proceedings of the 2011 Chinese Control and
   Decision Conference, CCDC 2011}, pp. 3404--3409, 2011.
 
-\bibitem{Herranz2014}
-F.~Herranz, A.~Llamazares, E.~Molinos, and M.~Ocana, ``{A comparison of SLAM
-  algorithms with range only sensors},'' \emph{Proceedings - IEEE International
-  Conference on Robotics and Automation}, pp. 4606--4611, 2014.
-
 \bibitem{Dellaert2006}
 F.~Dellaert and M.~Kaess, ``{Square root SAM: Simultaneous localization and
   mapping via square root information smoothing},'' in \emph{International
   Journal of Robotics Research}, vol.~25, no.~12, 2006, pp. 1181--1203.
+
+\bibitem{Herranz2014}
+F.~Herranz, A.~Llamazares, E.~Molinos, and M.~Ocana, ``{A comparison of SLAM
+  algorithms with range only sensors},'' \emph{Proceedings - IEEE International
+  Conference on Robotics and Automation}, pp. 4606--4611, 2014.
 
 \bibitem{Dios2015}
 J.~R. M.-d. Dios and A.~Ollero, ``{Accurate fast – mapping Range – Only
@@ -132,10 +132,6 @@ J.~R. M.-d. Dios and A.~Ollero, ``{Accurate fast – mapping Range – Only
 P.~Newman and J.~Leonard, ``{Pure range-only sub-sea SLAM},'' in \emph{2003
   IEEE International Conference on Robotics and Automation (Cat.
   No.03CH37422)}.
-
-\bibitem{Kehagias2006}
-A.~Kehagias, J.~Djugash, and S.~Singh, ``{Range-only SLAM with Interpolated
-  Range Data},'' no. May, pp. 1--23, 2006.
 
 \bibitem{Fabresse2013}
 F.~R. Fabresse, F.~Caballero, I.~Maza, and A.~Ollero, ``{Undelayed 3D RO-SLAM
@@ -156,5 +152,9 @@ F.~Fabresse, F.~Caballero, and A.~Ollero, ``{Decentralized simultaneous
   Automation (ICRA)}, pp. 6408--6414, 2015. [Online]. Available:
   \url{http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=7140099}
 \BIBentrySTDinterwordspacing
+
+\bibitem{Kehagias2006}
+A.~Kehagias, J.~Djugash, and S.~Singh, ``{Range-only SLAM with Interpolated
+  Range Data},'' no. May, pp. 1--23, 2006.
 
 \end{thebibliography}
