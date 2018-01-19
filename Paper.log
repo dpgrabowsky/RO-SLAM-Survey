@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.16)  18 JAN 2018 20:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.16)  19 JAN 2018 06:19
 entering extended mode
 **./Paper.tex
 (Paper.tex
@@ -255,19 +255,19 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: Figures/Particle_filter_method.JPG Graphic file (type jpg)
 <use Figures/Particle_filter_method.JPG>
 Package pdftex.def Info: Figures/Particle_filter_method.JPG  used on input line
- 195. on input line 195.
+ 203. on input line 203.
 Package pdftex.def Info: Requested size: 256.07384pt x 113.81326pt on input lin
-e 195.
+e 203.
 
-Overfull \hbox (4.07384pt too wide) in paragraph at lines 195--196
+Overfull \hbox (4.07384pt too wide) in paragraph at lines 203--204
  [][] 
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 199.
+(Font)              <7> on input line 207.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 199.
-(Paper.bbl
+(Font)              <5> on input line 207.
+(Paper.bbl [3 <./Figures/Particle_filter_method.JPG>]
 Overfull \hbox (45.43745pt too wide) in paragraph at lines 33--38
 \OT1/ptm/m/n/8 http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.2.5088&
 rep=rep1&type=pdf 
@@ -291,7 +291,6 @@ Overfull \hbox (1.86987pt too wide) in paragraph at lines 82--88
 58287 
  []
 
-[3 <./Figures/Particle_filter_method.JPG>]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
@@ -316,28 +315,26 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[4
-
-] (Paper.aux) ) 
+[4] (Paper.aux) ) 
 Here is how much of TeX's memory you used:
  2318 strings out of 493312
  38501 string characters out of 3138899
- 104323 words of memory out of 3000000
+ 107323 words of memory out of 3000000
  5862 multiletter control sequences out of 15000+200000
  34143 words of font info for 63 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,7n,25p,1729b,228s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Pro
-gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Fil
-es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pf
-b><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/urw/times/utmri8a.pfb>
-Output written on Paper.pdf (4 pages, 292187 bytes).
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/urw/times/utmri8a.pfb>
+Output written on Paper.pdf (4 pages, 293281 bytes).
 PDF statistics:
  62 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
