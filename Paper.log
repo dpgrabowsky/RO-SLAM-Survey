@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.16)  18 JAN 2018 04:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.16)  18 JAN 2018 17:56
 entering extended mode
 **./Paper.tex
 (Paper.tex
@@ -243,26 +243,23 @@ Overfull \hbox (4.0748pt too wide) in paragraph at lines 72--73
  [][] 
  []
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 96.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 96.
-! Missing $ inserted.
-<inserted text> 
-                $
-l.97 ...icle set $x^[i]_t$ for each partile in (x^
-                                                  [i])_(t-1)
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+<Figures/Particle_filter_method.JPG, id=13, 785.93625pt x 191.9672pt>
+File: Figures/Particle_filter_method.JPG Graphic file (type jpg)
+<use Figures/Particle_filter_method.JPG>
+Package pdftex.def Info: Figures/Particle_filter_method.JPG  used on input line
+ 98. on input line 98.
+Package pdftex.def Info: Requested size: 256.07384pt x 113.81326pt on input lin
+e 98.
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.98 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+Overfull \hbox (4.07384pt too wide) in paragraph at lines 98--99
+ [][] 
+ []
 
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 102.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 102.
+[2 <./Figures/ROP_djugash.png> <./Figures/Particle_filter_method.JPG>]
 (Paper.bbl
 Overfull \hbox (45.43745pt too wide) in paragraph at lines 33--38
 \OT1/ptm/m/n/8 http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.2.5088&
@@ -275,7 +272,7 @@ Overfull \hbox (144.44357pt too wide) in paragraph at lines 49--54
 chine+analysis+of+bubble+chamber+pictures#0 
  []
 
-[2 <./Figures/ROP_djugash.png>]
+
 Overfull \hbox (1.86987pt too wide) in paragraph at lines 75--81
 \OT1/ptm/m/n/8 http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=14
 58287 
@@ -305,29 +302,28 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[3
-
-] (Paper.aux) ) 
+[3] (Paper.aux) ) 
 Here is how much of TeX's memory you used:
- 2293 strings out of 493312
- 37953 string characters out of 3138899
- 105234 words of memory out of 3000000
- 5843 multiletter control sequences out of 15000+200000
+ 2299 strings out of 493312
+ 38138 string characters out of 3138899
+ 106234 words of memory out of 3000000
+ 5847 multiletter control sequences out of 15000+200000
  34143 words of font info for 63 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,7n,25p,1190b,228s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Pro
-gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Fil
-es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/
-utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/P
-rogram Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKT
-eX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Paper.pdf (3 pages, 210201 bytes).
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/urw/times/utmri8a.pfb>
+Output written on Paper.pdf (3 pages, 287205 bytes).
 PDF statistics:
- 54 PDF objects out of 1000 (max. 8388607)
+ 59 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
