@@ -60,11 +60,14 @@
 	
 	\section{range only sensors/tech}
 	
+<<<<<<< HEAD
 	\section{Beacon Initialization}
 	Beacons initialization refers to the process by which beacons (or landmarks) at an unknown position receive their initial position estimation. TOne of the complications with RO-SLAM involves the issue of determining the location of landmarks when their initial placement is unknown, the EKF, which is used by many implementations, is especially sensitive to poorly initialized landmarks as they are used as the basis for the convergence of an accurate estimate. Caballero presents a solution for this complication. \cite{Caballero2010}. A Gaussian Mixture Model is integrated into the EKF to create a multiple hypothesis filter.  This multiple hypothesis approach is used to solve the RO-SLAM problem and its use allows for the un-delayed initialization of landmarks, however a large number of hypothesis can lead to increased computational burden. \cite{Geneve2015} also puts forward a method that utilizes a Gaussian mixtures for beacon initialization in EKF, but in this method only two hypotheses and a Cartesian plane are used.   \cite{Ahmad2011a} proposes to reduce the computational burden of methods such as the one proposed by Caballero \cite{Caballero2010} by introducing a novel state vector that eliminates the need for multiple hypothesis landmark representation. The paper proposes that under different circumstances the landmark could be represented using different parameters. Four circumstances are presented in the paper and the method is tested in simulation using both the EKF and a least squares optimization approach. The results showed that when the circumstances can be clearly distinguished between an increase in performance is seen.
 	
 	
 	
+=======
+>>>>>>> 7c51b1c224cc21104dd2d9823f9ac46d9363ddac
 	\section{Methods...}
 	
 	\subsection{EKF}

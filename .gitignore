@@ -7,3 +7,8 @@ Paper.log
 *.log
 *.pdf
 *.gz
+*.aux
+*.log
+*.pdf
+*.gz
+Paper.tex
