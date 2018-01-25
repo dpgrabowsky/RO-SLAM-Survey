@@ -60,7 +60,79 @@
 	
 	\section{range only sensors/tech}
 	
-	\section{Methods...}
+	One of the key features of the systematic localization and mapping problem are landmarks. In RO SLAM the only information that can be obtained from landmarks is range data. This range data must then be interpreted by the robot in some way that will be advantageous towards the localization and mapping process. Beacons are a popular implementation of landmarks. Beacons refer to any devices which involves a signal transmission that can be used for the localization and mapping process without line of sight. The most popular beacons can largely be broken down into two categories: acoustic based and radio frequency based.
+	
+	\subsection{Acoustic}
+	
+	Acoustic ranging systems are primary used with robotics and beacons that operate in underwater locations. The reason for this that radio waves experience strong attenuations, especially in salt water environments. As \cite{Partan2007} states, the issue of attenuations makes radio waves extremely impractical, thus making acoustics the logical alternative. Acoustic still suffer from a range of problems such as multipathing and propagation delays, but are one of the only meaningful alternatives. Papers such as those by \cite{Erol-Kantarci2011} and \cite{Akyildiz2005} explore a wide variety of issue and possible techniques that relate to acoustic sensors, such as the added complexity of assuming a 2D environment vs a 3D environment, or design challenge that accompany underwater deployment like spatial correlation and power. 
+  	
+	An interesting beacon for underwater localization that is not specifically range only or acoustic based is the Dive'N'Rise (DNR) beacons presented by \cite{Erol2007}. These DNR beacons rise to the surface, receive their location through GPS, then sink into the water and transmit their coordinates. The distance to an agent and the transmitting beacon can be determined via time of flight from the transmissions. A localization implementation using these beacons was accomplished by \cite{Erol2008}. Again while this is not purely range only or acoustic based it was found to be interesting solution worth mentioning.
+	
+  	\begin{figure}[h!]
+	
+	\centering
+	
+	\includegraphics[width=90mm]{DNR.png}
+	
+	\caption{DNR being used to implement Dive and Rise Localization  \cite{Erol-Kantarci2011}}
+	
+	\label{DNR}
+	
+\end{figure}
+
+
+	\subsection{Radio Frequency}
+	Radio frequency encompass a massive spectrum of devices capable of transmitting or receiving transmission on the radio frequency. There are two methods primarily utilized to determine distance from radio frequency. One is by examining the received signal strength indicator (RSSI) and the other is the by measuring the time of flight of the signal. A system presented by \cite{Padmanabhan2000} processes rf signal strength and utilizes nearest neighbors heuristics to achieve localization based on said signal strength.  \cite{Kurth2003a} describes a method for using very small RF tags as beacons throughout the environment.  As a robot moves throughout an environment it emits a query to which any RF tags that are within the transmission range respond to. The robot then estimates the distance to the tag based on the delay. The response from the RF tags include a data tag which contains a unique ID number. 
+	
+	Wireless sensors networks (WSN) are also a very popular choice, especially since many of them come with the ability to transmit RSSI. \cite{Baronti2007}, \cite{Khanafer2014}, \cite{Akyildiz2002}, and \cite{Xia2011} each presents surveys relating to WSNs.  \cite{Baronti2007} and \cite{Akyildiz2002} both provide very well developed survey that discuss hardware, protocols, standards, security, energy efficiency and much more. \cite{Baronti2007} specifically focuses on state of the art 802.15.4 and ZigBee standards. \cite{Xia2011} examines the limitations of original IEEE 802.15.4 MAC and reviews adaptive methods that have been used to overcome these limitations. \cite{Khanafer2014} specifically survey methods meant to improve the performance of IEEE 802.15.4 MAC protocol.
+
+
+
+
+	%blue tooth
+	
+	
+	%wifi
+	
+	%Fingerprint map based on radiological patterns
+	%P. Bahl and V. Padmanabhan, “Radar: A, in-building rf-based user
+	%location and tracking system,” in Proc. of the IEEE Infocom, 2000,
+	%pp. 775–784.
+	
+	%M. Oca ̃na, L. M. Bergasa, M. A. Sotelo, R. F. Flores, D. F.  ́
+	%Llorca, and D. Schleicher, “Automatic training method applied to
+	a% WiFi+ultrasound POMDP navigation system,” Robotica, vol. 27,
+	%no. 07, pp. 1049–1061, December 2009.
+	
+	
+	%rfid
+	%Mapping and localization with RFID technology
+	
+	
+
+	
+	
+
+
+	
+
+
+	\section{Beacon Initialization}
+	Beacons initialization refers to the process by which beacons (or landmarks) at an unknown position receive their initial position estimation. One of the complications with RO-SLAM involves the issue of determining the location of landmarks when their initial placement is unknown, the EKF, which is used by many implementations, is especially sensitive to poorly initialized landmarks as they are used as the basis for the convergence of an accurate estimate. Poorly approximated landmarks results in the divergence of the filter. These processes are furthur  divided into delayed and undelayed initializations.
+	\subsection{Delayed initializations}
+	These are the intialisations where  the robot intilaiialy moves around collects some measurements and initialises the location of the landmarks.This can be undersirable as it causes a delay in the localization of the robot where there is a immediate real time application. Localization can be performed only once a accurate estimations of the beacons are made. There are several methods that achieve this. 
+	\subsubsection{Trilateration}
+	[Pure Porbablisitc approach to SLAM] exmpalins a basic trilateration method where a basic 2D cicrcle intersectino technique. %more paperes needed
+	\subsubsection{Particle filter}
+	
+	
+	
+	\cite{Caballero2010} presents a solution for this complication. A Gaussian Mixture Model is integrated into the EKF to create a multiple hypothesis filter.  This multiple hypothesis approach is used to solve the RO-SLAM problem and its use allows for the un-delayed initialization of landmarks, however a large number of hypothesis can lead to increased computational burden. \cite{Geneve2015} also puts forward a method that utilizes a Gaussian mixtures for beacon initialization in EKF, but in this method only two hypotheses and a Cartesian plane. \cite{Ahmad2011a} proposes to reduce the computational burden of methods, such as the one proposed by \cite{Caballero2010}, by introducing a novel state vector that eliminates the need for multiple hypothesis landmark representation. The paper proposes that under different circumstances the landmark could be represented using different parameters. Four circumstances are presented in the paper and the method is tested in simulation using both the EKF and a least squares optimization approach. The results showed that when the circumstances can be clearly distinguished between, an increase in performance is seen.
+	
+	
+	
+
+	\section{Methods and Their Implementations}
 	
 	\subsection{EKF}
 	
@@ -68,7 +140,7 @@
 	
 	%paragraphs 
 	
-	The Extended Kalman Filter (EKF) is one of the most popular and widespread methods used to solve the SLAM problem. It is used to overcome the assumption of linear state transitions and measurements, which are rarely seen in practical environments \cite{Thrun2002}. The derivation of the EKF is very well documented, as such, detailed explanations can be viewed from a variety of sources such as: \cite{Thrun2002}, \cite{Ribeiro2004}, and \cite{Haykin2001}. When used to solve SLAM the map applied to the EKF is a feature based map, meaning it is composed of observable features (landmarks) which can be distinguished between during re-observation \cite{Thrun2002}. This distinction becomes important when examining range only SLAM (RO-SLAM) where only the range to a landmark, or the range between landmarks, is known. This restriction means that landmarks often need to be manufactured, such as those discussed in section II, and physically placed in an environment. However, that does not mean that the exact location of the landmarks, or even there initial existence, is recognized. Initialization is a critical element in many algorithms that make use of the EKF. If the initialization is inaccurate then the convergence to a correct estimation becomes much more difficult for the filter. The EKF has seen a wide variety of implementation ranging from ground based robotics\cite{Djugash2008}, to unmanned air vehicles \cite{Fabresse2016}, and to autonomous underwater vehicles \cite{Olson2006}. This section will proceed to give a summary of the various ways EKF has been implemented in regards to RO SLAM, as well as examine improvements to the general RO SLAM problem that are applied via EKF.
+	The Extended Kalman Filter (EKF) is one of the most popular and widespread methods used to solve the SLAM problem. It is used to overcome the assumption of linear state transitions and measurements, which are rarely seen in practical environments \cite{Thrun2002}. The derivation of the EKF is very well documented, as such, detailed explanations can be viewed from a variety of sources such as: \cite{Thrun2002}, \cite{Ribeiro2004}, and \cite{Haykin2001}. When used to solve SLAM the map applied to the EKF is a feature based map, meaning it is composed of observable features (landmarks) which can be distinguished between during re-observation \cite{Thrun2002}. This distinction becomes important when examining range only SLAM (RO-SLAM) where only the range to a landmark, or the range between landmarks, is known. This restriction means that landmarks often need to be manufactured, such as the beacons discussed in previous sections, and physically placed in an environment. However, that does not mean that the exact location of the landmarks, or even there initial existence, is recognized. Initialization is a critical element in many algorithms that make use of the EKF. If the initialization is inaccurate then the convergence to a correct estimation becomes much more difficult for the filter. The EKF has seen a wide variety of implementation ranging from ground based robotics\cite{Djugash2008}, to unmanned air vehicles \cite{Fabresse2016}, and to autonomous underwater vehicles \cite{Olson2006}. This section will proceed to give a summary of the various ways EKF has been implemented in regards to RO SLAM, as well as examine improvements to the general RO SLAM problem that are applied via methods with EKF mind.
 	
 	
 	
@@ -135,18 +207,7 @@
 	
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	One of the complications with RO-SLAM involves the issue of determining the location of landmarks when their initial placement is unknown, the EKF is sensitive to poorly initialized landmarks as they are used as the basis for the convergence of an accurate estimate. Caballero presents a solution for this complication. \cite{Caballero2010}. A Gaussian Mixture Model is integrated into the EKF to create a multiple hypothesis filter.  This multiple hypothesis approach is used to solve the RO-SLAM problem and its use allows for the un-delayed initialization of landmarks, however a large number of hypothesis can lead to increased computational burden. \cite{Geneve2015} also puts forward a method that utilizes a Gaussian mixtures for beacon initialization in EKF, but in this method only two hypotheses and a Cartesian plane are used.   \cite{Ahmad2011a} proposes to reduce the computational burden of methods such as the one proposed by Caballero \cite{Caballero2010} by introducing a novel state vector that eliminates the need for multiple hypothesis landmark representation. The paper proposes that under different circumstances the landmark could be represented using different parameters. Four circumstances are presented in the paper and the method is tested in simulation using both the EKF and a least squares optimization approach. The results showed that when the circumstances can be clearly distinguished between an increase in performance is seen.
-	
-	
-	
-	An extension to EKF called relative-over parametrized (ROP) EKF is presented by \cite{Djugash2008}. This extension uses specific parameterization to  better represent the range only data utilized in RO-SLAM. ROP EKF operates in polar coordinates as opposed to the Cartesian space that typical EKF operates. The method provided improved results over EKF when sparse range measurement of data association errors were present. \cite{Herranz2014} presents a comparison of the ROP-EKF method presented by \cite{Djugash2008}e{Djugash2008},to a smoothing and mapping method presented by \cite{Dellaert2006}. Experimentation conducted by Herranz on and indoor and outdoor environment show an improvement in the results of the SAM method over ROP EKF.
+	An extension to EKF called relative-over parametrized (ROP) EKF is presented by \cite{Djugash2008}. This extension uses specific parameterization to  better represent the range only data utilized in RO-SLAM. ROP EKF operates in polar coordinates as opposed to the Cartesian space that typical EKF operates. The method provided improved results over EKF when sparse range measurement or data association errors were present. \cite{Herranz2014} presents a comparison of the ROP-EKF method presented by \cite{Djugash2008}, to a smoothing and mapping method presented by \cite{Dellaert2006}. Experimentation conducted by \cite{Herranz2014} on and indoor and outdoor environment show an improvement in the results of the SAM method over ROP EKF.
 	
 	\begin{figure}[h!]
 		
@@ -154,25 +215,25 @@
 		
 		\includegraphics[width=90mm]{ROP_djugash.png}
 		
-		\caption{True and approximated distributions with one range observation (Top Row) and two observations from different locations (Bottom Row). True distributions in	Cartesian coordinates (Left Column), true and Gaussian approximated distributions in polar coordinates (Middle Column), and projection of the Gaussian approximated. \cite{Djugash2008}} LITERALLY COPIED, CHANGE DIS?%THIS WAS LITTERALY COPYIED AND PASTED AND NEEDS TO BE CHANGED AT SOME POINTS
+		\caption{Top Row: True and approximated distribution from one range observation. Bottom Row: True and approximated distributions with two observations from different locations. Left Column: Distribution in Cartesian Coordinates. Middle Column: True and Gaussian approximated distributions in Polar Coordinates, Right Column: Projection of the Gaussian approximated. \cite{Djugash2008}} 
 		
 		\label{ROP_djugash}
 		
 	\end{figure}
 	
-	\FloatBarrier
+
 	
 	
 	
 	
 	
-	A method proposed by \cite{Dios2015} is geared towards improving map building speed and accuracy for UAS dealing with the 3D RO-SLAM problem. The 3D RO-SLAM problem refers to the added complexity that devices such as submersibles \cite{Newman} and aerial vehicles experience when having to operate in an environment where three dimensions must be considered as opposed to the planar environment many robots are assumed to operate in. The method utilizes inter-beacon measurements and a novel mode selection which is used to select a measurement gathering method based on current conditions \cite{Dios2015}. The first mode is noted as mapping (MS) and the second localization (LS). When in mapping mode the measurment are integrated with a high probability to quickly create a map, when in localization mode the probability is lowered to create higher accuracy localizations. Based on experimentation performed by \cite{Dios2015} the method performed well an a general increase in accuracy and map speed was noted, however it is stated that a wider variety of experimentation should be performed to validate the overall robustness and effectiveness of the method.
+	A method proposed by \cite{Dios2015} is geared towards improving map building speed and accuracy for UAS dealing with the 3D RO-SLAM problem. The 3D RO-SLAM problem refers to the added complexity that devices such as submersibles \cite{Newman} and aerial vehicles experience when having to operate in an environment where three dimensions must be considered as opposed to the planar environment many robots are assumed to operate in. The method utilizes inter-beacon measurements and a novel mode selection which is used to select a measurement gathering method based on current conditions \cite{Dios2015}. The first mode is noted as mapping (MS) and the second localization (LS). When in mapping mode the measurment are integrated with a high probability to quickly create a map, when in localization mode the probability is lowered to create higher accuracy localizations. Based on experimentation performed by \cite{Dios2015} the method performed well and a general increase in accuracy and map speed was noted, however it is stated that a wider variety of experimentation should be performed to validate the overall robustness and effectiveness of the method.
 	
 	%this one might need some more work
 	
 	
 	
-	It is explored by \cite{Kehagias2006} how interpolation can be used to generate range data that is equally spaced over time as opposed to the irregular time intervals that range data is typically received at and then applied to solve the RO SLAM problem. The method is tested on the EKF and an batch optimization algorithm with a simulated and physical robot. The results provided show that the interpolation based algorithms gave better landmark estimation than those without, with the exception of the EKF in two datasets where EKF was already performing poorly.
+	It is explored by \cite{Kehagias2006} how interpolation can be used to generate range data that is equally spaced over time as opposed to the irregular time intervals that range data is typically received at and then applied to solve the RO SLAM problem. The method is tested on the EKF and an batch optimization algorithm with a simulated and physical robot. The results provided by the paper show that the interpolation based algorithms gave better landmark estimation than those without, with the exception of the EKF in two datasets where EKF was already performing poorly.
 	
 	
 	
@@ -217,6 +278,13 @@ As the number of particles increases the computational complexity of the filter 
 	\subsection{Graph}
 	
 	\subsection{Fast SLAM}
+	EKF is mainly used when we have a non-linear dynamic system model which has gaussian noise.[1]-[3].The quadratic complexity due to gaussian approximations of higher dimensions make the covariance matrix very large. This eventually cqauses higher complexity and leads to the divergence of the filter.The single data association problem also adds to this complexity. FastSLAM uses multiple hypothesis data association through particle filtering to overcome this problem. Thi allows it handle system models with non gaussians noise as well. This results in the computatoinal complexity to grow logarithmically instead of quadratic growth.
+	
+	FastSLAM utilizes the conditional Independence property of SLAM applications. If the path of the robot is known the correlation between the landmarks becomes zero. Hence in FastSLAM the robot path is initialised by using a particle fitler. Once the set of poses representing the path is obtained it estimates the landmark positions using EKF over the entire robot path as mentioned in [Fast Slam paper 1]. Thus it maintains mutliple data hypothesis overcoming the EKF problem.
+	
+	$p(x^{k}_(1:t)$ 
+	
+	
 	
 	%Brief introduction
 	
