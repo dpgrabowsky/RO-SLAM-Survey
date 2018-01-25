@@ -9,3 +9,7 @@ Paper.log
 *.gz
 *.tex
 *.bib
+*.aux
+*.log
+*.pdf
+*.gz
