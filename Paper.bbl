@@ -21,6 +21,103 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
+\bibitem{Partan2007}
+J.~Partan, J.~Kurose, and B.~N. Levine, ``{A survey of practical issues in
+  underwater networks},'' \emph{ACM SIGMOBILE Mobile Computing and
+  Communications Review}, vol.~11, no.~4, p.~23, 2007.
+
+\bibitem{Erol-Kantarci2011}
+\BIBentryALTinterwordspacing
+M.~Erol-Kantarci, H.~T. Mouftah, and S.~Oktug, ``{A Survey of Architectures and
+  Localization Techniques for Underwater Acoustic Sensor Networks},''
+  \emph{IEEE Communications Surveys {\&} Tutorials}, vol.~13, no.~3, pp.
+  487--502, 2011. [Online]. Available:
+  \url{http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=5714973}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Akyildiz2005}
+I.~F. Akyildiz, D.~Pompili, and T.~Melodia, ``{Underwater acoustic sensor
+  networks: Research challenges},'' \emph{Ad Hoc Networks}, vol.~3, no.~3, pp.
+  257--279, 2005.
+
+\bibitem{Erol2007}
+\BIBentryALTinterwordspacing
+M.~Erol, L.~F.~M. Vieira, and M.~Gerla, ``{Localization with Dive'N'Rise (DNR)
+  beacons for underwater acoustic sensor networks},'' in \emph{Proceedings of
+  the second workshop on Underwater networks - WuWNet '07}, 2007, p.~97.
+  [Online]. Available:
+  \url{http://dl.acm.org/citation.cfm?id=1287812.1287833{\%}5Cnhttp://portal.acm.org/citation.cfm?doid=1287812.1287833}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Erol2008}
+M.~Erol, L.~F.~M. Vieira, A.~Caruso, F.~Paparella, M.~Gerla, and S.~Oktug,
+  ``{Multi stage underwater sensor localization using mobile beacons},''
+  \emph{Proceedings - 2nd Int. Conf. Sensor Technol. Appl., SENSORCOMM 2008,
+  Includes: MESH 2008 Conf. Mesh Networks; ENOPT 2008 Energy Optim. Wireless
+  Sensors Networks, UNWAT 2008 Under Water Sensors Systems}, pp. 710--714,
+  2008.
+
+\bibitem{Padmanabhan2000}
+\BIBentryALTinterwordspacing
+P.~B. Padmanabhan and V.~N., ``{RADAR: An in-building RF based user location
+  and tracking system},'' \emph{Proceedings IEEE INFOCOM 2000. Conference on
+  Computer Communications. Nineteenth Annual Joint Conference of the IEEE
+  Computer and Communications Societies (Cat. No.00CH37064)}, vol.~2, no.~c,
+  pp. 775--784, 2000. [Online]. Available:
+  \url{http://research.microsoft.com/en-us/groups/sn-res/infocom2000.pdf}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Kurth2003a}
+\BIBentryALTinterwordspacing
+D.~Kurth, G.~Kantor, and S.~Singh, ``{Experimental Results in Range-Only
+  Localization with Radio},'' \emph{Intelligent Robots and Systems,
+  International Conference on}, no. October, pp. 974--979, 2003. [Online].
+  Available:
+  \url{http://ieeexplore.ieee.org/xpls/abs{\_}all.jsp?arnumber=1250754}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Baronti2007}
+P.~Baronti, P.~Pillai, V.~W.~C. Chook, S.~Chessa, A.~Gotta, and Y.~F. Hu,
+  ``{Wireless sensor networks: A survey on the state of the art and the
+  802.15.4 and ZigBee standards},'' \emph{Computer Communications}, vol.~30,
+  no.~7, pp. 1655--1695, 2007.
+
+\bibitem{Khanafer2014}
+\BIBentryALTinterwordspacing
+M.~Khanafer, M.~Guennoun, and H.~T. Mouftah, ``{A Survey of Beacon-Enabled IEEE
+  802.15.4 MAC Protocols in Wireless Sensor Networks},'' \emph{IEEE
+  Communications Surveys Tutorials}, vol.~16, no.~2, pp. 856--876, 2014.
+  [Online]. Available:
+  \url{http://ieeexplore.ieee.org/ielx7/9739/6811383/06687312.pdf?tp={\&}arnumber=6687312{\&}isnumber=6811383}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Akyildiz2002}
+\BIBentryALTinterwordspacing
+I.~Akyildiz, W.~Su, Y.~Sankarasubramaniam, and E.~Cayirci, ``{Wireless sensor
+  networks: a survey},'' \emph{Computer Networks}, vol.~38, no.~4, pp.
+  393--422, 2002. [Online]. Available:
+  \url{http://www.sciencedirect.com/science/article/pii/S1389128601003024}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Xia2011}
+F.~Xia, R.~Hao, Y.~Cao, and L.~Xue, ``{A survey of adaptive and real-time
+  protocols based on IEEE 802.15.4},'' 2011.
+
+\bibitem{Caballero2010}
+F.~Caballero, L.~Merino, and A.~Ollero, ``{A general Gaussian-mixture approach
+  for range-only mapping using multiple hypotheses},'' \emph{Proceedings - IEEE
+  International Conference on Robotics and Automation}, pp. 4404--4409, 2010.
+
+\bibitem{Geneve2015}
+L.~Geneve, O.~Kermorgant, and E.~Laroche, ``{A composite beacon initialization
+  for EKF range-only SLAM},'' \emph{IEEE International Conference on
+  Intelligent Robots and Systems}, vol. 2015-Decem, pp. 1342--1348, 2015.
+
+\bibitem{Ahmad2011a}
+A.~Ahmad, S.~Huang, J.~J. Wang, and G.~Dissanayake, ``{A new state vector for
+  range-only SLAM},'' \emph{Proceedings of the 2011 Chinese Control and
+  Decision Conference, CCDC 2011}, pp. 3404--3409, 2011.
+
 \bibitem{Thrun2002}
 \BIBentryALTinterwordspacing
 S.~Thrun, ``{Probabilistic robotics},'' \emph{Communications of the ACM},
@@ -99,30 +196,15 @@ J.~A. Djugash, S.~Singh, G.~Kantor, W.~Zhang, and J.~Djugash, ``{Range-Only
   \url{http://repository.cmu.edu/robotics}
 \BIBentrySTDinterwordspacing
 
-\bibitem{Caballero2010}
-F.~Caballero, L.~Merino, and A.~Ollero, ``{A general Gaussian-mixture approach
-  for range-only mapping using multiple hypotheses},'' \emph{Proceedings - IEEE
-  International Conference on Robotics and Automation}, pp. 4404--4409, 2010.
-
-\bibitem{Geneve2015}
-L.~Geneve, O.~Kermorgant, and E.~Laroche, ``{A composite beacon initialization
-  for EKF range-only SLAM},'' \emph{IEEE International Conference on
-  Intelligent Robots and Systems}, vol. 2015-Decem, pp. 1342--1348, 2015.
-
-\bibitem{Ahmad2011a}
-A.~Ahmad, S.~Huang, J.~J. Wang, and G.~Dissanayake, ``{A new state vector for
-  range-only SLAM},'' \emph{Proceedings of the 2011 Chinese Control and
-  Decision Conference, CCDC 2011}, pp. 3404--3409, 2011.
+\bibitem{Herranz2014}
+F.~Herranz, A.~Llamazares, E.~Molinos, and M.~Ocana, ``{A comparison of SLAM
+  algorithms with range only sensors},'' \emph{Proceedings - IEEE International
+  Conference on Robotics and Automation}, pp. 4606--4611, 2014.
 
 \bibitem{Dellaert2006}
 F.~Dellaert and M.~Kaess, ``{Square root SAM: Simultaneous localization and
   mapping via square root information smoothing},'' in \emph{International
   Journal of Robotics Research}, vol.~25, no.~12, 2006, pp. 1181--1203.
-
-\bibitem{Herranz2014}
-F.~Herranz, A.~Llamazares, E.~Molinos, and M.~Ocana, ``{A comparison of SLAM
-  algorithms with range only sensors},'' \emph{Proceedings - IEEE International
-  Conference on Robotics and Automation}, pp. 4606--4611, 2014.
 
 \bibitem{Dios2015}
 J.~R. M.-d. Dios and A.~Ollero, ``{Accurate fast – mapping Range – Only
@@ -132,6 +214,10 @@ J.~R. M.-d. Dios and A.~Ollero, ``{Accurate fast – mapping Range – Only
 P.~Newman and J.~Leonard, ``{Pure range-only sub-sea SLAM},'' in \emph{2003
   IEEE International Conference on Robotics and Automation (Cat.
   No.03CH37422)}.
+
+\bibitem{Kehagias2006}
+A.~Kehagias, J.~Djugash, and S.~Singh, ``{Range-only SLAM with Interpolated
+  Range Data},'' no. May, pp. 1--23, 2006.
 
 \bibitem{Fabresse2013}
 F.~R. Fabresse, F.~Caballero, I.~Maza, and A.~Ollero, ``{Undelayed 3D RO-SLAM
@@ -152,9 +238,5 @@ F.~Fabresse, F.~Caballero, and A.~Ollero, ``{Decentralized simultaneous
   Automation (ICRA)}, pp. 6408--6414, 2015. [Online]. Available:
   \url{http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=7140099}
 \BIBentrySTDinterwordspacing
-
-\bibitem{Kehagias2006}
-A.~Kehagias, J.~Djugash, and S.~Singh, ``{Range-only SLAM with Interpolated
-  Range Data},'' no. May, pp. 1--23, 2006.
 
 \end{thebibliography}
