@@ -10,11 +10,11 @@
 
 \begin{document}
 	
-	\title{I am a title (RO SLAM Methods/Implementation Survey) }
+	\title{A Survey of Range-Only SLAM Techniques and Sensors}
 	
 	
 	
-	\author{David Grabowsky}
+	\author{David Grabowsky, Samyak Shetty, Sam Shue, James M. Conrad}
 	
 	
 	
@@ -33,29 +33,15 @@
 	
 	
 	\begin{abstract}
-		
-		
-		
-		
-		
-		This is my abstract, there are many like it, but this one is mine. Will fill this in once paper is written ****
-		
-		
-		
-		An survey of current the current implementations and methodologies used for solving the range only systematic and localization problem (RO-SLAM). 
-		
-		
-		
+		 A common aspect in many autonomous robotics applications is addressing the problem of Simultaneous Localization and Mapping (SLAM). In most SLAM applications, the robot identifies distinguishable features in the environment, known as landmarks, within the environment through sensors such as cameras and laser rangefinders. Sensing these landmarks provide the robot with information such as range and bearing, which are used in the estimation proses of the robot's pose and the landmark locations within the map. However, some applications use landmarks which are only capable of providing range information, such as wireless and acoutstic beacons. In this survey, the variety of techniques used to solve the SLAM problem with respect to range only sensors (RO-SLAM) is explored. 	
 	\end{abstract}
-	
-	
-	
-	
-	
-	
+
 	
 	\section{Introduction} 
 	
+	The Simultaneous Localization and Mapping (SLAM) problem is a common aspect of many autonomous robotics applications. SLAM involves estimating the pose of a mobile robot and building a map of its environment with no a priori information. The SLAM problem is a chicken-and-egg type problem, where the pose of the robot is with respect to a global frame, or map, and building a map requires knowledge of the robot's location. There are many algorithms used to solve this problem, most using a landmark-based approach. The concept of a landmark is identifying a distinguishable feature in the environment through camera or laser rangefinder and estimating the distance and orientation of that landmark relative to the robot. Then, as the robot traverses the environment, it can continue observing that landmark, as well as collecting new landmarks, and using the sensed distances and angles combined with odometry readings to refine its estimation of the robot's pose and map. In most SLAM applications, references to the map is synonymous with the locations of the landmarks.
+	
+	In outdoor SLAM applications, such as self-driving cars and autonomous farming equipment, global positioning satellite (GPS) readings are used in addition to the vehicle's odometry. While GPS has low resolution, it proves useful as it provides location information, which can help compensate for the accumulated error from drift in odometric sensors. However, GPS isn't available in all environments, such as indoors and underwater. Instead, wireless signals and sonar beacons are often used in indoors and underwater environments, respectively. While these beacons provide sensor information to the robotic vehicle, they don't inherently provide location information unless their positions are accurately known beforehand and are certain to never change. Wireless and sonar beacons are capable of providing range measurements instead.
 	
 	
 	\section{range only sensors/tech}
