@@ -115,19 +115,21 @@ A common aspect in many autonomous robotics applications is addressing the probl
 	
 
 
-	\section{Beacon Initialization}
-	Beacons initialization refers to the process by which beacons (or landmarks) at an unknown position receive their initial position estimation. One of the complications with RO-SLAM involves the issue of determining the location of landmarks when their initial placement is unknown, the EKF, which is used by many implementations, is especially sensitive to poorly initialized landmarks as they are used as the basis for the convergence of an accurate estimate. Poorly approximated landmarks results in the divergence of the filter. These processes are furthur  divided into delayed and undelayed initializations.
-	\subsection{Delayed/Offline initializations}
-	These are the intialisations where  therobots moves around offline collects some measurements and initialises the location of the landmarks.This can be undersirable as it causes a delay in the localization of the robot where there is a immediate real time application. Localization can be performed only once a accurate estimations of the beacons are made. There are several methods that achieve this. There are several offline algorithms that perform localization such as the least squares approach in[5 of Active range only beacon lov=calisationi],a posed based ekf as mentioned in[8] , a moving horizon estimation as mentioned in [9] etc. The most popular ones are mentioned below
-	\subsubsection{Trilateration}
-	[Pure Porbablisitc approach to RO  SLAM] mentions a basic trilateration technique where a basic  circle intersection technique. The rings are drawn at different points of the robots path , where the radius of the rings depends on the strength of the received sginal from the beacon. This method of intilizatio is highly ambiguous as the rings can have more than 1 point of intersecting  or no points intersecting. %more paperes needed
-	\subsubsection{Particle filter}
-	This takes a more probabilistic approach to estimating the initial location of the beacons. As mentioned in[thrun particle filter paper] initially the entire space is represented by particles. These particles are resampled based on importance weights every iteration. Eventually the particle set converges to a accurate location of the beacons. Though this method of localization can be computationally expensive it is preferred where the noise involved is non Gaussian.
-	
-	\subsection{Undelayed/Online initializations}
-	In this case the robot both initializes and localizes itself and the beacons as it moves.
-	as mentioned in \cite{Caballero2010}. A Gaussian Mixture Model is integrated into the EKF to create a multiple hypothesis filter.  This multiple hypothesis approach is used to solve the RO-SLAM problem and its use allows for the un-delayed initialization of landmarks, however a large number of hypothesis can lead to increased computational burden. \cite{Geneve2015} also puts forward a method that utilizes a Gaussian mixtures for beacon initialization in EKF, but in this method only two hypotheses and a Cartesian plane. \cite{Ahmad2011a} proposes to reduce the computational burden of methods, such as the one proposed by \cite{Caballero2010}, by introducing a novel state vector that eliminates the need for multiple hypothesis landmark representation. The paper proposes that under different circumstances the landmark could be represented using different parameters. Four circumstances are presented in the paper and the method is tested in simulation using both the EKF and a least squares optimization approach. The results showed that when the circumstances can be clearly distinguished between, an increase in performance is seen.
-	
+\section{Beacon Initialization}
+Beacons initialization refers to the process by which beacons (or landmarks) at an unknown position receive their initial position estimation. One of the complications with RO-SLAM involves the issue of determining the location of landmarks when their initial placement is unknown, the EKF, which is used by many implementations, is especially sensitive to poorly initialized landmarks as they are used as the basis for the convergence of an accurate estimate. Poorly approximated landmarks results in the divergence of the filter. These processes are furthur  divided into delayed and undelayed initializations.
+\subsection{Delayed/Offline initializations}
+These are the intialisations where  therobots moves around offline collects some measurements and initialises the location of the landmarks.This can be undersirable as it causes a delay in the localization of the robot where there is a immediate real time application. Localization can be performed only once a accurate estimations of the beacons are made. There are several methods that achieve this. There are several offline algorithms that perform localization such as the least squares approach in[5 of Active range only beacon lov=calisationi],a posed based ekf as mentioned in[8] , a moving horizon estimation as mentioned in [9] etc. The most popular ones are mentioned below
+\subsubsection{Trilateration}
+[Pure Porbablisitc approach to RO  SLAM] mentions a basic trilateration technique where a basic  circle intersection technique. The rings are drawn at different points of the robots path , where the radius of the rings depends on the strength of the received sginal from the beacon. This method of intilizatio is highly ambiguous as the rings can have more than 1 point of intersecting  or no points intersecting. %more paperes needed
+\subsubsection{Particle filter}
+This takes a more probabilistic approach to estimating the initial location of the beacons. As mentioned in[thrun particle filter paper] initially the entire space is represented by particles. These particles are resampled based on importance weights every iteration. Eventually the particle set converges to a accurate location of the beacons. Though this method of localization can be computationally expensive it is preferred where the noise involved is non Gaussian.
+
+\subsection{Undelayed/Online initializations}
+In this case the robot both initializes and localizes itself and the beacons as it moves.
+as mentioned in \cite{Caballero2010}. A Gaussian Mixture Model is integrated into the EKF to create a multiple hypothesis filter.  This multiple hypothesis approach is used to solve the RO-SLAM problem and its use allows for the un-delayed initialization of landmarks, however a large number of hypothesis can lead to increased computational burden. \cite{Geneve2015} also puts forward a method that utilizes a Gaussian mixtures for beacon initialization in EKF, but in this method only two hypotheses and a Cartesian plane. \cite{Ahmad2011a} proposes to reduce the computational burden of methods, such as the one proposed by \cite{Caballero2010}, by introducing a novel state vector that eliminates the need for multiple hypothesis landmark representation. The paper proposes that under different circumstances the landmark could be represented using different parameters. Four circumstances are presented in the paper and the method is tested in simulation using both the EKF and a least squares optimization approach. The results showed that when the circumstances can be clearly distinguished between, an increase in performance is seen.
+
+
+
 	
 	
 
@@ -240,6 +242,19 @@ A common aspect in many autonomous robotics applications is addressing the probl
 	
 	\cite{Fabresse2013} presents a solution for the 3D RO-SLAM problem. The solution reduces computational load through reduced spherical parametrization of map feature positions. The paper also proposes a new EKF update method which incorporates a reduced spherical representation of the state vector. In addition the paper describes how to efficiently integrate multi-modal belief of elevations angles and azimuth from a range sensor into the EKF utilizing two independent Gaussian Mixtures \cite{Fabresse2013}. In addition \cite{Fabresse2014} expands upon this by presenting a pre-filtering algorithm to be applied to range measurment before being used in the EKF in order to reduce the effect of noise generated by environmental issue such as multipathing. It is then proposed by \cite{Fabresse2015} that the above method can be utilized for decentralized multi-SLAM with range only sensors. This new method would allow for landmarks estimated by a robot to be incorporated into the estimation of another nearby robot, thus improving localization estimation. Based on experimental results obtained by \cite{Fabresse2015} the integration of estimates from multiple robots of the same landmarks provides a benefit to landmark localization over a single robot. In \cite{Fabresse2016} the author also validates and expands upon this method through indoor and outdoor experimentation with an Unmanned Aircraft System (UAS).  
 	
+\subsection{Sparse Extended Information Filters}
+Need to add references
+
+Information filters work on same underlying Gaussian belief principle as that of EKF but vary in the way the Gaussian beliefs are represented. In EKF the gaussians are represented in the form of their moments; mean and 	variance, whereas in a information filter the gausiians in their conical parameterization which is comprised of a information matrix and information vector.Hence what is computational complex in EKF is simple in the other and vice versa. Hence they are dual to each other.
+Sparse Extended information filters is derived from the information filter Information filters but it maintains a sparse representation of the information matrix. This makes the SEIF more scalable and effiecient as show in [SEIF paper1] 
+
+The information filter stores the relation between any 2 state elements in the information matrix also known as links. The higer the vlaue of the link the stronger is the relationship between the 2 state variables and the more it is gonna effect the robot s state . SEIF maintains a sparse information matrix by elimatinating weak inks that are below a certain threshold thus reducing the computational complexity involved .
+
+In [SEIF PAER 1] they furthur reduce the computational complexity of by utilizing the computational capabilities of the nodes or radio  beacons. Here the robot computes the preditcition stage of the iteration, send the information to the beacons where they compute the update of the process. Hence the computer burden on the robot is reduced. In addition they factored in inter beacon measurements to reduce uncertainity even furthur.
+In conclusion this menthod ahad better estimates and lesser computational burden than the traditionl RO SLAM mehtod using EKF. 
+
+
+
 	
 	
 	
