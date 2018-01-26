@@ -59,6 +59,7 @@
 	\centering
 	
 	\includegraphics[width=90mm]{DNR.png}
+%	\includegraphics[width=90mm]{DNR.png}
 	
 	\caption{DNR being used to implement Dive and Rise Localization  \cite{Erol-Kantarci2011}}
 	
@@ -105,6 +106,16 @@
 
 	\section{Beacon Initialization}
 	Beacons initialization refers to the process by which beacons (or landmarks) at an unknown position receive their initial position estimation. One of the complications with RO-SLAM involves the issue of determining the location of landmarks when their initial placement is unknown, the EKF, which is used by many implementations, is especially sensitive to poorly initialized landmarks as they are used as the basis for the convergence of an accurate estimate. \cite{Caballero2010} presents a solution for this complication. A Gaussian Mixture Model is integrated into the EKF to create a multiple hypothesis filter.  This multiple hypothesis approach is used to solve the RO-SLAM problem and its use allows for the un-delayed initialization of landmarks, however a large number of hypothesis can lead to increased computational burden. \cite{Geneve2015} also puts forward a method that utilizes a Gaussian mixtures for beacon initialization in EKF, but in this method only two hypotheses and a Cartesian plane. \cite{Ahmad2011a} proposes to reduce the computational burden of methods, such as the one proposed by \cite{Caballero2010}, by introducing a novel state vector that eliminates the need for multiple hypothesis landmark representation. The paper proposes that under different circumstances the landmark could be represented using different parameters. Four circumstances are presented in the paper and the method is tested in simulation using both the EKF and a least squares optimization approach. The results showed that when the circumstances can be clearly distinguished between, an increase in performance is seen.
+	Beacons initialization refers to the process by which beacons (or landmarks) at an unknown position receive their initial position estimation. One of the complications with RO-SLAM involves the issue of determining the location of landmarks when their initial placement is unknown, the EKF, which is used by many implementations, is especially sensitive to poorly initialized landmarks as they are used as the basis for the convergence of an accurate estimate. Poorly approximated landmarks results in the divergence of the filter. These processes are furthur  divided into delayed and undelayed initializations.
+	\subsection{Delayed initializations}
+	These are the intialisations where  the robot intilaiialy moves around collects some measurements and initialises the location of the landmarks.This can be undersirable as it causes a delay in the localization of the robot where there is a immediate real time application. Localization can be performed only once a accurate estimations of the beacons are made. There are several methods that achieve this. 
+	\subsubsection{Trilateration}
+	[Pure Porbablisitc approach to SLAM] exmpalins a basic trilateration method where a basic 2D cicrcle intersectino technique. %more paperes needed
+	\subsubsection{Particle filter}
+	
+	
+	
+	\cite{Caballero2010} presents a solution for this complication. A Gaussian Mixture Model is integrated into the EKF to create a multiple hypothesis filter.  This multiple hypothesis approach is used to solve the RO-SLAM problem and its use allows for the un-delayed initialization of landmarks, however a large number of hypothesis can lead to increased computational burden. \cite{Geneve2015} also puts forward a method that utilizes a Gaussian mixtures for beacon initialization in EKF, but in this method only two hypotheses and a Cartesian plane. \cite{Ahmad2011a} proposes to reduce the computational burden of methods, such as the one proposed by \cite{Caballero2010}, by introducing a novel state vector that eliminates the need for multiple hypothesis landmark representation. The paper proposes that under different circumstances the landmark could be represented using different parameters. Four circumstances are presented in the paper and the method is tested in simulation using both the EKF and a least squares optimization approach. The results showed that when the circumstances can be clearly distinguished between, an increase in performance is seen.
 	
 	
 	
@@ -247,6 +258,13 @@ As the number of particles increases the computational complexity of the filter 
 	\subsection{Graph}
 	
 	\subsection{Fast SLAM}
+	EKF is mainly used when we have a non-linear dynamic system model which has gaussian noise.[1]-[3].The quadratic complexity due to gaussian approximations of higher dimensions make the covariance matrix very large. This eventually cqauses higher complexity and leads to the divergence of the filter.The single data association problem also adds to this complexity. FastSLAM uses multiple hypothesis data association through particle filtering to overcome this problem. Thi allows it handle system models with non gaussians noise as well. This results in the computatoinal complexity to grow logarithmically instead of quadratic growth.
+	
+	FastSLAM utilizes the conditional Independence property of SLAM applications. If the path of the robot is known the correlation between the landmarks becomes zero. Hence in FastSLAM the robot path is initialised by using a particle fitler. Once the set of poses representing the path is obtained it estimates the landmark positions using EKF over the entire robot path as mentioned in [Fast Slam paper 1]. Thus it maintains mutliple data hypothesis overcoming the EKF problem.
+	
+	$p(x^{k}_(1:t)$ 
+	
+	
 	
 	%Brief introduction
 	
