@@ -1,4 +1,12 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.16)  26 JAN 2018 16:28
+=======
+<<<<<<< HEAD
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.19)  19 JAN 2018 11:35
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.16)  25 JAN 2018 18:32
+>>>>>>> e1352dae4b68e1e571022424caf752c639d0c7e5
+>>>>>>> parent of 2cc0b4d... removed .txt and .bib from git ignore
 entering extended mode
 **./Paper.tex
 (Paper.tex
@@ -218,9 +226,24 @@ Package grfext Info: Graphics extension search list:
 (grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
+<<<<<<< HEAD
 ) [1{C:/Users/samya/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+=======
+)
+<<<<<<< HEAD
+<Figures/DNR.png, id=1, 307.1475pt x 218.31563pt>
+File: Figures/DNR.png Graphic file (type png)
+<use Figures/DNR.png>
+Package pdftex.def Info: Figures/DNR.png  used on input line 61. on input line 
+61.
+Package pdftex.def Info: Requested size: 256.0748pt x 182.02472pt on input line
+ 61.
+>>>>>>> parent of 2cc0b4d... removed .txt and .bib from git ignore
 
+Overfull \hbox (4.0748pt too wide) in paragraph at lines 61--62
+=======
 
+<<<<<<< HEAD
 ]
 <coop_loc_comp_patwari.png, id=9, 485.56406pt x 248.42813pt>
 File: coop_loc_comp_patwari.png Graphic file (type png)
@@ -244,6 +267,153 @@ Package pdftex.def Info: Requested size: 256.0748pt x 165.1885pt on input line
 217.
 
 Overfull \hbox (4.0748pt too wide) in paragraph at lines 217--218
+=======
+LaTeX Warning: Citation `Partan2007' on page 1 undefined on input line 67.
+
+
+LaTeX Warning: Citation `Erol-Kantarci2011' on page 1 undefined on input line 6
+7.
+
+
+LaTeX Warning: Citation `Akyildiz2005' on page 1 undefined on input line 67.
+
+
+LaTeX Warning: Citation `Erol2007' on page 1 undefined on input line 69.
+
+
+LaTeX Warning: Citation `Erol2008' on page 1 undefined on input line 69.
+
+
+LaTeX Warning: File `DNR.png' not found on input line 75.
+
+
+! Package pdftex.def Error: File `DNR.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.75 	\includegraphics[width=90mm]{DNR.png}
+                                           
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 75.
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+Overfull \hbox (4.0748pt too wide) in paragraph at lines 75--76
+>>>>>>> e1352dae4b68e1e571022424caf752c639d0c7e5
+ [][] 
+ []
+
+
+LaTeX Warning: Citation `Erol-Kantarci2011' on page 1 undefined on input line 7
+7.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<<<<<<< HEAD
+[1{C:/Users/evilr/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+
+] [2 <./Figures/DNR.png>]
+<coop_loc_comp_patwari.png, id=15, 485.56406pt x 248.42813pt>
+File: coop_loc_comp_patwari.png Graphic file (type png)
+<use coop_loc_comp_patwari.png>
+Package pdftex.def Info: coop_loc_comp_patwari.png  used on input line 160. on 
+input line 160.
+Package pdftex.def Info: Requested size: 256.0748pt x 131.01427pt on input line
+ 160.
+
+Overfull \hbox (4.0748pt too wide) in paragraph at lines 160--161
+ [][] 
+ []
+
+<Figures/ROP_djugash.png, id=16, 417.81094pt x 269.50688pt>
+File: Figures/ROP_djugash.png Graphic file (type png)
+<use Figures/ROP_djugash.png>
+Package pdftex.def Info: Figures/ROP_djugash.png  used on input line 193. on in
+put line 193.
+Package pdftex.def Info: Requested size: 256.0748pt x 165.1885pt on input line 
+193.
+
+Overfull \hbox (4.0748pt too wide) in paragraph at lines 193--194
+ [][] 
+ []
+
+[3 <./coop_loc_comp_patwari.png> <./Figures/ROP_djugash.png>]
+<Figures/Particle_filter_method.JPG, id=22, 785.93625pt x 191.9672pt>
+File: Figures/Particle_filter_method.JPG Graphic file (type jpg)
+<use Figures/Particle_filter_method.JPG>
+Package pdftex.def Info: Figures/Particle_filter_method.JPG  used on input line
+ 233. on input line 233.
+Package pdftex.def Info: Requested size: 256.07384pt x 113.81326pt on input lin
+e 233.
+
+Overfull \hbox (4.07384pt too wide) in paragraph at lines 233--234
+=======
+
+LaTeX Warning: Citation `Padmanabhan2000' on page 1 undefined on input line 85.
+
+
+
+LaTeX Warning: Citation `Kurth2003a' on page 1 undefined on input line 85.
+
+
+LaTeX Warning: Citation `Baronti2007' on page 1 undefined on input line 87.
+
+
+LaTeX Warning: Citation `Khanafer2014' on page 1 undefined on input line 87.
+
+
+LaTeX Warning: Citation `Akyildiz2002' on page 1 undefined on input line 87.
+
+
+LaTeX Warning: Citation `Xia2011' on page 1 undefined on input line 87.
+
+
+LaTeX Warning: Citation `Baronti2007' on page 1 undefined on input line 87.
+
+
+LaTeX Warning: Citation `Akyildiz2002' on page 1 undefined on input line 87.
+
+
+LaTeX Warning: Citation `Baronti2007' on page 1 undefined on input line 87.
+
+
+LaTeX Warning: Citation `Xia2011' on page 1 undefined on input line 87.
+
+
+LaTeX Warning: Citation `Khanafer2014' on page 1 undefined on input line 87.
+
+[1{C:/Users/samya/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+
+] [2]
+<coop_loc_comp_patwari.png, id=13, 485.56406pt x 248.42813pt>
+File: coop_loc_comp_patwari.png Graphic file (type png)
+<use coop_loc_comp_patwari.png>
+Package pdftex.def Info: coop_loc_comp_patwari.png  used on input line 183. on 
+input line 183.
+Package pdftex.def Info: Requested size: 256.0748pt x 131.01427pt on input line
+ 183.
+
+Overfull \hbox (4.0748pt too wide) in paragraph at lines 183--184
+ [][] 
+ []
+
+<Figures/ROP_djugash.png, id=15, 417.81094pt x 269.50688pt>
+File: Figures/ROP_djugash.png Graphic file (type png)
+<use Figures/ROP_djugash.png>
+Package pdftex.def Info: Figures/ROP_djugash.png  used on input line 216. on in
+put line 216.
+Package pdftex.def Info: Requested size: 256.0748pt x 165.1885pt on input line 
+216.
+
+Overfull \hbox (4.0748pt too wide) in paragraph at lines 216--217
+>>>>>>> parent of 2cc0b4d... removed .txt and .bib from git ignore
  [][] 
  []
 
@@ -251,6 +421,7 @@ Overfull \hbox (4.0748pt too wide) in paragraph at lines 217--218
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [3 <./coop_loc_comp_patwari.png> <./Figures/ROP_djugash.png>]
+<<<<<<< HEAD
 <Figures/Particle_filter_method.JPG, id=20, 785.93625pt x 191.9672pt>
 File: Figures/Particle_filter_method.JPG Graphic file (type jpg)
 <use Figures/Particle_filter_method.JPG>
@@ -260,14 +431,34 @@ Package pdftex.def Info: Requested size: 256.07384pt x 113.81326pt on input lin
 e 257.
 
 Overfull \hbox (4.07384pt too wide) in paragraph at lines 257--258
+=======
+<Figures/Particle_filter_method.JPG, id=21, 785.93625pt x 191.9672pt>
+File: Figures/Particle_filter_method.JPG Graphic file (type jpg)
+<use Figures/Particle_filter_method.JPG>
+Package pdftex.def Info: Figures/Particle_filter_method.JPG  used on input line
+ 264. on input line 264.
+Package pdftex.def Info: Requested size: 256.07384pt x 113.81326pt on input lin
+e 264.
+
+Overfull \hbox (4.07384pt too wide) in paragraph at lines 264--265
+>>>>>>> e1352dae4b68e1e571022424caf752c639d0c7e5
+>>>>>>> parent of 2cc0b4d... removed .txt and .bib from git ignore
  [][] 
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
+<<<<<<< HEAD
 (Font)              <7> on input line 261.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 261.
 [4 <./Figures/Particle_filter_method.JPG>] (Paper.bbl
+=======
+<<<<<<< HEAD
+(Font)              <7> on input line 237.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 237.
+(Paper.bbl
+>>>>>>> parent of 2cc0b4d... removed .txt and .bib from git ignore
 Overfull \hbox (1.86987pt too wide) in paragraph at lines 31--37
 \OT1/ptm/m/n/8 http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=57
 14973 
@@ -279,7 +470,7 @@ Overfull \hbox (139.05283pt too wide) in paragraph at lines 45--51
 al.acm.org/citation.cfm?doid=1287812.1287833 
  []
 
-
+[4 <./Figures/Particle_filter_method.JPG>]
 Overfull \hbox (111.7975pt too wide) in paragraph at lines 87--93
 \OT1/ptm/m/n/8 http://ieeexplore.ieee.org/ielx7/9739/6811383/06687312.pdf?tp=&a
 rnumber=6687312&isnumber=6811383 
@@ -287,24 +478,34 @@ rnumber=6687312&isnumber=6811383
 
 
 Overfull \hbox (45.43745pt too wide) in paragraph at lines 130--135
+=======
+(Font)              <7> on input line 268.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 268.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4 <./Figures/Particle_filter_method.JPG>] (Paper.bbl
+Overfull \hbox (45.43745pt too wide) in paragraph at lines 33--38
+>>>>>>> e1352dae4b68e1e571022424caf752c639d0c7e5
 \OT1/ptm/m/n/8 http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.2.5088&
 rep=rep1&type=pdf 
  []
 
 
-Overfull \hbox (144.44357pt too wide) in paragraph at lines 156--161
+Overfull \hbox (144.44357pt too wide) in paragraph at lines 59--64
 \OT1/ptm/m/n/8 http://scholar.google.com/scholar?hl=en&btnG=Search&q=intitle:Ma
 chine+analysis+of+bubble+chamber+pictures#0 
  []
 
 
-Overfull \hbox (117.12553pt too wide) in paragraph at lines 164--168
+Overfull \hbox (117.12553pt too wide) in paragraph at lines 67--71
 \OT1/ptm/m/n/8 http://www.ri.cmu.edu/pub[]files/pub4/kurth[]derek[]2004[]1/kurt
 h[]derek[]2004[]1.pdf%5Cnpapers://c1ff9a07-
  []
 
 
-Overfull \hbox (1.86987pt too wide) in paragraph at lines 179--185
+Overfull \hbox (1.86987pt too wide) in paragraph at lines 82--88
 \OT1/ptm/m/n/8 http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=14
 58287 
  []
@@ -315,8 +516,13 @@ Missing character: There is no “ in font ptmr7t!
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
+<<<<<<< HEAD
 [5]
 Overfull \hbox (1.86987pt too wide) in paragraph at lines 235--241
+=======
+
+Overfull \hbox (1.86987pt too wide) in paragraph at lines 149--155
+>>>>>>> parent of 2cc0b4d... removed .txt and .bib from git ignore
 \OT1/ptm/m/n/8 http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=71
 40099 
  []
@@ -333,10 +539,10 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[6
-
-] (Paper.aux) ) 
+<<<<<<< HEAD
+[5] (Paper.aux) ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  2330 strings out of 493312
  38650 string characters out of 3138899
  108375 words of memory out of 3000000
@@ -355,8 +561,55 @@ b><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fo
 nts/type1/urw/times/utmri8a.pfb>
 Output written on Paper.pdf (6 pages, 307906 bytes).
+=======
+ 2335 strings out of 493312
+ 38691 string characters out of 3138899
+ 108375 words of memory out of 3000000
+ 5878 multiletter control sequences out of 15000+200000
+ 34143 words of font info for 63 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 41i,7n,25p,1760b,228s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/urw/times/utmri8a.pfb>
+Output written on Paper.pdf (5 pages, 397569 bytes).
+=======
+[5] (Paper.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 2368 strings out of 493312
+ 39160 string characters out of 3138899
+ 105331 words of memory out of 3000000
+ 5904 multiletter control sequences out of 15000+200000
+ 36872 words of font info for 67 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 41i,7n,25p,1760b,258s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy
+7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2
+.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/u
+rw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.
+pfb>
+Output written on Paper.pdf (5 pages, 310374 bytes).
+>>>>>>> e1352dae4b68e1e571022424caf752c639d0c7e5
+>>>>>>> parent of 2cc0b4d... removed .txt and .bib from git ignore
 PDF statistics:
- 68 PDF objects out of 1000 (max. 8388607)
+ 69 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
