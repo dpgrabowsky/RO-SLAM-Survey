@@ -119,8 +119,15 @@ A common aspect in many autonomous robotics applications is addressing the probl
 Beacons initialization refers to the process by which beacons (or landmarks) at an unknown position receive their initial position estimation. One of the complications with RO-SLAM involves the issue of determining the location of landmarks when their initial placement is unknown, the EKF, which is used by many implementations, is especially sensitive to poorly initialized landmarks as they are used as the basis for the convergence of an accurate estimate. Poorly approximated landmarks results in the divergence of the filter. These methods are further  divided into delayed and undelayed initializations.
 \subsection{Delayed/Offline initializations}
 These are methods that perform delayed localizations  where initially the robot moves around offline collects some measurements and then initializes the location of the landmarks. This can be undersirable as it causes a delay in the localization of the robot whenever there is a immediate real time application such as in autonomous vehicles. Localization can be performed only once a accurate estimations of the beacons are made. There are several offline algorithms that perform localization such as the least squares approach in[5 of Active range only beacon lov=calisationi],a posed based ekf as mentioned in[8] , a moving horizon estimation as mentioned in [9] etc. The most popular ones are mentioned below.
+
+\begin{figure}
+	\centering
+	\includegraphics[height=40mm,width=90mm]{Trilateration_methods.JPG}
+	\caption{The red arrow represents the robot.The 'X' represents the origin of the robot. The blue line shows the traversed path.The star represents the landmark. }
+	
+\end{figure}
 \subsubsection{Trilateration}
-[Pure Porbablisitc approach to RO  SLAM] mentions a basic trilateration technique involving geometric intersection. Rings are drawn at different points of the robots path as shown in Fig[1] , where the radius of the rings depend on the strength of the received signals from the beacons. This method of initialization is highly ambiguous as the rings can have more than 1 point of intersecting as shown in Fig[2]  or no  intersecting points as shown in Fig[3]. %more paperes needed
+[Pure Porbablisitc approach to RO  SLAM] mentions a basic trilateration technique involving geometric intersection. Rings are drawn at different points of the robots path as shown in Fig[a] , where the radius of the rings depend on the strength of the received signals from the beacons. This method of initialization is highly ambiguous as the rings can have more than 1 point of intersecting as shown in Fig[b]  or no  intersecting points as shown in Fig[c]. %more paperes needed
 \subsubsection{Particle filter}
 This takes a more probabilistic approach to estimating the initial location of the beacons. As mentioned in[thrun particle filter paper] initially the entire space is represented by particles. These particles are resampled based on importance weights every iteration. There are several resampling methods mentioned in[methods paper]. Eventually the particle set converges to the accurate location of the beacons. Though this method of localization can be computationally expensive it is preferred whenever the noise involved is non Gaussian.
 

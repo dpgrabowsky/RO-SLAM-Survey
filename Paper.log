@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.16)  28 JAN 2018 20:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.16)  28 JAN 2018 21:19
 entering extended mode
 **./Paper.tex
 (Paper.tex
@@ -221,31 +221,41 @@ G,.JBIG2,.JB2,.eps]
 ) [1{C:/Users/samya/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
-] [2]
-<coop_loc_comp_patwari.png, id=12, 485.56406pt x 248.42813pt>
-File: coop_loc_comp_patwari.png Graphic file (type png)
-<use coop_loc_comp_patwari.png>
-Package pdftex.def Info: coop_loc_comp_patwari.png  used on input line 184. on 
-input line 184.
-Package pdftex.def Info: Requested size: 256.0748pt x 131.01427pt on input line
- 184.
+]
+<Figures/Trilateration_methods.JPG, id=9, 902.6222pt x 313.9228pt>
+File: Figures/Trilateration_methods.JPG Graphic file (type jpg)
+<use Figures/Trilateration_methods.JPG>
+Package pdftex.def Info: Figures/Trilateration_methods.JPG  used on input line 
+125. on input line 125.
+Package pdftex.def Info: Requested size: 256.0793pt x 113.80727pt on input line
+ 125.
 
-Overfull \hbox (4.0748pt too wide) in paragraph at lines 184--185
+Overfull \hbox (4.0793pt too wide) in paragraph at lines 125--126
  [][] 
  []
 
+[2 <./Figures/Trilateration_methods.JPG>]
+<coop_loc_comp_patwari.png, id=13, 485.56406pt x 248.42813pt>
+File: coop_loc_comp_patwari.png Graphic file (type png)
+<use coop_loc_comp_patwari.png>
+Package pdftex.def Info: coop_loc_comp_patwari.png  used on input line 191. on 
+input line 191.
+Package pdftex.def Info: Requested size: 256.0748pt x 131.01427pt on input line
+ 191.
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+Overfull \hbox (4.0748pt too wide) in paragraph at lines 191--192
+ [][] 
+ []
 
-<Figures/ROP_djugash.png, id=14, 417.81094pt x 269.50688pt>
+<Figures/ROP_djugash.png, id=15, 417.81094pt x 269.50688pt>
 File: Figures/ROP_djugash.png Graphic file (type png)
 <use Figures/ROP_djugash.png>
-Package pdftex.def Info: Figures/ROP_djugash.png  used on input line 217. on in
-put line 217.
+Package pdftex.def Info: Figures/ROP_djugash.png  used on input line 224. on in
+put line 224.
 Package pdftex.def Info: Requested size: 256.0748pt x 165.1885pt on input line 
-217.
+224.
 
-Overfull \hbox (4.0748pt too wide) in paragraph at lines 217--218
+Overfull \hbox (4.0748pt too wide) in paragraph at lines 224--225
  [][] 
  []
 
@@ -253,26 +263,23 @@ Overfull \hbox (4.0748pt too wide) in paragraph at lines 217--218
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [3 <./coop_loc_comp_patwari.png>]
-<Figures/Particle_filter_method.JPG, id=19, 785.93625pt x 191.9672pt>
+<Figures/Particle_filter_method.JPG, id=20, 785.93625pt x 191.9672pt>
 File: Figures/Particle_filter_method.JPG Graphic file (type jpg)
 <use Figures/Particle_filter_method.JPG>
 Package pdftex.def Info: Figures/Particle_filter_method.JPG  used on input line
- 269. on input line 269.
+ 276. on input line 276.
 Package pdftex.def Info: Requested size: 256.07384pt x 113.81326pt on input lin
-e 269.
+e 276.
 
-Overfull \hbox (4.07384pt too wide) in paragraph at lines 269--270
+Overfull \hbox (4.07384pt too wide) in paragraph at lines 276--277
  [][] 
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 273.
+(Font)              <7> on input line 280.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 273.
-[4 <./Figures/ROP_djugash.png>]
-Underfull \vbox (badness 5726) has occurred while \output is active []
-
- (Paper.bbl
+(Font)              <5> on input line 280.
+[4 <./Figures/ROP_djugash.png>] (Paper.bbl
 Overfull \hbox (1.86987pt too wide) in paragraph at lines 31--37
 \OT1/ptm/m/n/8 http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=57
 14973 
@@ -340,10 +347,10 @@ Before submitting the final camera ready copy, remember to:
 
 [6] (Paper.aux) ) 
 Here is how much of TeX's memory you used:
- 2330 strings out of 493312
- 38650 string characters out of 3138899
+ 2335 strings out of 493312
+ 38826 string characters out of 3138899
  108375 words of memory out of 3000000
- 5874 multiletter control sequences out of 15000+200000
+ 5878 multiletter control sequences out of 15000+200000
  34143 words of font info for 63 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,7n,25p,1760b,228s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -357,9 +364,9 @@ msfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.
 pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program 
 Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/urw/times/utmri8a.pfb>
-Output written on Paper.pdf (6 pages, 307907 bytes).
+Output written on Paper.pdf (6 pages, 357357 bytes).
 PDF statistics:
- 68 PDF objects out of 1000 (max. 8388607)
+ 69 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
