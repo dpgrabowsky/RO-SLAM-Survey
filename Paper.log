@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.16)  28 JAN 2018 21:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.16)  29 JAN 2018 16:45
 entering extended mode
 **./Paper.tex
 (Paper.tex
@@ -263,23 +263,47 @@ Overfull \hbox (4.0748pt too wide) in paragraph at lines 224--225
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [3 <./coop_loc_comp_patwari.png>]
-<Figures/Particle_filter_method.JPG, id=20, 785.93625pt x 191.9672pt>
-File: Figures/Particle_filter_method.JPG Graphic file (type jpg)
-<use Figures/Particle_filter_method.JPG>
-Package pdftex.def Info: Figures/Particle_filter_method.JPG  used on input line
- 276. on input line 276.
-Package pdftex.def Info: Requested size: 256.07384pt x 113.81326pt on input lin
-e 276.
+<Figures/graph_slam.PNG, id=20, 326.6604pt x 275.1078pt>
+File: Figures/graph_slam.PNG Graphic file (type png)
+<use Figures/graph_slam.PNG>
+Package pdftex.def Info: Figures/graph_slam.PNG  used on input line 264. on inp
+ut line 264.
+Package pdftex.def Info: Requested size: 256.07507pt x 199.17728pt on input lin
+e 264.
 
-Overfull \hbox (4.07384pt too wide) in paragraph at lines 276--277
+Overfull \hbox (4.07507pt too wide) in paragraph at lines 264--265
  [][] 
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 280.
+(Font)              <8> on input line 265.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 280.
-[4 <./Figures/ROP_djugash.png>] (Paper.bbl
+(Font)              <6> on input line 265.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 265.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[4 <./Figures/ROP_djugash.png>]
+<Figures/Particle_filter_method.JPG, id=25, 785.93625pt x 191.9672pt>
+File: Figures/Particle_filter_method.JPG Graphic file (type jpg)
+<use Figures/Particle_filter_method.JPG>
+Package pdftex.def Info: Figures/Particle_filter_method.JPG  used on input line
+ 283. on input line 283.
+Package pdftex.def Info: Requested size: 256.07384pt x 113.81326pt on input lin
+e 283.
+
+Overfull \hbox (4.07384pt too wide) in paragraph at lines 283--284
+ [][] 
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 287.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[5 <./Figures/graph_slam.PNG> <./Figures/Particle_filter_method.JPG>]
+(Paper.bbl
 Overfull \hbox (1.86987pt too wide) in paragraph at lines 31--37
 \OT1/ptm/m/n/8 http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=57
 14973 
@@ -291,7 +315,7 @@ Overfull \hbox (139.05283pt too wide) in paragraph at lines 45--51
 al.acm.org/citation.cfm?doid=1287812.1287833 
  []
 
-[5 <./Figures/Particle_filter_method.JPG>]
+
 Overfull \hbox (111.7975pt too wide) in paragraph at lines 87--93
 \OT1/ptm/m/n/8 http://ieeexplore.ieee.org/ielx7/9739/6811383/06687312.pdf?tp=&a
 rnumber=6687312&isnumber=6811383 
@@ -347,26 +371,28 @@ Before submitting the final camera ready copy, remember to:
 
 [6] (Paper.aux) ) 
 Here is how much of TeX's memory you used:
- 2335 strings out of 493312
- 38826 string characters out of 3138899
+ 2355 strings out of 493312
+ 39089 string characters out of 3138899
  108375 words of memory out of 3000000
- 5878 multiletter control sequences out of 15000+200000
- 34143 words of font info for 63 fonts, out of 3000000 for 9000
+ 5890 multiletter control sequences out of 15000+200000
+ 35966 words of font info for 69 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,7n,25p,1760b,228s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/P
 rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program F
-iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.
-pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program 
-Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/urw/times/utmri8a.pfb>
-Output written on Paper.pdf (6 pages, 357357 bytes).
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.p
+fb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/ti
+mes/utmri8a.pfb>
+Output written on Paper.pdf (6 pages, 422176 bytes).
 PDF statistics:
- 69 PDF objects out of 1000 (max. 8388607)
+ 79 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

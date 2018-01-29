@@ -259,13 +259,20 @@ The information filter stores the relation between any 2 state elements in the i
 
 In [SEIF PAER 1] they further reduce the computational complexity of by utilizing the computational capabilities of the nodes or radio  beacons. Here the robot computes the preditcition stage of the iteration, send the information to the beacons where they compute the update of the process. Hence the computer burden on the robot is reduced. In addition they factored in inter beacon measurements to reduce uncertainity even furthur. In [seif paper 2] it evaluates and compares  the SEIF method for 3d SLAM using an octorotor In conclusion this menthod had better estimates and lesser computational burden than the traditionl RO SLAM mehtod using EKF. 
 
+\begin{figure}[h!]
+	\centering
+	\includegraphics[height=70mm,width=90mm]{graph_slam.PNG}
+	\caption{$z_k,\mu_k,x_k$ represents the measurement contraints, velocity constraints and the the robot path.}
+	
+\end{figure}
 
+	
+	
+	
+\subsection{Graph SLAM}
+Graph SLAM unlike the EKF solves the full SLAM problem. It is similar to the information filter in the way it represents the Gaussian  in the form of its information filter and information matrix. The key difference is in the sparseness maintained in the information matrix due to linearizion in graph SLAM as mentioned in[Probablisitic robotics]. This allows for the use of variable elimination algorithms and also maintain higher dimensional maps which were not possible using EKF.
 
-	
-	
-	
-	
-	\subsection{Graph SLAM}
+It represents the information in the form of a graph as show in figure. The nodes in the graph represent the robots path and the landmarks. The edges between them represents the spatial  constraints between them also known as information constraints. These constraints ae then linearised and are applied through standard inference techniques to acquire the full posterior.A manifold graph SLAM algorithm has been mentioned in [ turorial in graph slam].
 	
 \subsection{Particle}      %change the references
 Particles filters are made ue up various monte carlo algorithms. they are used to estimate states in partially observable Markov chains as shown in [9]. In  initial applications particle filters were used in the field of localization where it was used to estimate a robots pose from sensor data. It is considered better and more robust to conventional estimation methods because it was able to solve the global localization[2] and the kidnapped robot problem[14] which EKF in comparison has it drawbacks. It has also been at the core higher dimensional computational problems.  
