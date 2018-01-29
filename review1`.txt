@@ -9,7 +9,7 @@
 
 
 \begin{document}
-
+	
 	\title{A Survey of Range-Only SLAM Techniques and Sensors}
 	
 	
@@ -116,16 +116,16 @@ A common aspect in many autonomous robotics applications is addressing the probl
 
 
 \section{Beacon Initialization}
-Beacons initialization refers to the process by which beacons (or landmarks) at an unknown position receive their initial position estimation. One of the complications with RO-SLAM involves the issue of determining the location of landmarks when their initial placement is unknown, the EKF, which is used by many implementations, is especially sensitive to poorly initialized landmarks as they are used as the basis for the convergence of an accurate estimate. Poorly approximated landmarks results in the divergence of the filter. These methods are further  divided into delayed and undelayed initializations.
+Beacons initialization refers to the process by which beacons (or landmarks) at an unknown position receive their initial position estimation. One of the complications with RO-SLAM involves the issue of determining the location of landmarks when their initial placement is unknown, the EKF, which is used by many implementations, is especially sensitive to poorly initialized landmarks as they are used as the basis for the convergence of an accurate estimate. Poorly approximated landmarks results in the divergence of the filter. These processes are furthur  divided into delayed and undelayed initializations.
 \subsection{Delayed/Offline initializations}
-These are methods that perform delayed localizations  where initially the robot moves around offline collects some measurements and then initializes the location of the landmarks. This can be undersirable as it causes a delay in the localization of the robot whenever there is a immediate real time application such as in autonomous vehicles. Localization can be performed only once a accurate estimations of the beacons are made. There are several offline algorithms that perform localization such as the least squares approach in[5 of Active range only beacon lov=calisationi],a posed based ekf as mentioned in[8] , a moving horizon estimation as mentioned in [9] etc. The most popular ones are mentioned below.
+These are the intialisations where  therobots moves around offline collects some measurements and initialises the location of the landmarks.This can be undersirable as it causes a delay in the localization of the robot where there is a immediate real time application. Localization can be performed only once a accurate estimations of the beacons are made. There are several methods that achieve this. There are several offline algorithms that perform localization such as the least squares approach in[5 of Active range only beacon lov=calisationi],a posed based ekf as mentioned in[8] , a moving horizon estimation as mentioned in [9] etc. The most popular ones are mentioned below
 \subsubsection{Trilateration}
-[Pure Porbablisitc approach to RO  SLAM] mentions a basic trilateration technique involving geometric intersection. Rings are drawn at different points of the robots path as shown in Fig[1] , where the radius of the rings depend on the strength of the received signals from the beacons. This method of initialization is highly ambiguous as the rings can have more than 1 point of intersecting as shown in Fig[2]  or no  intersecting points as shown in Fig[3]. %more paperes needed
+[Pure Porbablisitc approach to RO  SLAM] mentions a basic trilateration technique where a basic  circle intersection technique. The rings are drawn at different points of the robots path , where the radius of the rings depends on the strength of the received sginal from the beacon. This method of intilizatio is highly ambiguous as the rings can have more than 1 point of intersecting  or no points intersecting. %more paperes needed
 \subsubsection{Particle filter}
-This takes a more probabilistic approach to estimating the initial location of the beacons. As mentioned in[thrun particle filter paper] initially the entire space is represented by particles. These particles are resampled based on importance weights every iteration. There are several resampling methods mentioned in[methods paper]. Eventually the particle set converges to the accurate location of the beacons. Though this method of localization can be computationally expensive it is preferred whenever the noise involved is non Gaussian.
+This takes a more probabilistic approach to estimating the initial location of the beacons. As mentioned in[thrun particle filter paper] initially the entire space is represented by particles. These particles are resampled based on importance weights every iteration. Eventually the particle set converges to a accurate location of the beacons. Though this method of localization can be computationally expensive it is preferred where the noise involved is non Gaussian.
 
 \subsection{Undelayed/Online initializations}
-In this case the robot simultaneously initializes and localizes itself and the beacons as it moves
+In this case the robot both initializes and localizes itself and the beacons as it moves.
 as mentioned in \cite{Caballero2010}. A Gaussian Mixture Model is integrated into the EKF to create a multiple hypothesis filter.  This multiple hypothesis approach is used to solve the RO-SLAM problem and its use allows for the un-delayed initialization of landmarks, however a large number of hypothesis can lead to increased computational burden. \cite{Geneve2015} also puts forward a method that utilizes a Gaussian mixtures for beacon initialization in EKF, but in this method only two hypotheses and a Cartesian plane. \cite{Ahmad2011a} proposes to reduce the computational burden of methods, such as the one proposed by \cite{Caballero2010}, by introducing a novel state vector that eliminates the need for multiple hypothesis landmark representation. The paper proposes that under different circumstances the landmark could be represented using different parameters. Four circumstances are presented in the paper and the method is tested in simulation using both the EKF and a least squares optimization approach. The results showed that when the circumstances can be clearly distinguished between, an increase in performance is seen.
 
 
@@ -245,12 +245,13 @@ as mentioned in \cite{Caballero2010}. A Gaussian Mixture Model is integrated int
 \subsection{Sparse Extended Information Filters}
 Need to add references
 
-Information filters work on same underlying Gaussian belief principle as that of EKF but vary in the way the Gaussian beliefs are represented. An IF algorithm is mentioned in[ probobilistic robotics book]. In EKF the gaussians are represented in the form of their moments; mean and variance, whereas in a information filter the gausiians in their conical parameterization which is comprised of a information matrix and information vector.Hence what is computational complex in EKF is simple in the other and vice versa. Hence they are dual to each other.
+Information filters work on same underlying Gaussian belief principle as that of EKF but vary in the way the Gaussian beliefs are represented. In EKF the gaussians are represented in the form of their moments; mean and 	variance, whereas in a information filter the gausiians in their conical parameterization which is comprised of a information matrix and information vector.Hence what is computational complex in EKF is simple in the other and vice versa. Hence they are dual to each other.
 Sparse Extended information filters is derived from the information filter Information filters but it maintains a sparse representation of the information matrix. This makes the SEIF more scalable and effiecient as show in [SEIF paper1] 
 
-The information filter stores the relation between any 2 state elements in the information matrix also known as links. The higer the vlaue of the link the stronger is the relationship between the 2 state variables and the more it is gonna effect the robot s state . SEIF maintains a sparse information matrix by eliminating weak inks that are below a certain threshold thus reducing the computational complexity involved .
+The information filter stores the relation between any 2 state elements in the information matrix also known as links. The higer the vlaue of the link the stronger is the relationship between the 2 state variables and the more it is gonna effect the robot s state . SEIF maintains a sparse information matrix by elimatinating weak inks that are below a certain threshold thus reducing the computational complexity involved .
 
-In [SEIF PAER 1] they further reduce the computational complexity of by utilizing the computational capabilities of the nodes or radio  beacons. Here the robot computes the preditcition stage of the iteration, send the information to the beacons where they compute the update of the process. Hence the computer burden on the robot is reduced. In addition they factored in inter beacon measurements to reduce uncertainity even furthur. In [seif paper 2] it evaluates and compares  the SEIF method for 3d SLAM using an octorotor In conclusion this menthod had better estimates and lesser computational burden than the traditionl RO SLAM mehtod using EKF. 
+In [SEIF PAER 1] they furthur reduce the computational complexity of by utilizing the computational capabilities of the nodes or radio  beacons. Here the robot computes the preditcition stage of the iteration, send the information to the beacons where they compute the update of the process. Hence the computer burden on the robot is reduced. In addition they factored in inter beacon measurements to reduce uncertainity even furthur.
+In conclusion this menthod ahad better estimates and lesser computational burden than the traditionl RO SLAM mehtod using EKF. 
 
 
 
@@ -261,9 +262,9 @@ In [SEIF PAER 1] they further reduce the computational complexity of by utilizin
 	\subsection{Graph SLAM}
 	
 \subsection{Particle}      %change the references
-Particles filters are made ue up various monte carlo algorithms. they are used to estimate states in partially observable Markov chains as shown in [9]. In  initial applications particle filters were used in the field of localization where it was used to estimate a robots pose from sensor data. It is considered better and more robust to conventional estimation methods because it was able to solve the global localization[2] and the kidnapped robot problem[14] which EKF in comparison has it drawbacks. It has also been at the core higher dimensional computational problems.  
+Particles filters are made ue up various monte carlo algorithms that are used to estimate states in partially observable Markov chains(see[9]). In the initial application of particle filters in the field of robotics was in localization where it was used to estimate a robots pose from sensor data. It is considered better and more robust to conventional estimation methods because it was able to solve the global localization[2] and the kidnapped robot problem[14].It has also been at the corre higher dimensional problems  
 %Description
-Initially robot assumes global uncertainity through a set of particles that are distributed all over the map. Hence both the robot and the landmarks are uncertain.As the robot moves around and measures sensor data it resamples the particle set weighted according to the probability of the particle being the right one. There are several resampling methods depending on computational complexities[sampling methods paper]. After some iterations only the particles which have a high degree of probability  remain and eventually converge to the state of the robot and the landmarks.
+Initially robot assumes global uncertainity through a set of particles that are distributed all over the map. Hence both the robot and the landmarks are uncertain.As the robot moves around and measures sensor data it resamples the particle set weighted according to the probability of the particle being the right one. There are several resampling methods depending on computational complexities. After some iterations only the particles which have a high degree of probability  reamain and eventually converge to the state of the robot and the landmarks.
 \begin{figure}[h!]
 	\centering
 	\includegraphics[height=40mm,width=90mm]{Particle_filter_method.JPG}
@@ -274,19 +275,29 @@ Assuming at time t=0;we have N particles equally space in the enviornment that a
 Once the robot starts moving it collects measurements and at time $t>0$ we sample a new particle set $x^{[i]}_t$ for each particle in $x^{[i]}_{(t-1)}$. It is sampled based on the probability of measurement $p(z_t|x^{[i]}_{(t-1)})$. Eventually the particle filter converges to give us the true positioning of the robot.
 
 
-As mentioned in[thrun particle] particle filters outperform EKF in applications involving global localization (the kidnapped robot problem ) where the robot is randomly picked up and placed in a unknown environment. 
-EKF cannot process negative information, but since particle filters use raw sensor data without any processing they can process negative information[probablistic robotics]
-As the number of particles increases the computational complexity of the filter too increases. In order to address this there were several new methods introduced that  exploit the independence among state variables. For example the Rao-Blackwellized particle filters that exploit the independence of the landmarks with the robot path thereby reducing the computation complexity from [Fast slam paper]. It also solves the data association problem previously unsolved by EKF[8].
+As mentioned in[thrun particle] particle filters outperform EKF in applications involving global localization (the kidnapped robot problem form[14]) where the robot is randomly picked up and placed in a unknown environment. 
+EKF cannot process negative information, but since particle filters use raw sensor data without any processing they can process negative information[thusn book[]
+As the number of particles increases the computational complexity of the filter too increases. In order to address this there were several new methods introduced that  exploit the independence among state variables. For example the Rao-Blackwellized particle filters that exploit the independence of the landmarks with the robot path thereby reducing the computation complexity. from [Fast slam paper]. It also solves the data association problem previously unsolved by EKF.[8]
 	
+\subsection{Sparse Extended Information Filters}
+Need to add references
 
+Information filters work on same underlying Gaussian belief principle as that of EKF but vary in the way the Gaussian beliefs are represented. In EKF the gaussians are represented in the form of their moments; mean and 	variance, whereas in a information filter the gausiians in their conical parameterization which is comprised of a information matrix and information vector.Hence what is computational complex in EKF is simple in the other and vice versa. Hence they are dual to each other.
+Sparse Extended information filters is derived from the information filter Information filters but it maintains a sparse representation of the information matrix. This makes the SEIF more scalable and effiecient as show in [SEIF paper1] 
+
+The information filter stores the relation between any 2 state elements in the information matrix also known as links. The higer the vlaue of the link the stronger is the relationship between the 2 state variables and the more it is gonna effect the robot s state . SEIF maintains a sparse information matrix by elimatinating weak inks that are below a certain threshold thus reducing the computational complexity involved .
+
+In [SEIF PAER 1] they furthur reduce the computational complexity of by utilizing the computational capabilities of the nodes or radio  beacons. Here the robot computes the preditcition stage of the iteration, send the information to the beacons where they compute the update of the process. Hence the computer burden on the robot is reduced. In addition they factored in inter beacon measurements to reduce uncertainity even furthur.
+In conclusion this menthod ahad better estimates and lesser computational burden than the traditionl RO SLAM mehtod using EKF. 	
+	
+	\subsection{Graph}
 	
 	\subsection{Fast SLAM}
-	EKF is mainly used when we have a non-linear dynamic system model which has Gaussian noise.The quadratic complexity due to Gaussian approximations of higher dimensions make the covariance matrix very large. This eventually causes higher complexity and leads to the divergence of the filter. The single data association problem also adds to this complexity. FastSLAM uses multiple hypothesis data association through particle filtering to overcome this problem. This allows it handle system models with non gaussians noise as well. This results in the computational complexity to grow logarithmically instead of quadratic growth.
+	EKF is mainly used when we have a non-linear dynamic system model which has gaussian noise.[1]-[3].The quadratic complexity due to gaussian approximations of higher dimensions make the covariance matrix very large. This eventually cqauses higher complexity and leads to the divergence of the filter.The single data association problem also adds to this complexity. FastSLAM uses multiple hypothesis data association through particle filtering to overcome this problem. Thi allows it handle system models with non gaussians noise as well. This results in the computatoinal complexity to grow logarithmically instead of quadratic growth.
 	
 	FastSLAM utilizes the conditional Independence property of SLAM applications. If the path of the robot is known the correlation between the landmarks becomes zero. Hence in FastSLAM the robot path is initialised by using a particle fitler. Once the set of poses representing the path is obtained it estimates the landmark positions using EKF over the entire robot path as mentioned in [Fast Slam paper 1]. Thus it maintains mutliple data hypothesis overcoming the EKF problem.
 	
-	As mentioned in [probablisitic robotics] the initial FAST SLAM algorithm  FASTSLAM 1.0  suffered from sample inefficency. In order to overcome this Rao blackwe the algorithm was tweaked to have a better target distrubtion in FASTSLAM 2.0. It was called the Rao-Blackwellized particle filter as mentioned in[fast slam 2]
-
+	$p(x^{k}_(1:t)$ 
 	
 	
 	

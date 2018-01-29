@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.16)  26 JAN 2018 16:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.16)  28 JAN 2018 20:50
 entering extended mode
 **./Paper.tex
 (Paper.tex
@@ -234,6 +234,9 @@ Overfull \hbox (4.0748pt too wide) in paragraph at lines 184--185
  [][] 
  []
 
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 <Figures/ROP_djugash.png, id=14, 417.81094pt x 269.50688pt>
 File: Figures/ROP_djugash.png Graphic file (type png)
 <use Figures/ROP_djugash.png>
@@ -254,22 +257,22 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: Figures/Particle_filter_method.JPG Graphic file (type jpg)
 <use Figures/Particle_filter_method.JPG>
 Package pdftex.def Info: Figures/Particle_filter_method.JPG  used on input line
- 270. on input line 270.
+ 269. on input line 269.
 Package pdftex.def Info: Requested size: 256.07384pt x 113.81326pt on input lin
-e 270.
+e 269.
 
-Overfull \hbox (4.07384pt too wide) in paragraph at lines 270--271
+Overfull \hbox (4.07384pt too wide) in paragraph at lines 269--270
  [][] 
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 274.
+(Font)              <7> on input line 273.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 274.
+(Font)              <5> on input line 273.
+[4 <./Figures/ROP_djugash.png>]
+Underfull \vbox (badness 5726) has occurred while \output is active []
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[4 <./Figures/ROP_djugash.png>] (Paper.bbl
+ (Paper.bbl
 Overfull \hbox (1.86987pt too wide) in paragraph at lines 31--37
 \OT1/ptm/m/n/8 http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=57
 14973 
@@ -354,7 +357,7 @@ msfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.
 pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program 
 Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/urw/times/utmri8a.pfb>
-Output written on Paper.pdf (6 pages, 311157 bytes).
+Output written on Paper.pdf (6 pages, 307907 bytes).
 PDF statistics:
  68 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
