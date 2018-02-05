@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.16)  5 FEB 2018 13:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.16)  5 FEB 2018 13:47
 entering extended mode
 **./Paper.tex
 (Paper.tex
@@ -222,9 +222,6 @@ G,.JBIG2,.JB2,.eps]
 
 
 ]
-
-LaTeX Warning: Citation `Newman2003' on page 2 undefined on input line 121.
-
 <Figures/Trilateration_methods.JPG, id=9, 902.6222pt x 313.9228pt>
 File: Figures/Trilateration_methods.JPG Graphic file (type jpg)
 <use Figures/Trilateration_methods.JPG>
@@ -391,32 +388,28 @@ Before submitting the final camera ready copy, remember to:
 
 [7
 
-] (Paper.aux)
-
-LaTeX Warning: There were undefined references.
-
- ) 
+] (Paper.aux) ) 
 Here is how much of TeX's memory you used:
- 2365 strings out of 493312
- 39219 string characters out of 3138899
+ 2363 strings out of 493312
+ 39201 string characters out of 3138899
  108403 words of memory out of 3000000
- 5899 multiletter control sequences out of 15000+200000
- 37073 words of font info for 70 fonts, out of 3000000 for 9000
+ 5898 multiletter control sequences out of 15000+200000
+ 35966 words of font info for 69 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,7n,25p,1760b,228s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7
-.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:
-/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program 
-Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/
-times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb
->
-Output written on Paper.pdf (7 pages, 424748 bytes).
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+msy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb
+><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program File
+s/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/time
+s/utmri8a.pfb>
+Output written on Paper.pdf (7 pages, 424340 bytes).
 PDF statistics:
  84 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
