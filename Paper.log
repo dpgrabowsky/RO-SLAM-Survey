@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.16)  5 FEB 2018 11:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.16)  5 FEB 2018 13:34
 entering extended mode
 **./Paper.tex
 (Paper.tex
@@ -325,25 +325,42 @@ rnumber=6687312&isnumber=6811383
  []
 
 
-Overfull \hbox (45.43745pt too wide) in paragraph at lines 130--135
+Underfull \hbox (badness 1558) in paragraph at lines 115--119
+\OT1/ptm/m/it/8 Un-cer-tainty in AI\OT1/ptm/m/n/8 , vol. 1, pp. 511--518, 2002.
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--119
+\OT1/ptm/m/n/8 [On-line]. Avail-able: http://uai.sis.pitt.edu/papers/02/p511-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--119
+\OT1/ptm/m/n/8 thrun.pdf%5Cnhttp://robots.stanford.edu/papers/thrun.pf-in-robot
+ics-
+ []
+
+
+Overfull \hbox (45.43745pt too wide) in paragraph at lines 142--147
 \OT1/ptm/m/n/8 http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.2.5088&
 rep=rep1&type=pdf 
  []
 
 
-Overfull \hbox (144.44357pt too wide) in paragraph at lines 156--161
+Overfull \hbox (144.44357pt too wide) in paragraph at lines 168--173
 \OT1/ptm/m/n/8 http://scholar.google.com/scholar?hl=en&btnG=Search&q=intitle:Ma
 chine+analysis+of+bubble+chamber+pictures#0 
  []
 
 
-Overfull \hbox (117.12553pt too wide) in paragraph at lines 164--168
+Overfull \hbox (117.12553pt too wide) in paragraph at lines 176--180
 \OT1/ptm/m/n/8 http://www.ri.cmu.edu/pub[]files/pub4/kurth[]derek[]2004[]1/kurt
 h[]derek[]2004[]1.pdf%5Cnpapers://c1ff9a07-
  []
 
 
-Overfull \hbox (1.86987pt too wide) in paragraph at lines 179--185
+Overfull \hbox (1.86987pt too wide) in paragraph at lines 191--197
 \OT1/ptm/m/n/8 http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=14
 58287 
  []
@@ -355,12 +372,12 @@ Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
 
-Overfull \hbox (1.86987pt too wide) in paragraph at lines 235--241
+Overfull \hbox (1.86987pt too wide) in paragraph at lines 247--253
 \OT1/ptm/m/n/8 http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=71
 40099 
  []
 
-)
+[6])
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -372,16 +389,18 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[6] (Paper.aux)
+[7
+
+] (Paper.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 2357 strings out of 493312
- 39107 string characters out of 3138899
- 108375 words of memory out of 3000000
- 5891 multiletter control sequences out of 15000+200000
+ 2365 strings out of 493312
+ 39219 string characters out of 3138899
+ 108403 words of memory out of 3000000
+ 5899 multiletter control sequences out of 15000+200000
  37073 words of font info for 70 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,7n,25p,1760b,228s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -397,9 +416,9 @@ Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/
 times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb
 >
-Output written on Paper.pdf (6 pages, 422504 bytes).
+Output written on Paper.pdf (7 pages, 424748 bytes).
 PDF statistics:
- 79 PDF objects out of 1000 (max. 8388607)
+ 84 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

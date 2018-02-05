@@ -103,6 +103,25 @@ I.~Akyildiz, W.~Su, Y.~Sankarasubramaniam, and E.~Cayirci, ``{Wireless sensor
 F.~Xia, R.~Hao, Y.~Cao, and L.~Xue, ``{A survey of adaptive and real-time
   protocols based on IEEE 802.15.4},'' 2011.
 
+\bibitem{Thrun2002}
+\BIBentryALTinterwordspacing
+S.~Thrun, ``{Probabilistic robotics},'' \emph{Communications of the ACM},
+  vol.~45, no.~3, 2002. [Online]. Available:
+  \url{http://portal.acm.org/citation.cfm?doid=504729.504754}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Thrun2002a}
+\BIBentryALTinterwordspacing
+------, ``{Particle Filters in Robotics},'' \emph{Proceedings of Uncertainty in
+  AI}, vol.~1, pp. 511--518, 2002. [Online]. Available:
+  \url{http://uai.sis.pitt.edu/papers/02/p511-thrun.pdf{\%}5Cnhttp://robots.stanford.edu/papers/thrun.pf-in-robotics-uai02.pdf}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Li2015}
+T.~Li, M.~Boli{\'{c}}, and P.~M. Djuri{\'{c}}, ``{Resampling Methods for
+  Particle Filtering: Classification, implementation, and strategies},''
+  \emph{IEEE Signal Processing Magazine}, vol.~32, no.~3, pp. 70--86, 2015.
+
 \bibitem{Caballero2010}
 F.~Caballero, L.~Merino, and A.~Ollero, ``{A general Gaussian-mixture approach
   for range-only mapping using multiple hypotheses},'' \emph{Proceedings - IEEE
@@ -117,13 +136,6 @@ L.~Geneve, O.~Kermorgant, and E.~Laroche, ``{A composite beacon initialization
 A.~Ahmad, S.~Huang, J.~J. Wang, and G.~Dissanayake, ``{A new state vector for
   range-only SLAM},'' \emph{Proceedings of the 2011 Chinese Control and
   Decision Conference, CCDC 2011}, pp. 3404--3409, 2011.
-
-\bibitem{Thrun2002}
-\BIBentryALTinterwordspacing
-S.~Thrun, ``{Probabilistic robotics},'' \emph{Communications of the ACM},
-  vol.~45, no.~3, 2002. [Online]. Available:
-  \url{http://portal.acm.org/citation.cfm?doid=504729.504754}
-\BIBentrySTDinterwordspacing
 
 \bibitem{Ribeiro2004}
 \BIBentryALTinterwordspacing
@@ -238,5 +250,37 @@ F.~Fabresse, F.~Caballero, and A.~Ollero, ``{Decentralized simultaneous
   Automation (ICRA)}, pp. 6408--6414, 2015. [Online]. Available:
   \url{http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=7140099}
 \BIBentrySTDinterwordspacing
+
+\bibitem{Torres-Gonzalez2014}
+A.~Torres-Gonz{\'{a}}lez, J.~R. {Martinez-De Dios}, and A.~Ollero, ``{Efficient
+  robot-sensor network distributed SEIF range-only SLAM},'' \emph{Proceedings -
+  IEEE International Conference on Robotics and Automation}, pp. 1319--1326,
+  2014.
+
+\bibitem{Torres-Gonzalez2017}
+A.~Torres-Gonz{\'{a}}lez, J.~R. {Martinez-de Dios}, and A.~Ollero,
+  ``{Range-only SLAM for robot-sensor network cooperation},'' \emph{Autonomous
+  Robots}, pp. 1--15, 2017.
+
+\bibitem{Doucet2001}
+\BIBentryALTinterwordspacing
+a.~Doucet, N.~{De Freitas}, and N.~Gordon, ``{Sequential Monte Carlo Methods in
+  Practice},'' \emph{Springer New York}, pp. 178--195, 2001. [Online].
+  Available: \url{http://www-sigproc.eng.cam.ac.uk/{~}ad2/book.html}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Engelson1992}
+\BIBentryALTinterwordspacing
+S.~Engelson and D.~McDermott, ``{Error correction in mobile robot map
+  learning},'' in \emph{Proceedings 1992 IEEE International Conference on
+  Robotics and Automation}, 1992, pp. 2555--2560. [Online]. Available:
+  \url{http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=220057}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Montemerlo2003}
+M.~Montemerlo, S.~Thrun, D.~Roller, and B.~Wegbreit, ``{FastSLAM 2.0: An
+  improved particle filtering algorithm for simultaneous localization and
+  mapping that provably converges},'' in \emph{IJCAI International Joint
+  Conference on Artificial Intelligence}, 2003, pp. 1151--1156.
 
 \end{thebibliography}
