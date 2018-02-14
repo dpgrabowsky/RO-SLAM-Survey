@@ -27,13 +27,10 @@ J.~Partan, J.~Kurose, and B.~N. Levine, ``{A survey of practical issues in
   Communications Review}, vol.~11, no.~4, p.~23, 2007.
 
 \bibitem{Erol-Kantarci2011}
-\BIBentryALTinterwordspacing
 M.~Erol-Kantarci, H.~T. Mouftah, and S.~Oktug, ``{A Survey of Architectures and
   Localization Techniques for Underwater Acoustic Sensor Networks},''
   \emph{IEEE Communications Surveys {\&} Tutorials}, vol.~13, no.~3, pp.
-  487--502, 2011. [Online]. Available:
-  \url{http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=5714973}
-\BIBentrySTDinterwordspacing
+  487--502, 2011.
 
 \bibitem{Akyildiz2005}
 I.~F. Akyildiz, D.~Pompili, and T.~Melodia, ``{Underwater acoustic sensor
@@ -41,13 +38,9 @@ I.~F. Akyildiz, D.~Pompili, and T.~Melodia, ``{Underwater acoustic sensor
   257--279, 2005.
 
 \bibitem{Erol2007}
-\BIBentryALTinterwordspacing
 M.~Erol, L.~F.~M. Vieira, and M.~Gerla, ``{Localization with Dive'N'Rise (DNR)
   beacons for underwater acoustic sensor networks},'' in \emph{Proceedings of
   the second workshop on Underwater networks - WuWNet '07}, 2007, p.~97.
-  [Online]. Available:
-  \url{http://dl.acm.org/citation.cfm?id=1287812.1287833{\%}5Cnhttp://portal.acm.org/citation.cfm?doid=1287812.1287833}
-\BIBentrySTDinterwordspacing
 
 \bibitem{Erol2008}
 M.~Erol, L.~F.~M. Vieira, A.~Caruso, F.~Paparella, M.~Gerla, and S.~Oktug,
@@ -58,23 +51,16 @@ M.~Erol, L.~F.~M. Vieira, A.~Caruso, F.~Paparella, M.~Gerla, and S.~Oktug,
   2008.
 
 \bibitem{Padmanabhan2000}
-\BIBentryALTinterwordspacing
 P.~B. Padmanabhan and V.~N., ``{RADAR: An in-building RF based user location
   and tracking system},'' \emph{Proceedings IEEE INFOCOM 2000. Conference on
   Computer Communications. Nineteenth Annual Joint Conference of the IEEE
   Computer and Communications Societies (Cat. No.00CH37064)}, vol.~2, no.~c,
-  pp. 775--784, 2000. [Online]. Available:
-  \url{http://research.microsoft.com/en-us/groups/sn-res/infocom2000.pdf}
-\BIBentrySTDinterwordspacing
+  pp. 775--784, 2000.
 
 \bibitem{Kurth2003a}
-\BIBentryALTinterwordspacing
 D.~Kurth, G.~Kantor, and S.~Singh, ``{Experimental Results in Range-Only
   Localization with Radio},'' \emph{Intelligent Robots and Systems,
-  International Conference on}, no. October, pp. 974--979, 2003. [Online].
-  Available:
-  \url{http://ieeexplore.ieee.org/xpls/abs{\_}all.jsp?arnumber=1250754}
-\BIBentrySTDinterwordspacing
+  International Conference on}, no. October, pp. 974--979, 2003.
 
 \bibitem{Gezici2005}
 S.~Gezici, Z.~Tian, G.~B. Giannakis, H.~Kobayashi, A.~F. Molisch, H.~V. Poor,
@@ -83,28 +69,19 @@ S.~Gezici, Z.~Tian, G.~B. Giannakis, H.~Kobayashi, A.~F. Molisch, H.~V. Poor,
   Processing Magazine}, vol.~22, no.~4, pp. 70--84, 2005.
 
 \bibitem{Youssef2005}
-\BIBentryALTinterwordspacing
 M.~Youssef and A.~Agrawala, ``{The Horus WLAN location determination system},''
   in \emph{Proceedings of the 3rd international conference on Mobile systems,
-  applications, and services - MobiSys '05}, 2005, p. 205. [Online]. Available:
-  \url{http://portal.acm.org/citation.cfm?doid=1067170.1067193}
-\BIBentrySTDinterwordspacing
+  applications, and services - MobiSys '05}, 2005, p. 205.
 
 \bibitem{Sen2013}
-\BIBentryALTinterwordspacing
 S.~Sen, J.~Lee, K.-H. Kim, and P.~Congdon, ``{Avoiding multipath to revive
   inbuilding WiFi localization},'' \emph{Proceeding of the 11th annual
   international conference on Mobile systems, applications, and services -
-  MobiSys '13}, p. 249, 2013. [Online]. Available:
-  \url{http://dl.acm.org/citation.cfm?id=2462456.2464463}
-\BIBentrySTDinterwordspacing
+  MobiSys '13}, p. 249, 2013.
 
 \bibitem{Kotaru2015}
-\BIBentryALTinterwordspacing
 M.~Kotaru, K.~Joshi, D.~Bharadia, and S.~Katti, ``{SpotFi : Decimeter Level
   Localization Using WiFi},'' \emph{Sigcomm 2015}, pp. 269--282, 2015.
-  [Online]. Available: \url{Stanford University}
-\BIBentrySTDinterwordspacing
 
 \bibitem{Rea2017}
 M.~Rea, A.~Fakhreddine, D.~Giustiniano, and V.~Lenders, ``{Filtering Noisy
@@ -119,21 +96,14 @@ P.~Baronti, P.~Pillai, V.~W.~C. Chook, S.~Chessa, A.~Gotta, and Y.~F. Hu,
   no.~7, pp. 1655--1695, 2007.
 
 \bibitem{Khanafer2014}
-\BIBentryALTinterwordspacing
 M.~Khanafer, M.~Guennoun, and H.~T. Mouftah, ``{A Survey of Beacon-Enabled IEEE
   802.15.4 MAC Protocols in Wireless Sensor Networks},'' \emph{IEEE
   Communications Surveys Tutorials}, vol.~16, no.~2, pp. 856--876, 2014.
-  [Online]. Available:
-  \url{http://ieeexplore.ieee.org/ielx7/9739/6811383/06687312.pdf?tp={\&}arnumber=6687312{\&}isnumber=6811383}
-\BIBentrySTDinterwordspacing
 
 \bibitem{Akyildiz2002}
-\BIBentryALTinterwordspacing
 I.~Akyildiz, W.~Su, Y.~Sankarasubramaniam, and E.~Cayirci, ``{Wireless sensor
   networks: a survey},'' \emph{Computer Networks}, vol.~38, no.~4, pp.
-  393--422, 2002. [Online]. Available:
-  \url{http://www.sciencedirect.com/science/article/pii/S1389128601003024}
-\BIBentrySTDinterwordspacing
+  393--422, 2002.
 
 \bibitem{Xia2011}
 F.~Xia, R.~Hao, Y.~Cao, and L.~Xue, ``{A survey of adaptive and real-time
@@ -145,18 +115,12 @@ P.~Newman and J.~Leonard, ``{Pure range-only sub-sea SLAM},'' in \emph{2003
   No.03CH37422)}.
 
 \bibitem{Thrun2002}
-\BIBentryALTinterwordspacing
 S.~Thrun, ``{Probabilistic robotics},'' \emph{Communications of the ACM},
-  vol.~45, no.~3, 2002. [Online]. Available:
-  \url{http://portal.acm.org/citation.cfm?doid=504729.504754}
-\BIBentrySTDinterwordspacing
+  vol.~45, no.~3, 2002.
 
 \bibitem{Thrun2002a}
-\BIBentryALTinterwordspacing
 ------, ``{Particle Filters in Robotics},'' \emph{Proceedings of Uncertainty in
-  AI}, vol.~1, pp. 511--518, 2002. [Online]. Available:
-  \url{http://uai.sis.pitt.edu/papers/02/p511-thrun.pdf{\%}5Cnhttp://robots.stanford.edu/papers/thrun.pf-in-robotics-uai02.pdf}
-\BIBentrySTDinterwordspacing
+  AI}, vol.~1, pp. 511--518, 2002.
 
 \bibitem{Li2015}
 T.~Li, M.~Boli{\'{c}}, and P.~M. Djuri{\'{c}}, ``{Resampling Methods for
@@ -179,12 +143,9 @@ A.~Ahmad, S.~Huang, J.~J. Wang, and G.~Dissanayake, ``{A new state vector for
   Decision Conference, CCDC 2011}, pp. 3404--3409, 2011.
 
 \bibitem{Ribeiro2004}
-\BIBentryALTinterwordspacing
 M.~I. Ribeiro, ``{Kalman and Extended Kalman Filters : Concept , Derivation and
   Properties},'' \emph{Institute for Systems and Robotics Lisboa Portugal}, no.
-  February, p.~42, 2004. [Online]. Available:
-  \url{http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.2.5088{\&}rep=rep1{\&}type=pdf}
-\BIBentrySTDinterwordspacing
+  February, p.~42, 2004.
 
 \bibitem{Haykin2001}
 S.~Haykin, \emph{{Kalman Filters}}, 2001, vol.~5.
@@ -205,36 +166,24 @@ E.~Olson, J.~J. Leonard, and S.~Teller, ``{Robust range-only beacon
   pp. 949--958, 2006.
 
 \bibitem{Hough1959}
-\BIBentryALTinterwordspacing
 P.~V.~C. Hough, ``{Machine analysis of bubble chamber pictures},'' \emph{2nd
   International Conference on High-Energy Accelerators and Instrumentation},
-  vol.~73, pp. 554--558, 1959. [Online]. Available:
-  \url{http://scholar.google.com/scholar?hl=en{\&}btnG=Search{\&}q=intitle:Machine+analysis+of+bubble+chamber+pictures{\#}0}
-\BIBentrySTDinterwordspacing
+  vol.~73, pp. 554--558, 1959.
 
 \bibitem{Kurth2003}
-\BIBentryALTinterwordspacing
 D.~Kurth, ``{Range-only robot localization and SLAM with radio},''
-  \emph{Robotics Institute}, no. May, 2003. [Online]. Available:
-  \url{http://www.ri.cmu.edu/pub{\_}files/pub4/kurth{\_}derek{\_}2004{\_}1/kurth{\_}derek{\_}2004{\_}1.pdf{\%}5Cnpapers://c1ff9a07-d93a-4c8c-9965-c2843865360b/Paper/p472}
-\BIBentrySTDinterwordspacing
+  \emph{Robotics Institute}, no. May, 2003.
 
 \bibitem{Vallicrosa2015}
-\BIBentryALTinterwordspacing
 G.~Vallicrosa, P.~Ridao, and D.~Ribas, ``{AUV single beacon range-only SLAM
   with a SOG filter},'' \emph{IFAC-PapersOnLine}, vol.~28, no.~2, pp. 26--31,
-  2015. [Online]. Available:
-  \url{http://dx.doi.org/10.1016/j.ifacol.2015.06.005}
-\BIBentrySTDinterwordspacing
+  2015.
 
 \bibitem{Patwari2005}
-\BIBentryALTinterwordspacing
 N.~Patwari, J.~Ash, S.~Kyperountas, A.~Hero, R.~Moses, and N.~Correal,
   ``{Locating the nodes: cooperative localization in wireless sensor
   networks},'' \emph{IEEE Signal Processing Magazine}, vol.~22, no.~4, pp.
-  54--69, 2005. [Online]. Available:
-  \url{http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=1458287}
-\BIBentrySTDinterwordspacing
+  54--69, 2005.
 
 \bibitem{Torres-Gonzalez2015}
 A.~Torres-Gonz{\'{a}}lez, J.~R. {Mart{\'{i}}nez-De Dios}, and A.~Ollero,
@@ -242,12 +191,9 @@ A.~Torres-Gonz{\'{a}}lez, J.~R. {Mart{\'{i}}nez-De Dios}, and A.~Ollero,
   \emph{Studies in Computational Intelligence}, vol. 604, pp. 101--119, 2015.
 
 \bibitem{Djugash2006}
-\BIBentryALTinterwordspacing
 J.~A. Djugash, S.~Singh, G.~Kantor, W.~Zhang, and J.~Djugash, ``{Range-Only
   SLAM for Robots Operating Cooperatively with Sensor Networks},'' no. May, pp.
-  2078--2084, 2006. [Online]. Available:
-  \url{http://repository.cmu.edu/robotics}
-\BIBentrySTDinterwordspacing
+  2078--2084, 2006.
 
 \bibitem{Herranz2014}
 F.~Herranz, A.~Llamazares, E.~Molinos, and M.~Ocana, ``{A comparison of SLAM
@@ -279,13 +225,10 @@ F.~R. Fabresse, F.~Caballero, I.~Maza, and A.~Ollero, ``{Undelayed 3D RO-SLAM
   Conference Proceedings}, pp. 750--755, 2014.
 
 \bibitem{Fabresse2015}
-\BIBentryALTinterwordspacing
 F.~Fabresse, F.~Caballero, and A.~Ollero, ``{Decentralized simultaneous
   localization and mapping for multiple aerial vehicles using range-only
   sensors},'' \emph{2015 IEEE International Conference on Robotics and
-  Automation (ICRA)}, pp. 6408--6414, 2015. [Online]. Available:
-  \url{http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=7140099}
-\BIBentrySTDinterwordspacing
+  Automation (ICRA)}, pp. 6408--6414, 2015.
 
 \bibitem{Torres-Gonzalez2014}
 A.~Torres-Gonz{\'{a}}lez, J.~R. {Martinez-De Dios}, and A.~Ollero, ``{Efficient
@@ -299,19 +242,13 @@ A.~Torres-Gonz{\'{a}}lez, J.~R. {Martinez-de Dios}, and A.~Ollero,
   Robots}, pp. 1--15, 2017.
 
 \bibitem{Doucet2001}
-\BIBentryALTinterwordspacing
 a.~Doucet, N.~{De Freitas}, and N.~Gordon, ``{Sequential Monte Carlo Methods in
-  Practice},'' \emph{Springer New York}, pp. 178--195, 2001. [Online].
-  Available: \url{http://www-sigproc.eng.cam.ac.uk/{~}ad2/book.html}
-\BIBentrySTDinterwordspacing
+  Practice},'' \emph{Springer New York}, pp. 178--195, 2001.
 
 \bibitem{Engelson1992}
-\BIBentryALTinterwordspacing
 S.~Engelson and D.~McDermott, ``{Error correction in mobile robot map
   learning},'' in \emph{Proceedings 1992 IEEE International Conference on
-  Robotics and Automation}, 1992, pp. 2555--2560. [Online]. Available:
-  \url{http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=220057}
-\BIBentrySTDinterwordspacing
+  Robotics and Automation}, 1992, pp. 2555--2560.
 
 \bibitem{Yuan2012}
 J.~Yuan, Y.~Huang, F.~Sun, S.~Huang, and H.~Chen, ``{Mobile robot active

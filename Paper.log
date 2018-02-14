@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.3)  14 FEB 2018 11:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.3)  14 FEB 2018 11:32
 entering extended mode
 **./Paper.tex
 (Paper.tex
@@ -310,77 +310,14 @@ Overfull \hbox (4.07384pt too wide) in paragraph at lines 274--275
  [][] 
  []
 
-[5 <./Figures/graph_slam.PNG>] (Paper.bbl
-Overfull \hbox (1.86987pt too wide) in paragraph at lines 31--37
-\OT1/ptm/m/n/8 http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=57
-14973 
- []
-
-
-Overfull \hbox (139.05283pt too wide) in paragraph at lines 45--51
-\OT1/ptm/m/n/8 http://dl.acm.org/citation.cfm?id=1287812.1287833%5Cnhttp://port
-al.acm.org/citation.cfm?doid=1287812.1287833 
- []
-
-[6 <./Figures/Particle_filter_method.JPG>]
-Overfull \hbox (111.7975pt too wide) in paragraph at lines 123--129
-\OT1/ptm/m/n/8 http://ieeexplore.ieee.org/ielx7/9739/6811383/06687312.pdf?tp=&a
-rnumber=6687312&isnumber=6811383 
- []
-
-
-Underfull \hbox (badness 1558) in paragraph at lines 156--160
-\OT1/ptm/m/it/8 Un-cer-tainty in AI\OT1/ptm/m/n/8 , vol. 1, pp. 511--518, 2002.
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 156--160
-\OT1/ptm/m/n/8 [On-line]. Avail-able: http://uai.sis.pitt.edu/papers/02/p511-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 156--160
-\OT1/ptm/m/n/8 thrun.pdf%5Cnhttp://robots.stanford.edu/papers/thrun.pf-in-robot
-ics-
- []
-
-
-Overfull \hbox (45.43745pt too wide) in paragraph at lines 183--188
-\OT1/ptm/m/n/8 http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.2.5088&
-rep=rep1&type=pdf 
- []
-
-
-Overfull \hbox (144.44357pt too wide) in paragraph at lines 209--214
-\OT1/ptm/m/n/8 http://scholar.google.com/scholar?hl=en&btnG=Search&q=intitle:Ma
-chine+analysis+of+bubble+chamber+pictures#0 
- []
-
-
-Overfull \hbox (117.12553pt too wide) in paragraph at lines 217--221
-\OT1/ptm/m/n/8 http://www.ri.cmu.edu/pub[]files/pub4/kurth[]derek[]2004[]1/kurt
-h[]derek[]2004[]1.pdf%5Cnpapers://c1ff9a07-
- []
-
-
-Overfull \hbox (1.86987pt too wide) in paragraph at lines 232--238
-\OT1/ptm/m/n/8 http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=14
-58287 
- []
-
+[5 <./Figures/graph_slam.PNG>] (Paper.bbl [6 <./Figures/Particle_filter_method.
+JPG>]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
-
-Overfull \hbox (1.86987pt too wide) in paragraph at lines 283--289
-\OT1/ptm/m/n/8 http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=71
-40099 
- []
-
 )
 
 ** Conference Paper **
@@ -399,10 +336,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 2446 strings out of 493323
- 40138 string characters out of 3139034
- 111696 words of memory out of 3000000
- 5971 multiletter control sequences out of 15000+200000
+ 2445 strings out of 493323
+ 40120 string characters out of 3139034
+ 112696 words of memory out of 3000000
+ 5970 multiletter control sequences out of 15000+200000
  38496 words of font info for 74 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,11n,27p,1760b,318s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -418,7 +355,7 @@ Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiK
 TeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
 e1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utm
 r8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Paper.pdf (7 pages, 438531 bytes).
+Output written on Paper.pdf (7 pages, 435716 bytes).
 PDF statistics:
  88 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
