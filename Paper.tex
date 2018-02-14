@@ -111,7 +111,7 @@
 
 		\begin{figure}
 			\centering
-			\includegraphics[height=40mm,width=90mm]{Trilateration_methods.JPG}
+			\includegraphics[height=30mm,width=90mm]{Trilateration_methods.JPG}
 			\caption{The red arrow represents the robot.The 'X' represents the origin of the robot. The blue line shows the traversed path.The star represents the landmark. }
 		\end{figure}
 	
@@ -276,7 +276,7 @@ EKF cannot process negative information, but since particle filters use raw sens
 As the number of particles increases the computational complexity of the filter too increases. In order to address this there were several new methods introduced that  exploit the independence among state variables. For example the Rao-Blackwellized particle filters that exploit the independence of the landmarks with the robot path thereby reducing the computation complexity from \cite{Yuan2012}. It also solves the data association problem previously unsolved by EKF.
 	
 
-In /cite{Blanco2008a} uses the particle filter to overcome the delayed initialization issue brought forward by RO SLAM. It uses the Rao-Blackwellized Particle filter to maintain a conditional distribution for each beacon which eventually is transformed into a EKF when the uncertainty becomes sufficiently small. This approach is validated for both simulated and real data sets. This approach is preferred in indoor applications where there is a high probability of multi path signal propagation.
+In \cite{Blanco2008a} uses the particle filter to overcome the delayed initialization issue brought forward by RO SLAM. It uses the Rao-Blackwellized Particle filter to maintain a conditional distribution for each beacon which eventually is transformed into a EKF when the uncertainty becomes sufficiently small. This approach is validated for both simulated and real data sets. This approach is preferred in indoor applications where there is a high probability of multi path signal propagation.
 
 	
 	

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.16)  14 FEB 2018 15:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.16)  14 FEB 2018 16:06
 entering extended mode
 **./Paper.tex
 (Paper.tex
@@ -241,15 +241,15 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ] [2]
-<Figures/Trilateration_methods.JPG, id=13, 902.6222pt x 313.9228pt>
+<Figures/Trilateration_methods.JPG, id=13, 692.5875pt x 225.09094pt>
 File: Figures/Trilateration_methods.JPG Graphic file (type jpg)
 <use Figures/Trilateration_methods.JPG>
 Package pdftex.def Info: Figures/Trilateration_methods.JPG  used on input line 
 114. on input line 114.
-Package pdftex.def Info: Requested size: 256.0793pt x 113.80727pt on input line
- 114.
+Package pdftex.def Info: Requested size: 256.0737pt x 85.35684pt on input line 
+114.
 
-Overfull \hbox (4.0793pt too wide) in paragraph at lines 114--115
+Overfull \hbox (4.0737pt too wide) in paragraph at lines 114--115
  [][] 
  []
 
@@ -314,10 +314,10 @@ Before submitting the final camera ready copy, remember to:
 
 ] (Paper.aux) ) 
 Here is how much of TeX's memory you used:
- 2383 strings out of 493312
- 39499 string characters out of 3138899
- 108459 words of memory out of 3000000
- 5920 multiletter control sequences out of 15000+200000
+ 2384 strings out of 493312
+ 39512 string characters out of 3138899
+ 109463 words of memory out of 3000000
+ 5921 multiletter control sequences out of 15000+200000
  37389 words of font info for 73 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,11n,27p,1760b,318s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -332,7 +332,7 @@ cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Pro
 gram Files/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
 /urw/times/utmri8a.pfb>
-Output written on Paper.pdf (7 pages, 369583 bytes).
+Output written on Paper.pdf (7 pages, 360097 bytes).
 PDF statistics:
  78 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
