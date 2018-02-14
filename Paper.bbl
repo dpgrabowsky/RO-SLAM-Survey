@@ -114,6 +114,17 @@ P.~Newman and J.~Leonard, ``{Pure range-only sub-sea SLAM},'' in \emph{2003
   IEEE International Conference on Robotics and Automation (Cat.
   No.03CH37422)}.
 
+\bibitem{Webster2012}
+S.~E. Webster, R.~M. Eustice, H.~Singh, and L.~L. Whitcomb, ``{Advances in
+  single-beacon one-way-travel-time acoustic navigation for underwater
+  vehicles},'' \emph{International Journal of Robotics Research}, vol.~31,
+  no.~8, pp. 935--950, 2012.
+
+\bibitem{Vallicrosa2014a}
+G.~Vallicrosa, P.~Ridao, D.~Ribas, and A.~Palomer, ``{Active Range-Only beacon
+  localization for AUV homing},'' in \emph{IEEE International Conference on
+  Intelligent Robots and Systems}, 2014, pp. 2286--2291.
+
 \bibitem{Thrun2002}
 S.~Thrun, ``{Probabilistic robotics},'' \emph{Communications of the ACM},
   vol.~45, no.~3, 2002.
@@ -255,11 +266,5 @@ J.~Yuan, Y.~Huang, F.~Sun, S.~Huang, and H.~Chen, ``{Mobile robot active
   observation and mapping based on factored method},'' in \emph{Proceedings of
   the World Congress on Intelligent Control and Automation (WCICA)}, 2012, pp.
   3577--3582.
-
-\bibitem{Montemerlo2003}
-M.~Montemerlo, S.~Thrun, D.~Roller, and B.~Wegbreit, ``{FastSLAM 2.0: An
-  improved particle filtering algorithm for simultaneous localization and
-  mapping that provably converges},'' in \emph{IJCAI International Joint
-  Conference on Artificial Intelligence}, 2003, pp. 1151--1156.
 
 \end{thebibliography}
