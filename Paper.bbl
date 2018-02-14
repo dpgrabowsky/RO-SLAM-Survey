@@ -76,6 +76,42 @@ D.~Kurth, G.~Kantor, and S.~Singh, ``{Experimental Results in Range-Only
   \url{http://ieeexplore.ieee.org/xpls/abs{\_}all.jsp?arnumber=1250754}
 \BIBentrySTDinterwordspacing
 
+\bibitem{Gezici2005}
+S.~Gezici, Z.~Tian, G.~B. Giannakis, H.~Kobayashi, A.~F. Molisch, H.~V. Poor,
+  and Z.~Sahinoglu, ``{Localization via ultra-wideband radios: A look at
+  positioning aspects of future sensor networks},'' \emph{IEEE Signal
+  Processing Magazine}, vol.~22, no.~4, pp. 70--84, 2005.
+
+\bibitem{Youssef2005}
+\BIBentryALTinterwordspacing
+M.~Youssef and A.~Agrawala, ``{The Horus WLAN location determination system},''
+  in \emph{Proceedings of the 3rd international conference on Mobile systems,
+  applications, and services - MobiSys '05}, 2005, p. 205. [Online]. Available:
+  \url{http://portal.acm.org/citation.cfm?doid=1067170.1067193}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Sen2013}
+\BIBentryALTinterwordspacing
+S.~Sen, J.~Lee, K.-H. Kim, and P.~Congdon, ``{Avoiding multipath to revive
+  inbuilding WiFi localization},'' \emph{Proceeding of the 11th annual
+  international conference on Mobile systems, applications, and services -
+  MobiSys '13}, p. 249, 2013. [Online]. Available:
+  \url{http://dl.acm.org/citation.cfm?id=2462456.2464463}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Kotaru2015}
+\BIBentryALTinterwordspacing
+M.~Kotaru, K.~Joshi, D.~Bharadia, and S.~Katti, ``{SpotFi : Decimeter Level
+  Localization Using WiFi},'' \emph{Sigcomm 2015}, pp. 269--282, 2015.
+  [Online]. Available: \url{Stanford University}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Rea2017}
+M.~Rea, A.~Fakhreddine, D.~Giustiniano, and V.~Lenders, ``{Filtering Noisy
+  802.11 Time-of-Flight Ranging Measurements From Commoditized WiFi Radios},''
+  \emph{IEEE/ACM Transactions on Networking}, vol.~25, no.~4, pp. 2514--2527,
+  2017.
+
 \bibitem{Baronti2007}
 P.~Baronti, P.~Pillai, V.~W.~C. Chook, S.~Chessa, A.~Gotta, and Y.~F. Hu,
   ``{Wireless sensor networks: A survey on the state of the art and the
@@ -107,23 +143,6 @@ F.~Xia, R.~Hao, Y.~Cao, and L.~Xue, ``{A survey of adaptive and real-time
 P.~Newman and J.~Leonard, ``{Pure range-only sub-sea SLAM},'' in \emph{2003
   IEEE International Conference on Robotics and Automation (Cat.
   No.03CH37422)}.
-
-\bibitem{Webster}
-\BIBentryALTinterwordspacing
-S.~E. Webster, R.~M. Eustice, H.~Singh, and L.~L. Whitcomb, ``{Preliminary Deep
-  Water Results in Single-Beacon One-Way-Travel-Time Acoustic Navigation for
-  Underwater Vehicles}.'' [Online]. Available:
-  \url{http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.149.8308{\&}rep=rep1{\&}type=pdf}
-\BIBentrySTDinterwordspacing
-
-\bibitem{SenWang2013}
-\BIBentryALTinterwordspacing
-{Sen Wang}, {Ling Chen}, {Huosheng Hu}, and {Dongbing Gu}, ``{Single beacon
-  based localization of AUVs using moving Horizon estimation},'' in \emph{2013
-  IEEE/RSJ International Conference on Intelligent Robots and Systems}.\hskip
-  1em plus 0.5em minus 0.4em\relax IEEE, nov 2013, pp. 885--890. [Online].
-  Available: \url{http://ieeexplore.ieee.org/document/6696455/}
-\BIBentrySTDinterwordspacing
 
 \bibitem{Thrun2002}
 \BIBentryALTinterwordspacing

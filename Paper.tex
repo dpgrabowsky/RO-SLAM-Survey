@@ -59,18 +59,23 @@
 		  	
 			A unique implementation of an underwater acoustic beacon is the Dive'N'Rise (DNR) beacon presented by \cite{Erol2007}. These DNR beacons rise to the surface, receive their location through GPS, then sink into the water and transmit their coordinates. The distance to an agent and the transmitting beacon can be determined via time of flight from the transmissions. A localization implementation using these beacons was accomplished by \cite{Erol2008}. 
 	
-			  	\begin{figure}[h!]
-					\centering
+	%		  	\begin{figure}[h!]
+	%				\centering
 				%	\includegraphics[width=90mm]{DNR.png}
-				%	\includegraphics[width=90mm]{DNR.png}	
-					\caption{DNR being used to implement Dive and Rise Localization  \cite{Erol-Kantarci2011}}
-					\label{DNR}
-				\end{figure}
+	%				\includegraphics[width=90mm]{DNR.png}	
+	%				\caption{DNR being used to implement Dive and Rise Localization  \cite{Erol-Kantarci2011}}
+	%				\label{DNR}
+	%			\end{figure}
 
 		\subsection{Radio Frequency}
 			Radio frequency encompass a massive spectrum of devices capable of transmitting or receiving transmission on the radio frequency. There are two methods primarily utilized to determine distance from radio frequency. One is by examining the received signal strength indicator (RSSI) and the other is the by measuring the time of flight of the signal. A system presented by \cite{Padmanabhan2000} processes RF signal strength and utilizes nearest neighbors heuristics to achieve localization based on said signal strength.  \cite{Kurth2003a} describes a method for using very small RF tags as beacons throughout the environment.  As a mobile robot moves throughout an environment it emits a query to which any RF tags that are within the transmission range respond. The robot then estimates the distance to the tag based on the delay. The response from the RF tags include a data tag which contains a unique ID number. 
 			
-			Wireless sensors networks (WSN) are also a very popular choice, especially since many of them come with the ability to transmit RSSI. \cite{Baronti2007}, \cite{Khanafer2014}, \cite{Akyildiz2002}, and \cite{Xia2011} each present surveys relating to WSNs.  \cite{Baronti2007} and \cite{Akyildiz2002} both provide very well developed surveys that discuss hardware, protocols, standards, security, energy efficiency and much more. \cite{Baronti2007} specifically focuses on state of the art 802.15.4 and ZigBee standards. \cite{Xia2011} examines the limitations of original IEEE 802.15.4 MAC and reviews adaptive methods that have been used to overcome these limitations. \cite{Khanafer2014} specifically survey methods meant to improve the performance of IEEE 802.15.4 MAC protocol.
+			Ultra-wideband radios are another popular choice. One attractive feature of currently used ultra-wide band transmitters and receivers is the ability resolve multipath error ,which is a common obstacle with indoor environments, without the use of extensive algorithms. \cite{Gezici2005} presents an analysis of time of arrival based localization estimations with ultra-wide band. 
+			
+			Wireless Fidelity (wi-fi)  is another choice being explored by man researchers as existing networks are already prevalent in many indoor locations and they are generally low cost \cite{Youssef2005} \cite{Sen2013} \cite{Kotaru2015} \cite{Rea2017}. \cite{Youssef2005} presents a Horus system with the aim of high accuracy and low computation cost for wireless local area network location determining. \cite{Sen2013} proposes a method named CUPID which extracts information from the physical layer to process information allowing it to avoid the impact of multipathing. \cite{Kotaru2015} presents a design and implementation for its SpotFi system which can be deployed on top of existing wi-fi infrastructure. \cite{Rea2017} designed a new method for filtering range measurment specifically designed with the large noise found in indoor WiFi radios in mind. 
+			
+			
+			 \cite{Baronti2007}, \cite{Khanafer2014}, \cite{Akyildiz2002}, and \cite{Xia2011} each present surveys relating to wireless sensor networks.  \cite{Baronti2007} and \cite{Akyildiz2002} both provide very well developed surveys that discuss hardware, protocols, standards, security, energy efficiency and much more. \cite{Baronti2007} specifically focuses on state of the art 802.15.4 and ZigBee standards. \cite{Xia2011} examines the limitations of original IEEE 802.15.4 MAC and reviews adaptive methods that have been used to overcome these limitations. \cite{Khanafer2014} specifically survey methods meant to improve the performance of IEEE 802.15.4 MAC protocol.
 
 			%blue tooth
 			
@@ -84,7 +89,7 @@
 			
 			%M. Oca ̃na, L. M. Bergasa, M. A. Sotelo, R. F. Flores, D. F.  ́
 			%Llorca, and D. Schleicher, “Automatic training method applied to
-			a% WiFi+ultrasound POMDP navigation system,” Robotica, vol. 27,
+			% WiFi+ultrasound POMDP navigation system,” Robotica, vol. 27,
 			%no. 07, pp. 1049–1061, December 2009.
 			
 			
