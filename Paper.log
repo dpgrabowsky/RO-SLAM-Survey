@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.4)  15 FEB 2018 13:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.4)  16 FEB 2018 17:13
 entering extended mode
 **./Paper.tex
 (Paper.tex
@@ -247,10 +247,10 @@ File: Figures/Trilateration_methods.JPG Graphic file (type jpg)
 
 <use Figures/Trilateration_methods.JPG>
 Package pdftex.def Info: Figures/Trilateration_methods.JPG used on input line 1
-14.
+15.
 (pdftex.def)             Requested size: 256.0737pt x 85.35684pt.
 
-Overfull \hbox (4.0737pt too wide) in paragraph at lines 114--115
+Overfull \hbox (4.0737pt too wide) in paragraph at lines 115--116
  [][] 
  []
 
@@ -259,10 +259,10 @@ Overfull \hbox (4.0737pt too wide) in paragraph at lines 114--115
 File: coop_loc_comp_patwari.png Graphic file (type png)
 
 <use coop_loc_comp_patwari.png>
-Package pdftex.def Info: coop_loc_comp_patwari.png used on input line 185.
+Package pdftex.def Info: coop_loc_comp_patwari.png used on input line 189.
 (pdftex.def)             Requested size: 256.0748pt x 131.01427pt.
 
-Overfull \hbox (4.0748pt too wide) in paragraph at lines 185--186
+Overfull \hbox (4.0748pt too wide) in paragraph at lines 189--190
  [][] 
  []
 
@@ -270,10 +270,10 @@ Overfull \hbox (4.0748pt too wide) in paragraph at lines 185--186
 File: Figures/ROP_djugash.png Graphic file (type png)
 
 <use Figures/ROP_djugash.png>
-Package pdftex.def Info: Figures/ROP_djugash.png used on input line 218.
+Package pdftex.def Info: Figures/ROP_djugash.png used on input line 222.
 (pdftex.def)             Requested size: 256.0748pt x 165.1885pt.
 
-Overfull \hbox (4.0748pt too wide) in paragraph at lines 218--219
+Overfull \hbox (4.0748pt too wide) in paragraph at lines 222--223
  [][] 
  []
 
@@ -283,10 +283,10 @@ File: Figures/Particle_filter_method.JPG Graphic file (type jpg)
 
 <use Figures/Particle_filter_method.JPG>
 Package pdftex.def Info: Figures/Particle_filter_method.JPG used on input line 
-269.
-(pdftex.def)             Requested size: 256.07384pt x 113.81326pt.
+274.
+(pdftex.def)             Requested size: 270.30882pt x 142.27318pt.
 
-Overfull \hbox (4.07384pt too wide) in paragraph at lines 269--270
+Overfull \hbox (18.30882pt too wide) in paragraph at lines 274--275
  [][] 
  []
 
@@ -315,11 +315,11 @@ Before submitting the final camera ready copy, remember to:
 Here is how much of TeX's memory you used:
  2437 strings out of 493323
  39984 string characters out of 3139066
- 112704 words of memory out of 3000000
+ 111704 words of memory out of 3000000
  5965 multiletter control sequences out of 15000+200000
  37389 words of font info for 73 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,11n,27p,1446b,318s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,11n,27p,1456b,318s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Pro
 gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX
@@ -331,7 +331,7 @@ cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Pro
 gram Files/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
 /urw/times/utmri8a.pfb>
-Output written on Paper.pdf (7 pages, 360268 bytes).
+Output written on Paper.pdf (7 pages, 360634 bytes).
 PDF statistics:
  78 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
