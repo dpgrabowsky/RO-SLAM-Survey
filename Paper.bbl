@@ -62,12 +62,6 @@ D.~Kurth, G.~Kantor, and S.~Singh, ``{Experimental Results in Range-Only
   Localization with Radio},'' \emph{Intelligent Robots and Systems,
   International Conference on}, no. October, pp. 974--979, 2003.
 
-\bibitem{Gezici2005}
-S.~Gezici, Z.~Tian, G.~B. Giannakis, H.~Kobayashi, A.~F. Molisch, H.~V. Poor,
-  and Z.~Sahinoglu, ``{Localization via ultra-wideband radios: A look at
-  positioning aspects of future sensor networks},'' \emph{IEEE Signal
-  Processing Magazine}, vol.~22, no.~4, pp. 70--84, 2005.
-
 \bibitem{Youssef2005}
 M.~Youssef and A.~Agrawala, ``{The Horus WLAN location determination system},''
   in \emph{Proceedings of the 3rd international conference on Mobile systems,
@@ -89,6 +83,12 @@ M.~Rea, A.~Fakhreddine, D.~Giustiniano, and V.~Lenders, ``{Filtering Noisy
   \emph{IEEE/ACM Transactions on Networking}, vol.~25, no.~4, pp. 2514--2527,
   2017.
 
+\bibitem{Gezici2005}
+S.~Gezici, Z.~Tian, G.~B. Giannakis, H.~Kobayashi, A.~F. Molisch, H.~V. Poor,
+  and Z.~Sahinoglu, ``{Localization via ultra-wideband radios: A look at
+  positioning aspects of future sensor networks},'' \emph{IEEE Signal
+  Processing Magazine}, vol.~22, no.~4, pp. 70--84, 2005.
+
 \bibitem{Baronti2007}
 P.~Baronti, P.~Pillai, V.~W.~C. Chook, S.~Chessa, A.~Gotta, and Y.~F. Hu,
   ``{Wireless sensor networks: A survey on the state of the art and the
@@ -109,6 +109,19 @@ I.~Akyildiz, W.~Su, Y.~Sankarasubramaniam, and E.~Cayirci, ``{Wireless sensor
 F.~Xia, R.~Hao, Y.~Cao, and L.~Xue, ``{A survey of adaptive and real-time
   protocols based on IEEE 802.15.4},'' 2011.
 
+\bibitem{Thrun2002}
+S.~Thrun, ``{Probabilistic robotics},'' \emph{Communications of the ACM},
+  vol.~45, no.~3, 2002.
+
+\bibitem{Thrun2002a}
+------, ``{Particle Filters in Robotics},'' \emph{Proceedings of Uncertainty in
+  AI}, vol.~1, pp. 511--518, 2002.
+
+\bibitem{Li2015}
+T.~Li, M.~Boli{\'{c}}, and P.~M. Djuri{\'{c}}, ``{Resampling Methods for
+  Particle Filtering: Classification, implementation, and strategies},''
+  \emph{IEEE Signal Processing Magazine}, vol.~32, no.~3, pp. 70--86, 2015.
+
 \bibitem{Newman}
 P.~Newman and J.~Leonard, ``{Pure range-only sub-sea SLAM},'' in \emph{2003
   IEEE International Conference on Robotics and Automation (Cat.
@@ -124,19 +137,6 @@ S.~E. Webster, R.~M. Eustice, H.~Singh, and L.~L. Whitcomb, ``{Advances in
 G.~Vallicrosa, P.~Ridao, D.~Ribas, and A.~Palomer, ``{Active Range-Only beacon
   localization for AUV homing},'' in \emph{IEEE International Conference on
   Intelligent Robots and Systems}, 2014, pp. 2286--2291.
-
-\bibitem{Thrun2002}
-S.~Thrun, ``{Probabilistic robotics},'' \emph{Communications of the ACM},
-  vol.~45, no.~3, 2002.
-
-\bibitem{Thrun2002a}
-------, ``{Particle Filters in Robotics},'' \emph{Proceedings of Uncertainty in
-  AI}, vol.~1, pp. 511--518, 2002.
-
-\bibitem{Li2015}
-T.~Li, M.~Boli{\'{c}}, and P.~M. Djuri{\'{c}}, ``{Resampling Methods for
-  Particle Filtering: Classification, implementation, and strategies},''
-  \emph{IEEE Signal Processing Magazine}, vol.~32, no.~3, pp. 70--86, 2015.
 
 \bibitem{Caballero2010}
 F.~Caballero, L.~Merino, and A.~Ollero, ``{A general Gaussian-mixture approach
