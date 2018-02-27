@@ -121,17 +121,17 @@
 				Trilateration refers to the process of using the distance to at least three devices at known locations in order to estimate the location of a fourth device. Methods generally utilize the geometry of circles and triangles in order to accomplish this. \cite{Thrun2002} mentions a basic trilateration technique involving geometric intersection. Rings are drawn at different points of the robots path as shown in Fig[a], where the radius of the rings depend on the strength of the received signals from the beacons. This method of initialization is highly ambiguous as the rings can have more than 1 point of intersecting as shown in Fig[b]  or no  intersecting points as shown in Fig[c]. %more papers needed
 		
 			\subsubsection{Particle filter}
-				The particle filter takes a probabilistic approach to estimating the initial location of the beacons as mentioned in \cite{Thrun2002a}. Here, a particle refers to a  possible hypothesis of position of the beacon/landmark. 
+				Particle filters takes a probabilistic approach to estimating the initial location of the beacons as mentioned in \cite{Thrun2002a}. Here, a particle refers to a  possible hypothesis of position of the landmark. 
 				
-				Initially the robot assumes global uncertainty through a set of particles that are uniformly distributed over the map as shown in Fig 2.(a). Hence the position of the beacons are uncertain. As the robot moves around and measures sensor data it re-samples the particle set based on computed weights. Particles that match sensor data are assigned higher probabilistic weights and are therefore more likely to be re-sampled each iteration. Fig.2(b) illustrates this, as particles with hypothesized beacon locations far from the true location do not match the sensed range and over time are eliminated from the set. After many iterations only the particles which have a high degree of probability  remain and eventually converge to the true location of the beacons as shown in Fig.2(c). There are several re-sampling methods which are discussed in \cite{Li2015}.
+				Initially the robot assumes global uncertainty through a set of particles that are distributed all over the map as shown in Fig 2.(a). Hence the position of the landmarks are uncertain. As the robot moves around and measures sensor data it resamples the particle set weighted according to the probability of the particle being the right one as shown in Fig.2(b). There are several resampling methods depending on computational complexities \cite{Li2015} After some iterations only the particles which have a high degree of probability  remain and eventually converge to the initial location of the landmarks as shown in Fig.2(c).
 				\begin{figure}[h!]
 					\centering
 					\includegraphics[height=35mm,width=90mm]{Particle_filter_method.JPG}
-					\caption{The leftmost image describes the state of the robot when it just initializes the particle filter. The particles are uniformly distributed. The image in the center describes the particle filter after a couple of iterations. Only the particles which have a higher probability are re sampled. The image on the right shows the particle filter eventually converging to estimate the beacon location. }
+					\caption{The leftmost image describes the state of the robot when it just initializes the particle filter. The particles are uniformly distributed. The image in the center describes the particle filter after a couple of iterations. Only the particles which have a higher probability are re sampled. The image on the right shows the particle filter eventually converging to estimate the landmark location. }
 					
 				\end{figure}
 				Assuming at time t=0;we have N particles equally space in the environment that are drawn based on a uniform distribution $ p(x_oa)$.                                                                       
-				Once the robot starts moving it collects measurements and at time $t>0$ we sample a new particle set $x^{[i]}_t$ for each particle in $x^{[i]}_{(t-1)}$. It is sampled based on the probability of measurement $p(z_t|x^{[i]}_{(t-1)})$. Eventually the particle filter converges to give us the true positioning of the beacons.
+				Once the robot starts moving it collects measurements and at time $t>0$ we sample a new particle set $x^{[i]}_t$ for each particle in $x^{[i]}_{(t-1)}$. It is sampled based on the probability of measurement $p(z_t|x^{[i]}_{(t-1)})$. Eventually the particle filter converges to give us the true positioning of the landmarks.
 				 These particles are re-sampled based on importance weights every iteration. There are several re-sampling methods mentioned in \cite{Li2015}. Eventually the particle set converges to the accurate location of the beacons. 
 				
 			\subsubsection{Other Methods}
@@ -162,7 +162,7 @@
 	 %This restriction means that landmarks often need to be manufactured 
 	 %add rererence here...
 	 %, such as the beacons discussed in previous sections, and physically placed in an environment. 
-	 In addition, the exact location of the landmarks, or even there initial existence, is not always known at startup. Initialization is a critical element in many algorithms that make use of the EKF. If the initialization is inaccurate then the convergence to a correct estimation becomes much more difficult for the filter. The EKF has seen a wide variety of implementation ranging from ground based robotics\cite{Djugash2008} \cite{Shue2017}, to unmanned air vehicles \cite{Fabresse2016}, and to autonomous underwater vehicles \cite{Olson2006}. This section will proceed to give a summary of the various ways EKF has been implemented in regards to RO SLAM, as well as examine improvements to the general RO SLAM problem that are applied via methods with EKF mind.
+	 In addition, the exact location of the landmarks, or even there initial existence, is not always known at startup. Initialization is a critical element in many algorithms that make use of the EKF. If the initialization is inaccurate then the convergence to a correct estimation becomes much more difficult for the filter. The EKF has seen a wide variety of implementation ranging from ground based robotics\cite{Djugash2008}, to unmanned air vehicles \cite{Fabresse2016}, and to autonomous underwater vehicles \cite{Olson2006}. This section will proceed to give a summary of the various ways EKF has been implemented in regards to RO SLAM, as well as examine improvements to the general RO SLAM problem that are applied via methods with EKF mind.
 	
 	
 	
@@ -281,14 +281,13 @@ In \cite{Torres-Gonzalez2014} the computational complexity is reduced by utilizi
 
 	
 \subsection{Particle Filters}      %change the references
-Particles filters are a category of monte carlo algorithms. They are used to estimate states in partially observable Markov chains as shown in \cite{Doucet2001}. In  early applications, particle filters were used in the field of localization where it was used to estimate a robots pose from sensor data. It is considered better and more robust to conventional estimation methods because of its ability to solve the global localization \cite{Borenstein1996} and the kidnapped robot problem \cite{Engelson1992} which EKF, in comparison, struggles with. At is core, EKF also has higher dimensional computation problems.
+Particles filters are a category of monte carlo algorithms. They are used to estimate states in partially observable Markov chains as shown in \cite{Doucet2001}. In  initial applications particle filters were used in the field of localization where it was used to estimate a robots pose from sensor data. It is considered better and more robust to conventional estimation methods because of its ability to solve the global localization \cite{Borenstein1996} and the kidnapped robot problem \cite{Engelson1992} which EKF, in comparison, struggles with. At is core, EKF also has higher dimensional computation problems.
 % It has also been at the core higher dimensional computational problems.  
 %Description
-As mentioned in \cite{Thrun2002a}, particle filters outperform EKF in applications involving global localization (the kidnapped robot problem) where the robot is randomly picked up and placed in a unknown environment. 
+As mentioned in \cite{Thrun2002a} particle filters outperform EKF in applications involving global localization (the kidnapped robot problem) where the robot is randomly picked up and placed in a unknown environment. 
 EKF cannot process negative information, but since particle filters use raw sensor data without any processing they can process negative information\cite{Thrun2002a}. 
 
-It works in a similar way to the particle filter initialization procedure mentioned in Section \ref{beacon initialization}, but it uses a weighted average of both the possible landmark and robot positions to converge to the actual robot and landmark locations.
-
+It works in a similar way to the particle filter initialization procedure mentioned before, but it uses a weighted average of both the possible landmark and robot positions to converge to the actual robot and landmark locations.
 As the number of particles increases the computational complexity of the filter too increases. In order to address this there were several new methods introduced that  exploit the independence among state variables. For example the Rao-Blackwellized particle filters that exploit the independence of the landmarks with the robot path thereby reducing the computation complexity from \cite{Yuan2012}. It also solves the data association problem previously unsolved by EKF. Although this method of localization can be computationally expensive it is preferred whenever the noise involved is non Gaussian.
 	
 
