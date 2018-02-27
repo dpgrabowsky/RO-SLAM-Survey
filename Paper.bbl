@@ -83,12 +83,6 @@ M.~Rea, A.~Fakhreddine, D.~Giustiniano, and V.~Lenders, ``{Filtering Noisy
   \emph{IEEE/ACM Transactions on Networking}, vol.~25, no.~4, pp. 2514--2527,
   2017.
 
-\bibitem{Gezici2005}
-S.~Gezici, Z.~Tian, G.~B. Giannakis, H.~Kobayashi, A.~F. Molisch, H.~V. Poor,
-  and Z.~Sahinoglu, ``{Localization via ultra-wideband radios: A look at
-  positioning aspects of future sensor networks},'' \emph{IEEE Signal
-  Processing Magazine}, vol.~22, no.~4, pp. 70--84, 2005.
-
 \bibitem{Baronti2007}
 P.~Baronti, P.~Pillai, V.~W.~C. Chook, S.~Chessa, A.~Gotta, and Y.~F. Hu,
   ``{Wireless sensor networks: A survey on the state of the art and the
@@ -100,6 +94,11 @@ M.~Khanafer, M.~Guennoun, and H.~T. Mouftah, ``{A Survey of Beacon-Enabled IEEE
   802.15.4 MAC Protocols in Wireless Sensor Networks},'' \emph{IEEE
   Communications Surveys Tutorials}, vol.~16, no.~2, pp. 856--876, 2014.
 
+\bibitem{Shue2013}
+S.~Shue and J.~M. Conrad, ``A survey of robotic applications in wireless sensor
+  networks,'' in \emph{2013 Proceedings of IEEE Southeastcon}, April 2013, pp.
+  1--5.
+
 \bibitem{Akyildiz2002}
 I.~Akyildiz, W.~Su, Y.~Sankarasubramaniam, and E.~Cayirci, ``{Wireless sensor
   networks: a survey},'' \emph{Computer Networks}, vol.~38, no.~4, pp.
@@ -108,6 +107,15 @@ I.~Akyildiz, W.~Su, Y.~Sankarasubramaniam, and E.~Cayirci, ``{Wireless sensor
 \bibitem{Xia2011}
 F.~Xia, R.~Hao, Y.~Cao, and L.~Xue, ``{A survey of adaptive and real-time
   protocols based on IEEE 802.15.4},'' 2011.
+
+\bibitem{Gezici2005}
+S.~Gezici, Z.~Tian, G.~B. Giannakis, H.~Kobayashi, A.~F. Molisch, H.~V. Poor,
+  and Z.~Sahinoglu, ``{Localization via ultra-wideband radios: A look at
+  positioning aspects of future sensor networks},'' \emph{IEEE Signal
+  Processing Magazine}, vol.~22, no.~4, pp. 70--84, 2005.
+
+\bibitem{Johnson2017}
+
 
 \bibitem{Thrun2002}
 S.~Thrun, ``{Probabilistic robotics},'' \emph{Communications of the ACM},
@@ -165,6 +173,9 @@ S.~Haykin, \emph{{Kalman Filters}}, 2001, vol.~5.
 J.~Djugash and S.~Singh, ``{A robust method of localization and mapping using
   only range},'' \emph{Proceedings of International Symposium on Experimental
   Robotics}, pp. 341--351, 2008.
+
+\bibitem{Shue2017}
+Ph.D. dissertation.
 
 \bibitem{Fabresse2016}
 F.~R. Fabresse, F.~Caballero, I.~Maza, and A.~Ollero, ``{Robust Range-Only SLAM
