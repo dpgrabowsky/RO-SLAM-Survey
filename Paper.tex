@@ -153,7 +153,7 @@
 
 	\section{Methods and Their Implementations}
 	\label{methods and their implementations}
-	
+	The following implementations are broken down into categories based on the general algorithm that is used by the implementation to do RO-SLAM. The concept behind the algorithm is summarized in each category followed by a discussion of implementations that incorporates said algorithm. Each category concludes by examining the problems that current implementations are focusing on and theorizing about possible future directions for research.  
 	\subsection{EKF}
 	
 	%breif description (1-2 paragraphs)
@@ -161,20 +161,18 @@
 	%paragraphs 
 	
 	The Extended Kalman Filter (EKF) is one of the most popular and widespread methods used to solve the SLAM problem. It is used to overcome the assumption of linear state transitions and measurements, which are rarely seen in practical environments \cite{Thrun2002}. The derivation of the EKF is very well documented, as such, detailed explanations can be viewed from a variety of sources such as: \cite{Thrun2002}, \cite{Ribeiro2004}, and \cite{Haykin2001}. Generally, EKF can be broken up into two phases, the prediction and the measurement phase. The prediction phase updates the state vector based on control inputs and additive Gaussian noise. The measurement phase updates the state vector based observed landmarks with additive Gaussian noise.
-	%NOTE THIS PART ABOUT PREDICTION AND MEASURMENT PHASE IS SUPER ROUGH
 	
-	 When used to solve SLAM the map applied to the EKF is a feature based map, meaning it is composed of observable features (landmarks) which can be distinguished between during re-observation \cite{Thrun2002}. This distinction becomes important when examining range only SLAM where only the range to a landmark, or the range between landmarks, is known. 
+	 When used to solve SLAM the map applied to the EKF is a feature based map, meaning it is composed of observable features (landmarks) which can be distinguished between during re-observation \cite{Thrun2002}. This distinction becomes important when examining RO-SLAM where only the range to a landmark, or the range between landmarks, is known. 
 	 %This restriction means that landmarks often need to be manufactured 
 	 %add rererence here...
 	 %, such as the beacons discussed in previous sections, and physically placed in an environment. 
-	 In addition, the exact location of the landmarks, or even there initial existence, is not always known at startup. Initialization is a critical element in many algorithms that make use of the EKF. If the initialization is inaccurate then the convergence to a correct estimation becomes much more difficult for the filter. The EKF has seen a wide variety of implementation ranging from ground based robotics\cite{Djugash2008} \cite{Shue2017}, to unmanned air vehicles \cite{Fabresse2016}, and to autonomous underwater vehicles \cite{Olson2006}. This section will proceed to give a summary of the various ways EKF has been implemented in regards to RO SLAM, as well as examine improvements to the general RO SLAM problem that are applied via methods with EKF mind.
+	 In addition, the exact location of the landmarks, or even there initial existence, is not always known at the beginning of runtime. Initialization is a critical element in many algorithms that make use of the EKF. If the initialization is inaccurate then the convergence to a correct estimation can become much more difficult. The EKF has seen a wide variety of implementation ranging from ground based robotics\cite{Djugash2008} \cite{Shue2017}, to unmanned air vehicles \cite{Fabresse2016}, and to autonomous underwater vehicles \cite{Olson2006}. This section will proceed to give a summary of the various ways EKF has been implemented in regards to RO-SLAM.
 	
-	
-	
+	%Underwater implementations
 	A system for robust range only localization was prosed by \cite{Olson2006}. The system utilized an Autonomous Underwater Vehicle (AUV) and beacons without carefully surveyed locations. The paper notes that one of the majors issue was noise present in the received data. A method for outliers rejection caused by the noise was accomplished via spectral graph partitioning. A voting scheme was implemented similar to a Hugh transform to get approximate beacon locations \cite{Hough1959}. The approximate locations were then incorporated into an EKF. It is noted by the paper that this method is particularly CPU intensive, however they state that since the rate at which data is acquired from a landmark is slow, every 5 or so seconds, that the AUV can afford the expensive computation since there will be an adequate amount of time between readings for the data to process. The methodology was simulated using a dataset and can be seen in the paper.
 	
 	
-	
+	%AUV implementations
 	\cite{Kurth2003} presents a comparison of how three methods process a collected data set. The methods are a EKF, a sliding batch, and a particle filter. The comparison considers the cross-track error, and along track error. The results state that the particle filter works well when used to acquire an initial pose estimate, and EKF works well with real-time localization. It is suggested that in the future that the two could be switched between when appropriate to improve the overall system. 
 	
 	
@@ -219,11 +217,11 @@
 	
 	
 	
-	It is explained by \cite{Torres-Gonzalez2015} that methods utilizing inter beacon measurment should incorporate measurements with a configurable number of hops between beacons. This allows for the robot to gather range data from beyond the extent of the robots sensors. Experimentations was conducted utilizing this method via a particle filter EKF. The results showed that the more hops that were added the greater the performance of the system. 
+	It is explained by \cite{Torres-Gonzalez2015} that methods utilizing inter beacon measurements should incorporate measurements with a configurable number of hops between beacons. This allows for the robot to gather range data from beyond the extent of the robots sensors. Experimentations was conducted utilizing this method via a particle filter EKF. The results showed that the more hops that were added the greater the performance of the system. 
 	
 	
 	
-	\cite{Djugash2006} presents a comparison of multiple RO SLAM methods utilized in two scenarios. One scenario involves the case where the robot only has access to range information between itself and beacons at unknown locations. In the second case the robot also has access to information about beacon to beacon distances. Several separate methods were compared in the given scenarios utilizing a data set and experimentation. The first method utilizes the Kalman filter in the case where only measurment between moving and stationary beacons are considered. Another method specifically uses the beacon to beacon measurements with an online Kalman filter. An off line batch method is used to get an estimate of the beacon location and robot path. Finally an method that considers the robot as a virtual node for creating submaps to be solved with a multidimensional scaling algorithm is also considered. The paper gives experimental results and analysis for each of the methods. 
+	\cite{Djugash2006} presents a comparison of multiple RO-SLAM methods utilized in two scenarios. One scenario involves the case where the robot only has access to range information between itself and beacons at unknown locations. In the second case the robot also has access to information about beacon to beacon distances. Several separate methods were compared in the given scenarios utilizing a data set and experimentation. The first method utilizes the Kalman filter in the case where only measurement between moving and stationary beacons are considered. Another method specifically uses the beacon to beacon measurements with an online Kalman filter. An off line batch method is used to get an estimate of the beacon location and robot path. Finally an method that considers the robot as a virtual node for creating submaps to be solved with a multidimensional scaling algorithm is also considered. The paper gives experimental results and analysis for each of the methods. 
 	
 	
 	
@@ -251,9 +249,6 @@
 
 	
 	
-	
-	
-	
 	A method proposed by \cite{Dios2015} is geared towards improving map building speed and accuracy for unmanned aerial systems dealing with the 3D RO-SLAM problem. The 3D RO-SLAM problem refers to the added complexity that devices such as submersibles \cite{Newman} and aerial vehicles experience when having to operate in an environment where three dimensions must be considered as opposed to the planar environment many robots are assumed to operate in. The method utilizes inter-beacon measurements and a novel mode selection which is used to select a measurement gathering method based on current conditions \cite{Dios2015}. The first mode is noted as mapping (MS) and the second localization (LS). When in mapping mode the measurement are integrated with a high probability to quickly create a map, when in localization mode the probability is lowered to create higher accuracy localizations. Based on experimentation performed by \cite{Dios2015} the method performed well and a general increase in accuracy and map speed was noted, however it is stated that a wider variety of experimentation should be performed to validate the overall robustness and effectiveness of the method.
 	
 	%this one might need some more work
@@ -267,6 +262,9 @@
 	
 	
 	\cite{Fabresse2013} presents a solution for the 3D RO-SLAM problem. The solution reduces computational load through reduced spherical parametrization of map feature positions. The paper also proposes a new EKF update method which incorporates a reduced spherical representation of the state vector. In addition the paper describes how to efficiently integrate multi-modal belief of elevations angles and azimuth from a range sensor into the EKF utilizing two independent Gaussian Mixtures \cite{Fabresse2013}. In addition \cite{Fabresse2014} expands upon this by presenting a pre-filtering algorithm to be applied to range measurement before being used in the EKF in order to reduce the effect of noise generated by environmental issue such as multipath. It is then proposed by \cite{Fabresse2015} that the above method can be utilized for decentralized multi-SLAM with range only sensors. This new method would allow for landmarks estimated by a robot to be incorporated into the estimation of another nearby robot, thus improving localization estimation. Based on experimental results obtained by \cite{Fabresse2015} the integration of estimates from multiple robots of the same landmarks provides a benefit to landmark localization over a single robot. In \cite{Fabresse2016} the author also validates and expands upon this method through indoor and outdoor experimentation with an Unmanned Aircraft System (UAS).  
+	
+	
+	A common focus of many recent papers has been the utilization of beacons for more than just robot to beacon range measurements. Many implementations now seek to measure the distance between beacons and incorporate those measurements into existing EKF algorithms.
 	
 \subsection{Sparse Extended Information Filters}
 
