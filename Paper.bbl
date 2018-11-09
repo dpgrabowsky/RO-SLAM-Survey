@@ -263,6 +263,11 @@ A.~Torres-Gonz{\'{a}}lez, J.~R. {Martinez-de Dios}, and A.~Ollero,
   ``{Range-only SLAM for robot-sensor network cooperation},'' \emph{Autonomous
   Robots}, pp. 1--15, 2017.
 
+\bibitem{Torres-Gonzalez2017a}
+A.~Torres-Gonz{\'{a}}lez, J.~R. {Mart{\'{i}}nez-de Dios}, and A.~Ollero,
+  ``{Robot-Beacon distributed range-only SLAM for resource-constrained
+  operation},'' \emph{Sensors (Switzerland)}, vol.~17, no.~4, 2017.
+
 \bibitem{Doucet2001}
 a.~Doucet, N.~{De Freitas}, and N.~Gordon, ``{Sequential Monte Carlo Methods in
   Practice},'' \emph{Springer New York}, pp. 178--195, 2001.
