@@ -1140,8 +1140,75 @@ year = {2015}
 }
 
 
+@article{Miah2018,
+	abstract = {IEEE Addressing the navigation (localization and motion control) problem of a mobile robot, coupled with its mapping problem, remains a significant challenge to date. The well-known simultaneous localization and mapping (SLAM) problem of mobile robots has been addressed in the literature without specifically taking into account the robot's motion control tasks. Moreover, its implementation can cost more than the robot itself. Robot's motion control strategies developed in the literature either (i) rely on sophisticated hardware platforms, (ii) assume noise-free environments, or (iii) are based on abstract theories which are validated using computer simulations only. The current work solves the navigation and mapping problems of mobile robots using open-source hardware and range-only measurements from a network of radio sources. The hardware platform used in this work is customized such that it is cost-effective and easy-to-implement, addressing the aforementioned issues in developing motion control strategies. Here, the robot estimates its position and orientation and builds a map of its operating environment using radio frequency (RF) signals received from radio sources. It then navigates through a path defined by a set of 2D points on the ground using a motion control strategy in cooperation with a tool of computational intelligence. The proposed robot navigation and mapping scheme is tested in an indoor laboratory environment and its performance is compared with the simulation counterpart using a commercial robot simulator.},
+	author = {Miah, Md Suruz and Knoll, Jacob and Hevrdejs, Kyle},
+	doi = {10.1109/TII.2017.2780247},
+	issn = {15513203},
+	journal = {IEEE Transactions on Industrial Informatics},
+	keywords = {Extended Kalman filter (EKF),fuzzy logic,localization,mapping,mobile robots,motion control,wireless sensor network (WSN)},
+	number = {3},
+	pages = {1164--1174},
+	title = {{Intelligent Range-Only Mapping and Navigation for Mobile Robots}},
+	volume = {14},
+	year = {2018}
+}
+
+@article{Herranz2016,
+	abstract = {{\textless}p{\textgreater}Localization and mapping in indoor environments, such as airports and hospitals, are key tasks for almost every robotic platform. Some researchers suggest the use of Range-Only (RO) sensors based on WiFi (Wireless Fidelity) technology with SLAM (Simultaneous Localization And Mapping) techniques to solve both problems. The current state of the art in RO SLAM is mainly focused on the filtering approach, while the study of smoothing approaches with RO sensors is quite incomplete. This paper presents a comparison between filtering algorithms, such as EKF and FastSLAM, and a smoothing algorithm, the SAM (Smoothing And Mapping). Experimental results are obtained in indoor environments using WiFi sensors. The results demonstrate the feasibility of the smoothing approach using WiFi sensors in an indoor environment.{\textless}/p{\textgreater}},
+	author = {Herranz, F. and Llamazares, A. and Molinos, E. and Oca{\~{n}}a, M. and Sotelo, M. A.},
+	doi = {10.1017/S0263574714001908},
+	isbn = {1469-8668},
+	issn = {14698668},
+	journal = {Robotica},
+	keywords = {Indoor,SAM,SLAM,WiFi},
+	number = {4},
+	pages = {837--858},
+	title = {{WiFi SLAM algorithms: An experimental comparison}},
+	volume = {34},
+	year = {2016}
+}
 
 
+@article{Samyak2018,
+	abstract = {Robot localization faces the classic chicken or egg problem where it has to either know the location of the robot or the map to localize itself. In most applications this can be using Simultaneous Localization and Mapping(SLAM) through measurements via sensors. Most applications of SLAM involve taking measurements that contain both range and orientation information about its environment. But Range-Only SLAM localization faces an ambiguity because it receives only range measurements from its sensors. Hence in order to implement localization we would need to know atleast an approximate initial location of the landmarks. Previous approaches to this issue involves basic trilateration, probabilistic methods, least squares approximation, multiple hypothesis methods using the Extended Kalman Filter. This however does provide a delay the localization. In order to overcome this there are multiple hypothesis methods that initialize the problem in real time. However, this is computationally expensive and all of these methods do not cope well with multipath noise. Multipath is the propagation phenomenon that results in radio signals reaching the receiving antenna by two or more paths leading to false range measurements. In this research we explore the problem put forward with the use of radio beacons when applied to RO SLAM and multipath noise that has a non Gaussian distribution. In particular, the use of the particle lter approach that copes with multipath noise as compared to the Extended Kalman Filter that is only applicable to noise that has a Gaussian distribution. This thesis proposes a method using particle lters to perform SLAM and is then compared to the established methods through simulations.},
+	author = {Samyak, Nelyadi},
+	file = {:C$\backslash$:/Users/David Grabowsky/Downloads/Particle{\_}Filter{\_}Approach{\_}to{\_}Ov.pdf:pdf},
+	pages = {67},
+	title = {{Particle Filter Approach to Overcome Multipath Propagation Error In Indoor Applications}},
+	year = {2018}
+}
+@phdthesis{Gonzalez2017,
+	abstract = {Simultaneous localization and mapping (SLAM) is a key problem in robotics. A robot with no previous knowledge of the environment builds a map of this environment and localizes itself in that map. Range-only SLAM is a particularization of the SLAM problem which only uses the information provided by range sensors. This PhD Thesis describes the design, integration, evaluation and validation of a set of schemes for accurate and e{\_}cient range-only simultaneous localization and mapping exploiting the cooperation between robots and sensor networks. This PhD Thesis proposes a general architecture for range-only simultaneous localization and mapping (RO-SLAM) with cooperation between robots and sensor networks. The adopted architecture has two main characteristics. First, it exploits the sensing, computational and communication capabilities of sensor network nodes. Both, the robot and the beacons actively participate in the execution of the RO-SLAM {\_}lter. Second, it integrates not only robot-beacon measurements but also range measurements between two di{\_}erent beacons, the so-called inter-beacon measurements. Most reported RO-SLAM methods are executed in a centralized manner in the robot. In these methods all tasks in RO-SLAM are executed in the robot, including measurement gathering, integration of measurements in RO-SLAM and the Prediction stage. These fully centralized RO-SLAM methods require high computational burden in the robot and have very poor scalability. This PhD Thesis proposes three di{\_}erent schemes that works under the aforementioned architecture. These schemes exploit the advantages of cooperation between robots and sensor networks and intend to minimize the drawbacks of this cooperation. The {\_}rst scheme proposed in this PhD Thesis is a RO-SLAM scheme with dynamically con{\_}gurable measurement gathering. Integrating inter-beacon measurements in RO-SLAM signi{\_}cantly improves map estimation but involves high consumption of resources, such as the energy required to gather and transmit measurements, the bandwidth required by the measurement collection protocol and the computational burden necessary to integrate the larger number of measurements. The objective of this scheme is to reduce the increment in resource consumption resulting from the integration of inter-beacon measurements by adopting a centralized mechanism running in the robot that adapts measurement gathering. The second scheme of this PhD Thesis consists in a distributed RO-SLAM scheme based on the Sparse Extended Information Filter (SEIF). This scheme reduces the increment in resource consumption resulting from the integration of inter-beacon measurements by adopting a distributed SLAM {\_}lter in which each beacon is responsible for gathering its measurements to the robot and to other beacons and computing the SLAM Update stage in order to integrate its measurements in SLAM. Moreover, it inherits the scalability of the SEIF. The third scheme of this PhD Thesis is a resource-constrained RO-SLAM scheme based on the distributed SEIF previously presented. This scheme includes the two mechanisms developed in the previous contributions {\{}measurement gathering control and distribution of RO-SLAM Update stage between beacons{\{} in order to reduce the increment in resource consumption resulting from the integration of inter-beacon measurements. This scheme exploits robot-beacon cooperation to improve SLAM accuracy and e{\_}ciency while meeting a given resource consumption bound. The resource consumption bound is expressed in terms of the maximum number of measurements that can be integrated in SLAM per iteration. The sensing channel capacity used, the beacon energy consumed or the computational capacity employed, among others, are proportional to the number of measurements that are gathered and integrated in SLAM. The performance of the proposed schemes have been analyzed and compared with each other and with existing works. The proposed schemes are validated in real experiments with aerial robots. This PhD Thesis proves that the cooperation between robots and sensor networks provides many advantages to solve the RO-SLAM problem. Resource consumption is an important constraint in sensor networks. The proposed architecture allows the exploitation of the cooperation advantages. On the other hand, the proposed schemes give solutions to the resource limitation without degrading performance.}}},
+	author = {Gonzalez, Arturo Eugenio Torres},
+	title = {{Range-only SLAM schemes exploiting robot-sensor network cooperation}},
+	year = {2017}
+}
 
+@article{R.Fabresse2018,
+	abstract = {This paper deals with range-only simultaneous localization and mapping (RO-SLAM), which is of particular interest in aerial robotics where low-weight range-only devices can provide a complementary continuous estimation between robot and landmarks when using radio-based sensors. Range-only sensors work at greater distances when compared to other commonly used sensors in aerial robotics and they are low-cost. However, the spherical shell uniform distribution inherent to range-only observations poses significant technological challenges, restricting the approaches that can be used to solve this problem. This paper presents an undelayed multi-hypothesis Extended Kalman Filter (EKF) approach based on Gaussian Mixture Models (GMM) and a reduced parameterization of the state vector to improve its efficiency. The paper also proposes a new robot-to-landmark and landmark-to-landmark range-only observation model for EKF-SLAM which takes advantage of the reduced parameterization. Finally, a new scheme is proposed for updating hypothesis weights based on an independence of beacon parameters. The method is firstly validated with simulations comparing the results with other state-of-the-art methods and later validated with real experiments for 3D RO-SLAM using several radio-based range-only sensors and an aerial robot.},
+	author = {R.Fabresse, Felipe and Caballero, Fernando and Maza, Iv{\'{a}}n and Ollero, An{\'{i}}bal},
+	doi = {10.1016/j.robot.2018.02.014},
+	issn = {09218890},
+	journal = {Robotics and Autonomous Systems},
+	keywords = {Gaussian mixture models,Kalman filtering,Range-only simultaneous localization and mapping,Robot localization},
+	pages = {40--55},
+	title = {{An efficient approach for undelayed range-only SLAM based on Gaussian mixtures expectation}},
+	volume = {104},
+	year = {2018}
+}
 
-
+@article{Jaulin2016,
+	abstract = {This paper deals with the simultaneous localization and mapping problem (SLAM) for a robot. The robot has to build a map of its environment while localizing itself using a partially built map. It is assumed that (i) the map is made of point landmarks, (ii) the landmarks are indistinguishable, (iii) the only exteroceptive measurements correspond to the distance between the robot and the landmarks. This paper shows that SLAM can be cast into a constraint network the variables of which being trajectories, digraphs and subsets of ℝ n . {\{}{\$}{\}}{\{}\backslash{\}}mathbb {\{}{\{}{\}}R{\{}{\}}{\}}{\^{}}{\{}{\{}{\}}n{\{}{\}}{\}}.{\{}{\$}{\}} Then, we show how constraint propagation can be extended to deal with such generalized constraint networks. As a result, due to the redundancy of measurements of SLAM, we demonstrate that a constraint-based approach provides an efficient backtrack-free algorithm able to solve our SLAM problem in a guaranteed way.},
+	author = {Jaulin, Luc},
+	doi = {10.1007/s10601-015-9231-9},
+	issn = {15729354},
+	journal = {Constraints},
+	keywords = {Constraint programming,Interval analysis,Localization,Robotics,Simultaneous localization and mapping},
+	number = {4},
+	pages = {557--576},
+	publisher = {Constraints},
+	title = {{Range-only SLAM with indistinguishable landmarks; a constraint programming approach}},
+	volume = {21},
+	year = {2016}
+}

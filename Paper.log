@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2018.2.26)  9 NOV 2018 12:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.3)  11 NOV 2018 20:32
 entering extended mode
 **./Paper.tex
 (Paper.tex
@@ -285,21 +285,24 @@ Overfull \hbox (4.0748pt too wide) in paragraph at lines 210--211
 File: Figures/ROP_djugash.png Graphic file (type png)
 
 <use Figures/ROP_djugash.png>
-Package pdftex.def Info: Figures/ROP_djugash.png used on input line 243.
+Package pdftex.def Info: Figures/ROP_djugash.png used on input line 242.
 (pdftex.def)             Requested size: 256.0748pt x 165.1885pt.
 
-Overfull \hbox (4.0748pt too wide) in paragraph at lines 243--244
+Overfull \hbox (4.0748pt too wide) in paragraph at lines 242--243
  [][] 
  []
 
-[5 <./Figures/ROP_djugash.png>] (Paper.bbl [6]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[5 <./Figures/ROP_djugash.png>] [6] (Paper.bbl [7]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
- [7])
+)
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -315,13 +318,13 @@ Before submitting the final camera ready copy, remember to:
 
 ] (Paper.aux) ) 
 Here is how much of TeX's memory you used:
- 2442 strings out of 493323
- 40055 string characters out of 3139066
- 114724 words of memory out of 3000000
- 5970 multiletter control sequences out of 15000+200000
+ 2448 strings out of 493323
+ 40132 string characters out of 3139034
+ 112748 words of memory out of 3000000
+ 5976 multiletter control sequences out of 15000+200000
  37389 words of font info for 73 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,11n,27p,1457b,318s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,11n,27p,1812b,318s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Pro
 gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX
@@ -333,7 +336,7 @@ cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Pro
 gram Files/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
 /urw/times/utmri8a.pfb>
-Output written on Paper.pdf (8 pages, 368611 bytes).
+Output written on Paper.pdf (8 pages, 371099 bytes).
 PDF statistics:
  81 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

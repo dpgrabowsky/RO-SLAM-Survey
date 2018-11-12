@@ -21,6 +21,11 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
+\bibitem{Jaulin2016}
+L.~Jaulin, ``{Range-only SLAM with indistinguishable landmarks; a constraint
+  programming approach},'' \emph{Constraints}, vol.~21, no.~4, pp. 557--576,
+  2016.
+
 \bibitem{Partan2007}
 J.~Partan, J.~Kurose, and B.~N. Levine, ``{A survey of practical issues in
   underwater networks},'' \emph{ACM SIGMOBILE Mobile Computing and
@@ -227,6 +232,11 @@ F.~Dellaert and M.~Kaess, ``{Square root SAM: Simultaneous localization and
   mapping via square root information smoothing},'' in \emph{International
   Journal of Robotics Research}, vol.~25, no.~12, 2006, pp. 1181--1203.
 
+\bibitem{Herranz2016}
+F.~Herranz, A.~Llamazares, E.~Molinos, M.~Oca{\~{n}}a, and M.~A. Sotelo,
+  ``{WiFi SLAM algorithms: An experimental comparison},'' \emph{Robotica},
+  vol.~34, no.~4, pp. 837--858, 2016.
+
 \bibitem{Dios2015}
 J.~R. M.-d. Dios and A.~Ollero, ``{Accurate fast – mapping Range – Only
   SLAM for UAS applications},'' 2015.
@@ -234,6 +244,11 @@ J.~R. M.-d. Dios and A.~Ollero, ``{Accurate fast – mapping Range – Only
 \bibitem{Kehagias2006}
 A.~Kehagias, J.~Djugash, and S.~Singh, ``{Range-only SLAM with Interpolated
   Range Data},'' no. May, pp. 1--23, 2006.
+
+\bibitem{Miah2018}
+M.~S. Miah, J.~Knoll, and K.~Hevrdejs, ``{Intelligent Range-Only Mapping and
+  Navigation for Mobile Robots},'' \emph{IEEE Transactions on Industrial
+  Informatics}, vol.~14, no.~3, pp. 1164--1174, 2018.
 
 \bibitem{Fabresse2013}
 F.~R. Fabresse, F.~Caballero, I.~Maza, and A.~Ollero, ``{Undelayed 3D RO-SLAM
@@ -252,6 +267,11 @@ F.~Fabresse, F.~Caballero, and A.~Ollero, ``{Decentralized simultaneous
   sensors},'' \emph{2015 IEEE International Conference on Robotics and
   Automation (ICRA)}, pp. 6408--6414, 2015.
 
+\bibitem{R.Fabresse2018}
+F.~R.Fabresse, F.~Caballero, I.~Maza, and A.~Ollero, ``{An efficient approach
+  for undelayed range-only SLAM based on Gaussian mixtures expectation},''
+  \emph{Robotics and Autonomous Systems}, vol. 104, pp. 40--55, 2018.
+
 \bibitem{Torres-Gonzalez2014}
 A.~Torres-Gonz{\'{a}}lez, J.~R. {Martinez-De Dios}, and A.~Ollero, ``{Efficient
   robot-sensor network distributed SEIF range-only SLAM},'' \emph{Proceedings -
@@ -267,6 +287,10 @@ A.~Torres-Gonz{\'{a}}lez, J.~R. {Martinez-de Dios}, and A.~Ollero,
 A.~Torres-Gonz{\'{a}}lez, J.~R. {Mart{\'{i}}nez-de Dios}, and A.~Ollero,
   ``{Robot-Beacon distributed range-only SLAM for resource-constrained
   operation},'' \emph{Sensors (Switzerland)}, vol.~17, no.~4, 2017.
+
+\bibitem{Gonzalez2017}
+A.~E.~T. Gonzalez, ``{Range-only SLAM schemes exploiting robot-sensor network
+  cooperation},'' Ph.D. dissertation, 2017.
 
 \bibitem{Doucet2001}
 a.~Doucet, N.~{De Freitas}, and N.~Gordon, ``{Sequential Monte Carlo Methods in
@@ -287,6 +311,10 @@ J.~Yuan, Y.~Huang, F.~Sun, S.~Huang, and H.~Chen, ``{Mobile robot active
   observation and mapping based on factored method},'' in \emph{Proceedings of
   the World Congress on Intelligent Control and Automation (WCICA)}, 2012, pp.
   3577--3582.
+
+\bibitem{Samyak2018}
+N.~Samyak, ``{Particle Filter Approach to Overcome Multipath Propagation Error
+  In Indoor Applications},'' p.~67, 2018.
 
 \bibitem{Blanco2008a}
 J.~L. Blanco, J.~Gonz{\'{a}}lez, and J.~A. Fern{\'{a}}ndez-Madrigal, ``{A pure
