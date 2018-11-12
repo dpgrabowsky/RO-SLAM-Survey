@@ -1,31 +1,22 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: Paper.aux
 The style file: IEEEtran.bst
 Database file #1: references.bib
-I was expecting a `,' or a `}'---line 27 of file references.bib
- :  
- :  abstract = {Localization is an important attribute for wireless sensor networks. Received signal strength indicator (RSSI) can be used to estimate distance between transceivers. Using these estimated distances, location of nodes within a network can be determined using various localization algorithms, such as trilateration. For implementation and testing of localization techniques, utilizing a sensor network development platform reduces time and difficulty during the process. Here we present a platform based on XBee ZigBee wireless modules, Arduino, and MATLAB for algorithm testing and debugging. For validation of this platform, a trilateration localization method is implemented.},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 40 of file references.bib
+I was expecting a `,' or a `}'---line 25 of file references.bib
  :  
  :  author={Shue,Samuel L.},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 422 of file references.bib
+Repeated entry---line 407 of file references.bib
  : @article{Borenstein1996
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1128 of file references.bib
+Repeated entry---line 1083 of file references.bib
  : @article{Torres-Gonzalez2017a
  :                              ,
 I'm skipping whatever remains of this entry
 -- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
-Warning--empty author in Johnson2017
-Warning--empty title in Johnson2017
-Warning--empty journal in Johnson2017
-Warning--empty year in Johnson2017
 Warning--empty year in Newman
 Warning--missing publisher in Haykin2001
 Warning--empty author in Shue2017
@@ -39,4 +30,4 @@ Warning--missing school in Gonzalez2017
 Warning--empty journal in Samyak2018
 
 Done.
-(There were 4 error messages)
+(There were 3 error messages)
